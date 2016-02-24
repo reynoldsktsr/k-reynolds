@@ -1,0 +1,4288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LENS - An Enjoyable Photography WordPress Theme\n"
+"POT-Creation-Date: 2016-02-15 17:26+0200\n"
+"PO-Revision-Date: 2016-02-15 17:26+0200\n"
+"Last-Translator: Vlad Olaru <vlad.olaru@pixelgrade.com>\n"
+"Language-Team: PixelGrade <contact@pixelgrade.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n_noop:1,2;_nx:1,2;_n:1,2;_nx_noop:1,2;_ex;"
+"esc_attr__;esc_html__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: 404.php:7 no-results.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Que la page ne ​​peut pas être trouvé."
+
+#: 404.php:11 no-results.php:11
+#, php-format
+msgid ""
+"This may be because of a mistyped URL, faulty referral or out-of-date search "
+"engine listing.<br />You should try the <a href=\"%s\">homepage</a> instead "
+"or maybe do a search?"
+msgstr ""
+"C'est peut-être à cause d'une adresse URL mal, d'aiguillage défectueux ou "
+"out-of-date de la liste des moteurs de recherche.<br />Vous devriez essayer "
+"le <a href=\"%s\"> page d'accueil </ a> à la place ou bien faire un "
+"rechercher?"
+
+#: archive.php:20
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives journalières: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles: %s"
+
+#: archive.php:22
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:24
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles: %s"
+
+#: archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:26
+#: inc/includes/functions/archive-nav-menu/post-type-archive-links.php:24
+msgid "Archives"
+msgstr "Archives"
+
+#: author.php:22
+#, php-format
+msgid "All posts by %s"
+msgstr "Tous les messages de: %s"
+
+#: category.php:18
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archives de catégorie: %s"
+
+#: comments.php:28
+#, php-format
+msgid "Comments (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Commentaires (1)"
+msgstr[1] "Commentaires (%1$s)"
+
+#: comments.php:29
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: comments.php:40 comments.php:60
+msgid "Comment navigation"
+msgstr "Navigation par commentaire"
+
+#: comments.php:41 comments.php:61
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:42 comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos."
+
+#: comments.php:89 comments.php:106
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:90 comments.php:107
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:92 comments.php:109 inc/widgets.php:318
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:92 comments.php:109
+#, fuzzy
+msgid "Name..."
+msgstr "Nom"
+
+#: comments.php:93 comments.php:110
+msgid "Email"
+msgstr ""
+
+#: comments.php:93 comments.php:110
+msgid "Email..."
+msgstr ""
+
+#: comments.php:95 comments.php:113
+msgid "Send message"
+msgstr "Envoyer message"
+
+#: comments.php:97 comments.php:115
+msgid "Message"
+msgstr "Message"
+
+#: comments.php:111
+msgid "Url"
+msgstr ""
+
+#: comments.php:111
+msgid "Website..."
+msgstr ""
+
+#: comments.php:115
+#, fuzzy
+msgid "Comment"
+msgstr "Commentaires (1)"
+
+#: functions.php:150
+msgid ""
+"A <strong>valid purchase code</strong> is required for automatic updates."
+msgstr ""
+
+#: functions.php:161
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr ""
+
+#: functions.php:164
+msgid ""
+"Your <strong>purchase code is valid</strong>. Thank you! Enjoy one-click "
+"automatic updates."
+msgstr ""
+
+#: functions.php:172
+msgid "Enter your purchase code and <strong>hit return/enter</strong>."
+msgstr ""
+
+#: functions.php:174
+msgid ""
+"Find out how to <a href=\"https://help.market.envato.com/hc/en-us/"
+"articles/202822600-Where-Is-My-Purchase-Code-\" target=\"_blank\">get your "
+"purchase code</a>."
+msgstr ""
+
+#: functions.php:210
+msgid ""
+"Bummer... We couldn't connect to the verification server. Please try again "
+"later."
+msgstr ""
+
+#: functions.php:221
+msgid ""
+"Your purchase's support period has ended. Please extend it to receive "
+"automatic updates."
+msgstr ""
+
+#: functions.php:223
+msgid "Could not find a sale with this purchase code. Please double check."
+msgstr ""
+
+#: functions.php:230
+msgid "Please enter a purchase code"
+msgstr ""
+
+#: header-gallery.php:76 header-homepage.php:82 header-portfolio.php:74
+#: header.php:74
+msgid "Primary Mobile Navigation"
+msgstr ""
+
+#: inc/activation-hooks.php:27 inc/activation-hooks.php:28
+#: inc/activation-hooks.php:773
+msgid "Project"
+msgstr "Projet"
+
+#: inc/activation-hooks.php:29 inc/activation-hooks.php:55
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: inc/activation-hooks.php:30
+msgid "Add New Project"
+msgstr "Ajouter un nouveau projet"
+
+#: inc/activation-hooks.php:31
+msgid "Edit Project"
+msgstr "Modifier projet"
+
+#: inc/activation-hooks.php:32
+msgid "New Project"
+msgstr "Nouveau projet"
+
+#: inc/activation-hooks.php:33
+msgid "All Projects"
+msgstr "Tous les projets"
+
+#: inc/activation-hooks.php:34
+msgid "View Project"
+msgstr "Voir le projet"
+
+#: inc/activation-hooks.php:35
+msgid "Search Projects"
+msgstr "Recherche projets"
+
+#: inc/activation-hooks.php:36
+msgid "No Project found"
+msgstr "Pas de projets trouvés"
+
+#: inc/activation-hooks.php:37
+msgid "No Project found in Trash"
+msgstr "Aucun projet trouvé dans Trash"
+
+#: inc/activation-hooks.php:38
+msgid "Projects"
+msgstr "Projets"
+
+#: inc/activation-hooks.php:53 inc/activation-hooks.php:54
+#: inc/activation-hooks.php:334 inc/activation-hooks.php:785
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/activation-hooks.php:56
+msgid "Add New Gallery"
+msgstr "Ajouter une nouvelle galerie"
+
+#: inc/activation-hooks.php:57
+msgid "Edit Gallery"
+msgstr "Modifier la galerie"
+
+#: inc/activation-hooks.php:58
+msgid "New Gallery"
+msgstr "Nouvelle galerie"
+
+#: inc/activation-hooks.php:59
+msgid "All Galleries"
+msgstr "Toutes les galeries"
+
+#: inc/activation-hooks.php:60
+msgid "View Gallery"
+msgstr "Découvrez la galerie"
+
+#: inc/activation-hooks.php:61
+msgid "Search Galleries"
+msgstr "Recherche galeries"
+
+#: inc/activation-hooks.php:62
+msgid "No Gallery found"
+msgstr "Aucune galerie trouvé"
+
+#: inc/activation-hooks.php:63
+msgid "No Gallery found in Trash"
+msgstr "Aucune galerie trouvé dans Trash"
+
+#: inc/activation-hooks.php:64 inc/customify.php:341
+#: theme-partials/posts-lens_galleries-archive.php:100
+#: theme-partials/posts-lens_galleries-archive.php:247
+#: theme-partials/posts-lens_galleries-archive.php:273
+msgid "Galleries"
+msgstr "Galeries"
+
+#: inc/activation-hooks.php:82 inc/activation-hooks.php:92
+msgid "Portfolio Categories"
+msgstr "Catégories de portefeuille"
+
+#: inc/activation-hooks.php:83 inc/activation-hooks.php:769
+msgid "Portfolio Category"
+msgstr "La catégorie de portefeuille"
+
+#: inc/activation-hooks.php:84
+msgid "Search Portfolio Category"
+msgstr "Rechercher une catégorie de portefeuille"
+
+#: inc/activation-hooks.php:85
+msgid "All Portfolio Categories"
+msgstr "Toutes les catégories de portefeuille"
+
+#: inc/activation-hooks.php:86
+msgid "Parent Portfolio Category"
+msgstr "Parent de la catégorie de portefeuille"
+
+#: inc/activation-hooks.php:87
+msgid "Parent Portfolio Category: "
+msgstr "Parent de la catégorie de portefeuille:"
+
+#: inc/activation-hooks.php:88
+msgid "Edit Portfolio Category"
+msgstr "Modifier la catégorie de portefeuille"
+
+#: inc/activation-hooks.php:89
+msgid "Update Portfolio Category"
+msgstr "Mettre à jour la catégorie de portefeuille"
+
+#: inc/activation-hooks.php:90
+msgid "Add New Portfolio Category"
+msgstr "Ajouter une nouvelle catégorie de portefeuille"
+
+#: inc/activation-hooks.php:91
+msgid "New Portfolio Category Name"
+msgstr "Le nom de la nouvelle catégorie de portefeuille"
+
+#: inc/activation-hooks.php:102 inc/activation-hooks.php:112
+msgid "Gallery Categories"
+msgstr "Catégories de la galerie"
+
+#: inc/activation-hooks.php:103
+msgid "Gallery Category"
+msgstr "La catégorie de la galerie"
+
+#: inc/activation-hooks.php:104
+msgid "Search Gallery Category"
+msgstr "Rechercher la catégorie de la galerie"
+
+#: inc/activation-hooks.php:105
+msgid "All Gallery Categories"
+msgstr "Toutes les catégories de la galerie"
+
+#: inc/activation-hooks.php:106
+msgid "Parent Gallery Category"
+msgstr "Parent de la catégorie de la galerie"
+
+#: inc/activation-hooks.php:107
+msgid "Parent Gallery Category: "
+msgstr "Parent de la catégorie de la galerie: "
+
+#: inc/activation-hooks.php:108
+msgid "Edit Gallery Category"
+msgstr "Modifier la catégorie de la galerie"
+
+#: inc/activation-hooks.php:109
+msgid "Update Gallery Category"
+msgstr "Mettre à jour la catégorie de la galerie"
+
+#: inc/activation-hooks.php:110
+msgid "Add New Gallery Category"
+msgstr "Ajouter une nouvelle catégorie de galerie"
+
+#: inc/activation-hooks.php:111
+msgid "New Gallery Category Name"
+msgstr "Le nouveau nom de la catégorie de la galerie"
+
+#: inc/activation-hooks.php:123
+msgid "Video Settings"
+msgstr "Paramètres Vidéo"
+
+#: inc/activation-hooks.php:130 inc/activation-hooks.php:296
+msgid "Embed Code"
+msgstr "Code d'embed:"
+
+#: inc/activation-hooks.php:131
+msgid ""
+"Enter here a Youtube, Vimeo (or other online video services) embed code "
+"here. The width should be a minimum of 640px. We will use this if filled, "
+"not the selfhosted options bellow!"
+msgstr ""
+"Entrez ici un Youtube, Vimeo (ou d'autres services de vidéo en ligne) code "
+"embed ici. La largeur doit être au minimum de 640px. Nous allons utiliser "
+"cette option si rempli, pas le choix selfhosted ci-dessous!"
+
+#: inc/activation-hooks.php:140
+msgid "Gallery Settings"
+msgstr "Paramètres de la galerie"
+
+#: inc/activation-hooks.php:147 inc/activation-hooks.php:341
+#: inc/activation-hooks.php:544 templates/pixproof_metadata.php:35
+msgid "Images"
+msgstr "Images"
+
+#: inc/activation-hooks.php:152 inc/activation-hooks.php:419
+#: inc/activation-hooks.php:573
+msgid "Image Scaling"
+msgstr "Redimensionnement de l'image"
+
+#: inc/activation-hooks.php:153 inc/activation-hooks.php:574
+msgid ""
+"<p class=\"cmb_metabox_description\"><strong>Fill</strong> scales image to "
+"completely fill slider container (recommended for landscape images)</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit</strong> scales image to "
+"fit the container (recommended for portrait images)</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit if Smaller</strong> scales "
+"image to fit only if size of slider container is less than size of image.</"
+"p>\n"
+"<p class=\"cmb_metabox_description\"><a target=\"_blank\" href=\"http://bit."
+"ly/slider-image-scaling\">Visual explanation</a></p>"
+msgstr ""
+"<p class=\"cmb_metabox_description\"><strong>Fill</strong> images échelles "
+"pour remplir complètement conteneur de curseur (recommandée pour les images "
+"de paysage).</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit</strong> image Échelles "
+"pour adapter le conteneur (recommandé pour les images en mode portrait).</"
+"p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit if Smaller</strong> image "
+"Échelles pour s'adapter uniquement si la taille du conteneur curseur est "
+"inférieure à la taille de l'image.</p>\n"
+"<p class=\"cmb_metabox_description\"><a target=\"_blank\" href=\"http://bit."
+"ly/slider-image-scaling\">Explication visuelle</a></p>"
+
+#: inc/activation-hooks.php:168 inc/activation-hooks.php:436
+#: inc/activation-hooks.php:589
+msgid "Fit"
+msgstr "Fit"
+
+#: inc/activation-hooks.php:172 inc/activation-hooks.php:440
+#: inc/activation-hooks.php:593
+msgid "Fill"
+msgstr "Fill"
+
+#: inc/activation-hooks.php:176 inc/activation-hooks.php:444
+#: inc/activation-hooks.php:597
+msgid "Fit if Smaller"
+msgstr "Fit si petit"
+
+#: inc/activation-hooks.php:183 inc/activation-hooks.php:455
+#: inc/activation-hooks.php:604
+#, fuzzy
+msgid "Show Nearby Images"
+msgstr "Images suivantes"
+
+#: inc/activation-hooks.php:184 inc/activation-hooks.php:456
+#: inc/activation-hooks.php:605
+msgid ""
+"Enable this if you want to avoid having empty space on the sides of the "
+"image when using mostly portrait images."
+msgstr ""
+
+#: inc/activation-hooks.php:189 inc/activation-hooks.php:228
+#: inc/activation-hooks.php:461 inc/activation-hooks.php:500
+#: inc/activation-hooks.php:617 inc/activation-hooks.php:667
+msgid "Enabled"
+msgstr "Activé"
+
+#: inc/activation-hooks.php:193 inc/activation-hooks.php:232
+#: inc/activation-hooks.php:465 inc/activation-hooks.php:504
+#: inc/activation-hooks.php:621 inc/activation-hooks.php:671
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: inc/activation-hooks.php:200 inc/activation-hooks.php:472
+#: inc/activation-hooks.php:628
+msgid "Slider transition"
+msgstr "Transition Slider"
+
+#: inc/activation-hooks.php:205 inc/activation-hooks.php:477
+#: inc/activation-hooks.php:644
+msgid "Slide/Move"
+msgstr "Glisser/Déplacer"
+
+#: inc/activation-hooks.php:209 inc/activation-hooks.php:481
+#: inc/activation-hooks.php:648
+msgid "Fade"
+msgstr "Fade"
+
+#: inc/activation-hooks.php:223 inc/activation-hooks.php:495
+#: inc/activation-hooks.php:655
+msgid "Slider autoplay"
+msgstr "Slider autoplay"
+
+#: inc/activation-hooks.php:239 inc/activation-hooks.php:511
+#: inc/activation-hooks.php:678
+msgid "Autoplay delay between slides (in milliseconds)"
+msgstr "Autoplay délai entre les diapositives (en millisecondes)"
+
+#: inc/activation-hooks.php:248
+msgid "Quote Settings"
+msgstr "Paramètres de citation"
+
+#: inc/activation-hooks.php:255
+msgid "Quote Content"
+msgstr "Contenu de la citation"
+
+#: inc/activation-hooks.php:256
+msgid "Please type the text of your quote here."
+msgstr "S'il vous plaît entrez le texte de votre citation ici."
+
+#: inc/activation-hooks.php:265
+msgid "Author Name"
+msgstr "Nom de l'auteur"
+
+#: inc/activation-hooks.php:272
+msgid "Author Title"
+msgstr "Auteur titre"
+
+#: inc/activation-hooks.php:279
+msgid "Author Link"
+msgstr "Auteur URL"
+
+#: inc/activation-hooks.php:280
+msgid ""
+"Insert here an url if you want the author name to be linked to that address."
+msgstr ""
+"Insérez ici une url, si vous voulez que le nom de l'auteur à être lié à "
+"cette adresse."
+
+#: inc/activation-hooks.php:289
+msgid "Audio Settings"
+msgstr "Paramètres audio"
+
+#: inc/activation-hooks.php:297
+msgid "Enter here a embed code here. The width should be a minimum of 640px."
+msgstr ""
+"Entrez ici un code embed ici. La largeur doit être au minimum de 640px."
+
+#: inc/activation-hooks.php:303
+msgid "MP3 File URL"
+msgstr "URL du fichier MP3"
+
+#: inc/activation-hooks.php:304
+msgid "Please enter in the URL to the .mp3 file"
+msgstr "S'il vous plaît entrer dans l'URL du fichier .mp3"
+
+#: inc/activation-hooks.php:310
+msgid "M4A File URL"
+msgstr "M4A URL du fichier"
+
+#: inc/activation-hooks.php:311
+msgid "Please enter in the URL to the .m4a file"
+msgstr "S'il vous plaît entrer dans l'URL pour le fichier .m4a"
+
+#: inc/activation-hooks.php:317
+msgid "OGA File URL"
+msgstr "URL du fichier OGA"
+
+#: inc/activation-hooks.php:318
+msgid "Please enter in the URL to the .ogg or .oga file"
+msgstr ""
+"S'il vous plaît entrer dans l'URL pour le fichier .ogg ou un fichier .oga"
+
+#: inc/activation-hooks.php:324
+msgid "Poster Image"
+msgstr "Affiche l'image"
+
+#: inc/activation-hooks.php:325
+msgid ""
+"This will be the image displayed above the audio controls. The image should "
+"be at least 640px wide. Click the \"Upload\" button to open the Media "
+"Manager, and click \"Use as Poster Image\" once you have uploaded or chosen "
+"an image from the media library."
+msgstr ""
+"Ce sera l'image affichée au-dessus des commandes audio. L'image doit être au "
+"moins 640px de large. Cliquez sur le \"Upload \" pour ouvrir le gestionnaire "
+"de médias, et cliquez sur \"Utiliser comme image d'affiche \" une fois que "
+"vous avez téléchargé ou choisi une image de la médiathèque."
+
+#: inc/activation-hooks.php:381
+msgid "Project Details"
+msgstr "Détails du projet"
+
+#: inc/activation-hooks.php:388
+msgid "Client Name"
+msgstr "Nom du client"
+
+#: inc/activation-hooks.php:393
+msgid "Client Link"
+msgstr "URL du client"
+
+#: inc/activation-hooks.php:398 inc/activation-hooks.php:549
+msgid "Template Style"
+msgstr "Style Template"
+
+#: inc/activation-hooks.php:399
+msgid "Select the template you want for this project."
+msgstr "Sélectionnez le modèle que vous souhaitez pour ce projet."
+
+#: inc/activation-hooks.php:404 inc/activation-hooks.php:562
+msgid "Full Width Slider"
+msgstr "Full Width Slider"
+
+#: inc/activation-hooks.php:408
+msgid "Sidebar Right"
+msgstr "Sidebar à droite"
+
+#: inc/activation-hooks.php:412
+msgid "Classic"
+msgstr "Classic"
+
+#: inc/activation-hooks.php:420
+msgid ""
+"<p class=\"cmb_metabox_description\"><strong>Fill</strong> scales image to "
+"completely fill slider container (recommended for landscape images)</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit</strong> scales image to "
+"fit the container (recommended for portrait images)</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit if Smaller</strong> scales "
+"image to fit only if size of slider container is less than size of image.</"
+"p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Auto Height</strong> scales the "
+"container to fit the full size image.</p>\n"
+"<p class=\"cmb_metabox_description\"><a target=\"_blank\" href=\"http://bit."
+"ly/slider-image-scaling\">Visual explanation</a></p>"
+msgstr ""
+"<p class=\"cmb_metabox_description\"><strong>Fill</strong> images échelles "
+"pour remplir complètement conteneur de curseur (recommandée pour les images "
+"de paysage).</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit</strong> image Échelles "
+"pour adapter le conteneur (recommandé pour les images en mode portrait).</"
+"p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Fit if Smaller</strong> image "
+"Échelles pour s'adapter uniquement si la taille du conteneur curseur est "
+"inférieure à la taille de l'image.</p>\n"
+"<p class=\"cmb_metabox_description\"><strong>Auto Height</strong> échelles "
+"du conteneur pour ajuster l'image en taille réelle.</p>\n"
+"<p class=\"cmb_metabox_description\"><a target=\"_blank\" href=\"http://bit."
+"ly/slider-image-scaling\">Explication visuelle</a></p>"
+
+#: inc/activation-hooks.php:448
+msgid "Auto Height"
+msgstr "Auto Hauteur"
+
+#: inc/activation-hooks.php:517 inc/activation-hooks.php:731
+msgid "Exclude From Archives"
+msgstr ""
+
+#: inc/activation-hooks.php:518
+#, fuzzy
+msgid "Exclude this project from portfolio archives."
+msgstr "Combien de projets sur la page de portefeuille"
+
+#: inc/activation-hooks.php:523 inc/activation-hooks.php:737
+msgid "No"
+msgstr ""
+
+#: inc/activation-hooks.php:527 inc/activation-hooks.php:741
+msgid "Yes"
+msgstr ""
+
+#: inc/activation-hooks.php:537
+msgid "Gallery Detail"
+msgstr "Détail de la galerie"
+
+#: inc/activation-hooks.php:554
+msgid "Grid Thumbnails"
+msgstr "Vignettes de la grille"
+
+#: inc/activation-hooks.php:558
+#, fuzzy
+msgid "Masonry Thumbnails"
+msgstr "Vignettes de la grille"
+
+#: inc/activation-hooks.php:566
+msgid "Full Screen Slider"
+msgstr "Full Screen Slider"
+
+#: inc/activation-hooks.php:691 inc/customify.php:375 inc/customify.php:460
+msgid "Grid Thumbnails Orientation"
+msgstr "Grille Miniatures Orientation"
+
+#: inc/activation-hooks.php:703 inc/customify.php:378 inc/customify.php:463
+msgid "Landscape"
+msgstr "Paysage"
+
+#: inc/activation-hooks.php:707 inc/customify.php:379 inc/customify.php:464
+msgid "Portrait"
+msgstr "Portrait"
+
+#: inc/activation-hooks.php:714
+msgid "Gallery Title Box"
+msgstr "Galerie boîte de titre"
+
+#: inc/activation-hooks.php:715
+msgid "Show the title of the gallery in a thumbnail box or not."
+msgstr "Afficher le titre de la galerie dans une boîte de vignettes ou non."
+
+#: inc/activation-hooks.php:720
+msgid "Show"
+msgstr "Exposer"
+
+#: inc/activation-hooks.php:724
+msgid "Hide"
+msgstr "Masquer"
+
+#: inc/activation-hooks.php:732
+msgid "Exclude this gallery from galleries archives."
+msgstr ""
+
+#: inc/activation-hooks.php:751
+msgid "Choose Your Home Page"
+msgstr "Choisissez votre page d'accueil"
+
+#: inc/activation-hooks.php:759
+msgid "Choose:"
+msgstr "Sélectionner..."
+
+#: inc/activation-hooks.php:760
+msgid ""
+"Select what would you like to be your home page. If you want to have a "
+"static page as your homepage simply go the WP classic way and set it up in "
+"Settings > Reading (instead of this one)."
+msgstr ""
+"Sélectionnez ce que voudriez-vous être votre page d'accueil. Si vous voulez "
+"avoir une page statique comme page d'accueil simplement suivre la voie "
+"classique de WP et mis en place dans Réglages> lecture (au lieu de celui-ci)."
+
+#: inc/activation-hooks.php:765
+msgid "Portfolio Archive"
+msgstr "L'archive du portefeuille"
+
+#: inc/activation-hooks.php:777 inc/customify.php:351
+msgid "Galleries Archive"
+msgstr ""
+
+#: inc/activation-hooks.php:781
+#, fuzzy
+msgid "Galleries Category"
+msgstr "La catégorie de la galerie"
+
+#: inc/activation-hooks.php:792
+#, fuzzy
+msgid "Select a portfolio category"
+msgstr "Rechercher une catégorie de portefeuille"
+
+#: inc/activation-hooks.php:793
+#, fuzzy
+msgid "Select a portfolio category and we will show it on your homepage."
+msgstr ""
+"Sélectionnez une galerie et nous allons l'afficher sur votre page d'accueil."
+
+#: inc/activation-hooks.php:808
+#, fuzzy
+msgid "Select a project"
+msgstr "Les projets connexes"
+
+#: inc/activation-hooks.php:809
+#, fuzzy
+msgid "Select a project and we will show it on your homepage."
+msgstr ""
+"Sélectionnez une galerie et nous allons l'afficher sur votre page d'accueil."
+
+#: inc/activation-hooks.php:827
+#, fuzzy
+msgid "Select a galleries category"
+msgstr "Sélectionnez une galerie"
+
+#: inc/activation-hooks.php:828
+#, fuzzy
+msgid "Select a galleries category and we will show it on your homepage."
+msgstr ""
+"Sélectionnez une galerie et nous allons l'afficher sur votre page d'accueil."
+
+#: inc/activation-hooks.php:843
+msgid "Select a gallery"
+msgstr "Sélectionnez une galerie"
+
+#: inc/activation-hooks.php:844
+msgid "Select a gallery and we will show it on your homepage."
+msgstr ""
+"Sélectionnez une galerie et nous allons l'afficher sur votre page d'accueil."
+
+#: inc/activation-hooks.php:862
+#, fuzzy
+msgid "Number of items"
+msgstr "Nombre d'images"
+
+#: inc/activation-hooks.php:863
+#, fuzzy
+msgid ""
+"Select a number of items (projects or galleries) to show on your homepage. "
+"For unlimited items keep it empty"
+msgstr ""
+"Sélectionner un certain nombre de projets à afficher sur votre page "
+"d'accueil. Pour les projets illimités garder vide"
+
+#: inc/content-filters.php:138
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/customify.php:10
+msgid "Colors"
+msgstr ""
+
+#: inc/customify.php:12
+msgid ""
+"Use the color picker to change the main color of the site to match your "
+"brand color. If you want to override the color of some elements you can "
+"always use CSS editor panel."
+msgstr ""
+
+#: inc/customify.php:16
+msgid "Main Color"
+msgstr "Couleur principale"
+
+#: inc/customify.php:93
+msgid "Text Color"
+msgstr ""
+
+#: inc/customify.php:110
+msgid "Headings Color"
+msgstr ""
+
+#: inc/customify.php:126
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customify.php:139
+msgid "Container Background"
+msgstr ""
+
+#: inc/customify.php:145
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: inc/customify.php:164
+msgid "Inverse Sidebar Contrast"
+msgstr ""
+
+#: inc/customify.php:165
+msgid "Change the left sidebar contrast to black text on white background."
+msgstr ""
+
+#: inc/customify.php:175
+msgid "Fonts"
+msgstr ""
+
+#: inc/customify.php:180
+#, fuzzy
+msgid "Main Heading Font"
+msgstr "Font principale"
+
+#: inc/customify.php:181
+#, fuzzy
+msgid "Select a font for the main titles."
+msgstr "Sélectionnez le modèle que vous souhaitez pour cette galerie."
+
+#: inc/customify.php:229
+msgid "Body Font"
+msgstr "Font du corps"
+
+#: inc/customify.php:230
+msgid "Select a font for content and other general areas."
+msgstr ""
+
+#: inc/customify.php:270
+msgid "Navigation"
+msgstr ""
+
+#: inc/customify.php:271
+msgid "Font for the navigation menu."
+msgstr ""
+
+#: inc/customify.php:355
+msgid "Galleries Archive Title"
+msgstr ""
+
+#: inc/customify.php:359
+msgid "Show galleries archive title"
+msgstr ""
+
+#: inc/customify.php:365
+msgid "Galleries Filter"
+msgstr ""
+
+#: inc/customify.php:369
+msgid "Display Filters on Galleries Archive Page"
+msgstr ""
+
+#: inc/customify.php:387 inc/customify.php:470
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/customify.php:391 inc/customify.php:474
+msgid ""
+"Load new items on scroll (will load at once the number of galleries "
+"specified below)."
+msgstr ""
+
+#: inc/customify.php:398 inc/customify.php:481
+msgid "Or Use Pagination"
+msgstr ""
+
+#: inc/customify.php:402 inc/customify.php:485
+msgid "Enable Standard Pagination"
+msgstr ""
+
+#: inc/customify.php:407
+#, fuzzy
+msgid "Galleries Per Page"
+msgstr "La catégorie de la galerie"
+
+#: inc/customify.php:415 theme-partials/posts-lens_portfolio-archive.php:99
+#: theme-partials/posts-lens_portfolio-archive.php:245
+#: theme-partials/posts-lens_portfolio-archive.php:272
+msgid "Portfolio"
+msgstr "Portefeuille"
+
+#: inc/customify.php:420
+msgid "Single Project"
+msgstr ""
+
+#: inc/customify.php:425 inc/customify.php:508
+msgid "Sharing Buttons"
+msgstr ""
+
+#: inc/customify.php:429
+msgid "Show Share Buttons in Projects"
+msgstr ""
+
+#: inc/customify.php:435
+msgid "Projects Archives"
+msgstr ""
+
+#: inc/customify.php:440
+msgid "Portfolio Archive Title"
+msgstr ""
+
+#: inc/customify.php:444
+msgid "Show portfolio archive title"
+msgstr ""
+
+#: inc/customify.php:450
+msgid "Portfolio Filter"
+msgstr ""
+
+#: inc/customify.php:454
+msgid "Display Filters on Portfolio Archive Page"
+msgstr ""
+
+#: inc/customify.php:490
+msgid "Number of Projects Per Page"
+msgstr ""
+
+#: inc/customify.php:499
+msgid "Blog"
+msgstr ""
+
+#: inc/customify.php:504
+msgid "Single Post"
+msgstr ""
+
+#: inc/customify.php:512
+msgid "Show Share Buttons in Posts"
+msgstr ""
+
+#: inc/customify.php:518
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/customify.php:523
+msgid "Excerpt Length"
+msgstr "Extrait longueur"
+
+#: inc/customify.php:534
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: inc/customify.php:538
+#, fuzzy
+msgid "General"
+msgstr "Options générales"
+
+#: inc/customify.php:542
+msgid "Logo"
+msgstr ""
+
+#: inc/customify.php:546
+msgid "Logo Height"
+msgstr ""
+
+#: inc/customify.php:567
+msgid "Smooth Scrolling"
+msgstr "Smooth Scrolling"
+
+#: inc/customify.php:571
+msgid "Enable Smooth Scrolling."
+msgstr ""
+
+#: inc/customify.php:576
+msgid "Ajax Loading"
+msgstr "Ajax Chargement"
+
+#: inc/customify.php:580
+msgid "Enable dynamic page content loading using AJAX."
+msgstr ""
+
+#: inc/customify.php:586
+msgid "Right-Click Protection"
+msgstr ""
+
+#: inc/customify.php:590
+msgid "Prevent right-click saving for images"
+msgstr ""
+
+#: inc/customify.php:595
+msgid "The tooltip message that appears when click."
+msgstr ""
+
+#: inc/customify.php:596
+msgid "This content is &copy; Lens | All rights reserved."
+msgstr ""
+
+#: inc/customify.php:601
+#, fuzzy
+msgid "Show Title and Caption In Pop-up and Sliders"
+msgstr "Afficher le titre et la légende dans Popup"
+
+#: inc/customify.php:607
+msgid "Copyright Text"
+msgstr "Texte de copyright"
+
+#: inc/customify.php:608
+msgid ""
+"Your Name &copy; 2016 <br> Design by <a href=\"https://pixelgrade.com/"
+"\">PixelGrade</a>"
+msgstr ""
+
+#: inc/customify.php:615
+msgid "Contact Page"
+msgstr "Page de contact"
+
+#: inc/customify.php:621
+msgid "Google Maps Link"
+msgstr "Lien vers Google Maps"
+
+#: inc/customify.php:625
+msgid "Custom Styling for Map?"
+msgstr "Styling personnalisé pour la carte?"
+
+#: inc/customify.php:632
+msgid "Share Settings"
+msgstr ""
+
+#: inc/customify.php:637
+msgid "Share Services"
+msgstr ""
+
+#: inc/customify.php:638
+msgid ""
+"Add here the share services you want to use, single comma delimited (no "
+"spaces). You can find the full <a href=\"http://www.addthis.com/services/list"
+"\" target=\"_blank\">list of services</a>. Also you can use the more tag to "
+"show the plus sign and the counter tag to show a global share counter."
+msgstr ""
+
+#: inc/customify.php:644
+msgid "Custom JavaScript"
+msgstr "JavaScript personnalisé"
+
+#: inc/customify.php:649
+msgid "Header"
+msgstr ""
+
+#: inc/customify.php:650
+msgid ""
+"Easily add Custom Javascript code. This code will be loaded in the <head> "
+"section."
+msgstr ""
+
+#: inc/customify.php:655
+msgid "Footer"
+msgstr ""
+
+#: inc/customify.php:656
+msgid ""
+"You can paste here your Google Analytics tracking code (or for what matters "
+"any tracking code) and we will put it on every page."
+msgstr ""
+
+#: inc/customify.php:664
+msgid "Demo Data"
+msgstr ""
+
+#: inc/customify.php:666
+msgid ""
+"If you would like to have a \"ready to go\" website as the Lens's demo page "
+"here is the button"
+msgstr ""
+
+#: inc/customify.php:675
+msgid ""
+"*Note: We cannot serve you the original images due to their license and "
+"copyright."
+msgstr ""
+
+#: inc/customify.php:677
+#, fuzzy
+msgid "Import demo data"
+msgstr "Importer des données démo"
+
+#: inc/customify.php:683
+msgid ""
+"Please wait a few minutes (between 1 and 3 minutes usually, but depending on "
+"your hosting it can take longer) and "
+msgstr ""
+
+#: inc/customify.php:684
+msgid "don't reload the page"
+msgstr ""
+
+#: inc/customify.php:685
+msgid "You will be notified as soon as the import has finished!"
+msgstr ""
+
+#: inc/customify.php:705
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/customify.php:709
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/customify.php:713
+msgid "Load WooCommerce CSS and JS files."
+msgstr ""
+
+#: inc/customify.php:719
+msgid "Products per page"
+msgstr ""
+
+#: inc/customify.php:720
+msgid "Select the number of products per page.This must be numeric."
+msgstr ""
+
+#: inc/customify.php:839 inc/import/demo-data/demo_data.php:4
+#: inc/includes/functions/menus.php:13
+msgid "Social Footer Menu Title"
+msgstr "Social Footer Menu Titre"
+
+#: inc/customizer.php:9
+msgid "The import didn't work completely!"
+msgstr ""
+
+#: inc/customizer.php:9
+msgid ""
+"Check out the errors given. You might want to try reloading the page and try "
+"again."
+msgstr ""
+
+#: inc/customizer.php:10
+msgid ""
+"Importing the demo data will overwrite your current site content and "
+"options. Proceed anyway?"
+msgstr ""
+
+#: inc/customizer.php:11
+msgid "Phew...that was a hard one!"
+msgstr ""
+
+#: inc/customizer.php:12
+msgid "The demo data was imported without a glitch! Awesome! "
+msgstr ""
+
+#: inc/customizer.php:13
+msgid ""
+"<i>We have reloaded the page on the right, so you can see the brand new data!"
+"</i>"
+msgstr ""
+
+#: inc/customizer.php:14
+#: inc/import/wordpress-importer/wordpress-importer.php:181
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"N'oubliez pas de mettre à jour les mots de passe et les rôles des "
+"utilisateurs importés."
+
+#: inc/customizer.php:15
+msgid "All done!"
+msgstr ""
+
+#: inc/customizer.php:16
+msgid "Working..."
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "The setting up of the demo widgets failed..."
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "The setting up of the demo widgets failed"
+msgstr ""
+
+#: inc/customizer.php:18 inc/customizer.php:21
+msgid "(The script returned the following message"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Finished setting up the demo widgets..."
+msgstr ""
+
+#: inc/customizer.php:20 inc/customizer.php:23
+msgid "The importing of the theme options has failed..."
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "The importing of the theme options has failed"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Finished importing the demo theme options..."
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Importing posts | Step"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Error:"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "You can reload the page and try again."
+msgstr ""
+
+#: inc/import/demo-data/demo_data.php:3 inc/includes/functions/menus.php:12
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: inc/import/wordpress-importer/parsers.php:44
+#: inc/import/wordpress-importer/parsers.php:75
+#: inc/import/wordpress-importer/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr "Il y'a eu une erreur lors de la lecture de ce fichier WXR"
+
+#: inc/import/wordpress-importer/parsers.php:45
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Les détails sont présentés ci-dessus. L'importateur va maintenant essayer de "
+"nouveau avec un autre analyseur ..."
+
+#: inc/import/wordpress-importer/parsers.php:88
+#: inc/import/wordpress-importer/parsers.php:94
+#: inc/import/wordpress-importer/parsers.php:356
+#: inc/import/wordpress-importer/parsers.php:574
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Cela ne semble pas être un fichier WXR, manquant / numéro de version du WXR "
+"invalide"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:136
+#: inc/import/wordpress-importer/wordpress-importer.php:145
+#: inc/import/wordpress-importer/wordpress-importer.php:195
+#: inc/import/wordpress-importer/wordpress-importer.php:200
+#: inc/import/wordpress-importer/wordpress-importer.php:210
+msgid "Sorry, there has been an error."
+msgstr "Désolé, il y a eu une erreur."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:137
+msgid "The file does not exist, please try again."
+msgstr "Le fichier n'existe pas, veuillez réessayer."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:180
+msgid "All done."
+msgstr "Tout est fait."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:180
+msgid "Have fun!"
+msgstr "Amusez-vous bien!"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:201
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Le fichier d'exportation n'a pas pu être trouvé à <code>%s</code>. Il est "
+"probable que cela a été causé par un problème d'autorisations."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:219
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Ce fichier WXR (version %s ) ne peut être pris en charge par cette version "
+"de l'importateur. S'il vous plaît envisager de mettre à jour."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:243
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Échec de l'importation de l'auteur %s . Leurs articles seront attribués à "
+"l'utilisateur actuel."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:270
+msgid "Assign Authors"
+msgstr "Attribuer les auteurs"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:271
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Pour rendre plus facile pour vous l'édition et la sauvegarde du contenu "
+"importé, vous pouvez réaffecter l'auteur de l'article importé à un "
+"utilisateur existant de ce site. Par exemple, vous pouvez importer tous les "
+"articles comme les entrées d'<code>admin</code>."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:273
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user's details will be necessary."
+msgstr ""
+"Si un nouvel utilisateur est créé par WordPress, un nouveau mot de passe "
+"sera généré aléatoirement et le rôle du nouvel utilisateur sera créé en tant "
+"que %s. Changer manuellement les détails du nouvel utilisateur sera "
+"nécessaire."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:283
+msgid "Import Attachments"
+msgstr "Importer les pièces-jointes"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:286
+msgid "Download and import file attachments"
+msgstr "Télécharger et importer les pièces jointes"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:291
+#: inc/includes/functions/password-protection.php:11
+msgid "Submit"
+msgstr ""
+
+#: inc/import/wordpress-importer/wordpress-importer.php:305
+msgid "Import author:"
+msgstr "Importer l'auteur :"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:319
+msgid "or create new user with login name:"
+msgstr "ou créer un nouvel utilisateur :"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:322
+msgid "as a new user:"
+msgstr "comme nouvel utilisateur :"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:330
+msgid "assign posts to an existing user:"
+msgstr "attribuer les articles à un utilisateur existant :"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:332
+msgid "or assign posts to an existing user:"
+msgstr "ou attribuer les articles à un utilisateur existant :"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:337
+msgid "- Select -"
+msgstr "- Sélectionner -"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:392
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Impossible de créer le nouvel utilisateur pour %s . Leurs articles seront "
+"attribués à l'utilisateur actuel."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:450
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Échec de l'importation de catégorie %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:497
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Échec de l'importation des mots-clés des articles %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:558
+#: inc/import/wordpress-importer/wordpress-importer.php:736
+#: inc/import/wordpress-importer/wpgrade-import-class.php:268
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Échec de l'import %s %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:607
+#: inc/import/wordpress-importer/wpgrade-import-class.php:124
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr "Échec de l'importation de \"%s\": Invalid type de message %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:630
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr "%s \"%s\" existe déjà."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:700
+#: inc/import/wordpress-importer/wpgrade-import-class.php:232
+#, php-format
+msgid "Failed to import %s \"%s\""
+msgstr "Échec de l'import de %s \"%s\""
+
+#: inc/import/wordpress-importer/wordpress-importer.php:876
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+"L'élément du menu a été évincer en raison du manque d'identifiant du menu"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:884
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+"L'élément du menu a été évincer en raison de l'identifiant du menu "
+"invalide : %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:984
+msgid "Fetching attachments is not enabled"
+msgstr "L'obtention de pièces jointes n'est pas activé"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1000
+msgid "Invalid file type"
+msgstr "Type de fichier non valide"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1047
+msgid "Remote server did not respond"
+msgstr "Le serveur distant n'a pas répondu"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1054
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Le serveur distant a renvoyé une réponse d'erreur %1$d %2$s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1062
+msgid "Remote file is incorrect size"
+msgstr "Le fichier distant est de taille incorrecte"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1068
+msgid "Zero size file downloaded"
+msgstr "Le fichier téléchargé est vide"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1075
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Le fichier distant est trop lourd, la limite est %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1183
+msgid "Import WordPress"
+msgstr "Importer WordPress"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1190
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Une nouvelle version de cet importateur est disponible. S'il vous plaît "
+"mettre à jour vers la version %s pour assurer la compatibilité avec les "
+"nouveaux fichiers d'exportation."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1205
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we'll import the "
+"posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+"Howdy! Téléchargez votre fichier WordPress eXtended RSS (WXR) et nous allons "
+"importer les messages, pages, commentaires, champs personnalisés, les "
+"catégories et les étiquettes dans ce site."
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1206
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Choisissez un (. Xml) WXR à télécharger, puis cliquez sur Envoyer le fichier "
+"et l'importation."
+
+#: inc/includes/functions/archive-nav-menu/post-type-archive-links.php:43
+msgid "Add to Menu"
+msgstr ""
+
+#: inc/includes/functions/password-protection.php:10
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+"Cet article est protégé par mot. Pour le lire, veuillez saisir votre mot de "
+"passe ci-dessous:"
+
+#: inc/includes/functions/password-protection.php:11
+#: theme-partials/password-request-form.php:25
+msgid "Password.."
+msgstr "Mot de passe.."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:324
+#: inc/includes/required-plugins/required-plugins.php:82
+msgid "Install Required Plugins"
+msgstr "Installer des plugins obligatoires"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:325
+#: inc/includes/required-plugins/required-plugins.php:83
+msgid "Install Plugins"
+msgstr "Installer des plugins"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:326
+#: inc/includes/required-plugins/required-plugins.php:84
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation Plugin: %s"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:327
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:328
+#: inc/includes/required-plugins/required-plugins.php:85
+msgid "Something went wrong with the plugin API."
+msgstr "Quelque chose n'allait pas avec l'API de plugin."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:330
+#: inc/includes/required-plugins/required-plugins.php:86
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite le plugin suivant: %1$s ."
+msgstr[1] "Ce thème nécessite les plugins suivants: %1$s ."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:335
+#: inc/includes/required-plugins/required-plugins.php:87
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande le plugin suivant: %1$s ."
+msgstr[1] "Ce thème recommande les plugins suivants: %1$s ."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:340
+#: inc/includes/required-plugins/required-plugins.php:92
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Le plugin suivante doit être mis à jour pour sa dernière version afin "
+"d'assurer une compatibilité maximale avec ce thème: %1$s ."
+msgstr[1] ""
+"Les plugins suivants doivent être mis à jour leur version la plus récente "
+"afin d'assurer une compatibilité maximale avec ce thème: %1$s ."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:345
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:350
+#: inc/includes/required-plugins/required-plugins.php:89
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin requis suivant est actuellement inactif: %1$s ."
+msgstr[1] "Les plugins requis suivants sont actuellement inactives: %1$s ."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:355
+#: inc/includes/required-plugins/required-plugins.php:90
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin recommandé suivant est actuellement inactif: %1$s ."
+msgstr[1] ""
+"Les plugins recommandées suivantes sont actuellement inactives: %1$s ."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:360
+#: inc/includes/required-plugins/required-plugins.php:94
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencez l'installation plug-in"
+msgstr[1] "Commencez à installer des plugins"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:365
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Commencer la mise à jour plug-in"
+msgstr[1] "Commencer la mise à jour des plugins"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:370
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:374
+#: inc/includes/required-plugins/required-plugins.php:96
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à Plugins requis Installer"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:375
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:376
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3109
+#: inc/includes/required-plugins/required-plugins.php:97
+msgid "Plugin activated successfully."
+msgstr "Plugin activé avec succès."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:377
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2912
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Le plug-in suivant a été activé avec succès:"
+msgstr[1] "Les plugins suivants ont été activés avec succès:"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:378
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:379
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:380
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins installés et activés avec succès. %1$s"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:381
+msgid "Dismiss this notice"
+msgstr "Rejeter cet avis"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:382
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:383
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:506
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:507
+msgid "Update Required"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:650
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:845
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3523
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:952
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:952
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:955
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:955
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:1955
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2241
+msgid "Required"
+msgstr "(Obligatoire)"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2244
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2260
+msgid "WordPress Repository"
+msgstr "Référentiel WordPress "
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2263
+msgid "External Source"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2266
+msgid "Pre-Packaged"
+msgstr "Pré-packagés"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2283
+msgid "Not Installed"
+msgstr "Non installé"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2287
+msgid "Installed But Not Activated"
+msgstr "Installé mais pas activé"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2289
+msgid "Active"
+msgstr "Actif"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2295
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2298
+msgid "Requires Update"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2301
+msgid "Update recommended"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2309
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2354
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2357
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2360
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2363
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2445
+msgid "unknown"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2453
+msgid "Installed version:"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2461
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2473
+msgid "Available version:"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2496
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2510
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2511
+msgid "Source"
+msgstr "Source"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2512
+msgid "Type"
+msgstr "Catégorie"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2516
+msgid "Version"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2517
+msgid "Status"
+msgstr "Statut"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2565
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2569
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2574
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2644
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2677
+msgid "Install"
+msgstr "Installez"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2683
+msgid "Update"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2686
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2717
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2719
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2760
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2762
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2868
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:2894
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3108
+msgid "Plugin activation failed."
+msgstr "L'activation du plugin a échoué."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3447
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3449
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Une erreur s'est produite lors de l'installation %1$s : <strong>%2$s</"
+"strong>."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3450
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s échoué."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3454
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Le processus d'installation et d'activation commence. Ce processus peut "
+"prendre un certain temps sur certains hébergements, donc s'il vous plaît "
+"soyez patient."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3455
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3455
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3461
+msgid "Show Details"
+msgstr "Voir les détails"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3455
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3461
+msgid "Hide Details"
+msgstr "Masquer les détails"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3456
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installations et les activations ont été achevés."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3457
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation Plugin %1$s ( %2$d / %3$d )"
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3460
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Le processus d'installation et d'activation commence. Ce processus peut "
+"prendre un certain temps sur certains hébergements, donc s'il vous plaît "
+"soyez patient."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3461
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installé avec succès."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3462
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été achevées."
+
+#: inc/includes/required-plugins/class-tgm-plugin-activation.php:3463
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation Plugin %1$s ( %2$d / %3$d )"
+
+#: inc/includes/required-plugins/required-plugins.php:88
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour installer l' "
+"%s du plugin. Contactez l'administrateur de ce site à l'aide sur l'obtention "
+"du plugin installé."
+msgstr[1] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour installer "
+"les plugins %s. Contactez l'administrateur de ce site à l'aide sur "
+"l'obtention des plugins installés."
+
+#: inc/includes/required-plugins/required-plugins.php:91
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour activer l' "
+"%s du plugin. Contactez l'administrateur de ce site à l'aide sur l'obtention "
+"du plugin activé."
+msgstr[1] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour activer les "
+"plugins %s. Contactez l'administrateur de ce site à l'aide sur l'obtention "
+"des plugins activés."
+
+#: inc/includes/required-plugins/required-plugins.php:93
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour mettre à "
+"jour l' %s du plugin. Contactez l'administrateur de ce site à l'aide sur "
+"l'obtention du plug-in mis à jour."
+msgstr[1] ""
+"Désolé, mais vous n'avez pas les autorisations nécessaires pour mettre à "
+"jour les plugins de %s. Contactez l'administrateur de ce site à l'aide sur "
+"l'obtention des plugins mis à jour."
+
+#: inc/includes/required-plugins/required-plugins.php:95
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activer plug-in installé"
+msgstr[1] "Activer les plugins installés"
+
+#: inc/includes/required-plugins/required-plugins.php:98
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tous les plugins sont installés et activés avec succès. %s"
+
+#: inc/lens.php:240 inc/lens.php:247
+msgid "Wrong Password"
+msgstr "Mot de passe erroné"
+
+#: inc/lens.php:289
+msgid "Filter"
+msgstr "Filtrez"
+
+#: inc/lens.php:294
+msgid "View All"
+msgstr "Voir toutes"
+
+#: inc/template-tags.php:50
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Messages anciens"
+
+#: inc/template-tags.php:54
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Nouveaux messages <span class=\"meta-nav\">&raquo;</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#: inc/template-tags.php:78
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:95 inc/unsorted.php:287
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/template-tags.php:104 inc/unsorted.php:293
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/template-tags.php:126
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\" pubdate>%4$s</time></a>"
+msgstr ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\" pubdate>%4$s</time></a>"
+
+#: inc/template-tags.php:132
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les messages par: %s"
+
+#: inc/unsorted.php:282
+msgid "M j, Y \\a\\t H:i"
+msgstr "M j, Y \\a\\t H:i"
+
+#: inc/unsorted.php:283
+#, php-format
+msgid "<cite class=\"comment__author-name\">%s</cite>"
+msgstr "<cite class=\"comment__author-name\">%s</ cite>"
+
+#: inc/unsorted.php:307
+msgid "Video URL"
+msgstr ""
+
+#: inc/unsorted.php:310
+msgid "<p>Here you can link a video</p><small>Only youtube or vimeo!</small>"
+msgstr ""
+
+#: inc/unsorted.php:323
+#, fuzzy
+msgid "External URL"
+msgstr "Lien externe"
+
+#: inc/unsorted.php:326
+msgid "<p>Here you can add an external URL.</p>"
+msgstr ""
+
+#: inc/widgets.php:11 inc/widgets.php:12
+msgid "Blog Sidebar"
+msgstr "Barre latérale du Blog"
+
+#: inc/widgets.php:22 inc/widgets.php:23
+msgid "Header Sidebar"
+msgstr "Tête Sidebar"
+
+#: inc/widgets.php:49
+msgid " Social Links"
+msgstr " Liens sociaux"
+
+#: inc/widgets.php:49
+msgid "Display the social links defined in the theme's options"
+msgstr "Afficher les liens sociaux définis dans les options du thème"
+
+#: inc/widgets.php:90
+msgid "We Are Social"
+msgstr "Nous sommes sociaux"
+
+#: inc/widgets.php:93 inc/widgets.php:158 inc/widgets.php:223
+#: inc/widgets.php:309 inc/widgets.php:645
+msgid "Title"
+msgstr "Titre"
+
+#: inc/widgets.php:103
+msgid " Dribbble Widget"
+msgstr " Dribbble Widget"
+
+#: inc/widgets.php:103
+msgid "Display Dribbble images in your sidebar or footer"
+msgstr "Afficher les images Dribbble dans votre barre latérale ou le pied"
+
+#: inc/widgets.php:152
+msgid "Dribbble shots"
+msgstr "Coups Dribbble"
+
+#: inc/widgets.php:162
+msgid "Dribbble username"
+msgstr "Dribbble nom d'utilisateur"
+
+#: inc/widgets.php:166 inc/widgets.php:231 inc/widgets.php:657
+msgid "Number of images"
+msgstr "Nombre d'images"
+
+#: inc/widgets.php:177
+msgid " Instagram Widget"
+msgstr " Instagram Widget"
+
+#: inc/widgets.php:177
+msgid "Display Instagram images in your sidebar or footer"
+msgstr "Afficher les images Instagram dans votre barre latérale ou le pied"
+
+#: inc/widgets.php:217
+msgid "Instagram shots"
+msgstr "Photos Instagram"
+
+#: inc/widgets.php:227
+msgid "Instagram username"
+msgstr "Instagram nom d'utilisateur"
+
+#: inc/widgets.php:242
+msgid " Contact Widget"
+msgstr " Contactez Widget"
+
+#: inc/widgets.php:242
+msgid "Display your contact information"
+msgstr "Afficher vos informations de contact"
+
+#: inc/widgets.php:284
+msgid "No contact info to be displayed"
+msgstr "Pas d'infos de contact à afficher"
+
+#: inc/widgets.php:303
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: inc/widgets.php:314
+msgid "Label"
+msgstr "Etiquette"
+
+#: inc/widgets.php:322
+msgid "Link"
+msgstr "Link"
+
+#: inc/widgets.php:350
+msgid " Latest Posts Slider"
+msgstr " Derniers articles curseur"
+
+#: inc/widgets.php:350
+msgid "Display the latest blog posts in your sidebar or footer"
+msgstr ""
+"Afficher les derniers messages de blog dans votre barre latérale ou le pied"
+
+#: inc/widgets.php:380
+msgid "No Image"
+msgstr "Pas d'image"
+
+#: inc/widgets.php:395
+#, fuzzy
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: inc/widgets.php:415
+msgid "From the Blog"
+msgstr "Du blog"
+
+#: inc/widgets.php:420
+msgid "Title:"
+msgstr "Titre:"
+
+#: inc/widgets.php:426
+msgid "Number of posts:"
+msgstr "Nombre d'articles:"
+
+#: inc/widgets.php:441
+msgid " Flickr Widget"
+msgstr " Flickr Widget"
+
+#: inc/widgets.php:441
+msgid ""
+"Display Flickr images in your sidebar or footer (maximum 20 but we recommend "
+"less)."
+msgstr ""
+"Afficher les images Flickr dans votre barre latérale ou le pied (maximum 20 "
+"mais nous vous recommandons de moins)."
+
+#: inc/widgets.php:639
+msgid "Flickr Shots"
+msgstr "Flickr Tirs"
+
+#: inc/widgets.php:649
+msgid "Username or RSS url"
+msgstr "Nom d'utilisateur ou URL du flux RSS"
+
+#: inc/widgets.php:653
+msgid "Tags"
+msgstr "Balises"
+
+#: inc/woocommerce.php:93
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce.php:94
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: no-results.php:9
+msgid "404"
+msgstr "404"
+
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats pour : %s"
+
+#: search.php:28
+msgid "No Results"
+msgstr ""
+
+#: search.php:30
+msgid "Oops! Nothing found."
+msgstr ""
+
+#: search.php:32
+msgid "Try again?"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: single.php:40 theme-partials/portfolio-templates/portfolio-classic.php:31
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:129
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:162
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:89
+msgid "Filed under"
+msgstr "Rempli sous"
+
+#: single.php:53
+msgid "Tagged"
+msgstr "Tagué"
+
+#: tag.php:18
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archives du mot clé : %s"
+
+#: templates/pixlikes-template.php:11
+msgid "likes"
+msgstr ""
+
+#: templates/pixproof_gallery.php:20
+msgid "Deselect"
+msgstr ""
+
+#: templates/pixproof_gallery.php:22
+#, fuzzy
+msgid "Select"
+msgstr "- Sélectionner -"
+
+#: templates/pixproof_gallery.php:85
+msgid "Zoom"
+msgstr ""
+
+#: templates/pixproof_metadata.php:15
+#: theme-partials/portfolio-templates/portfolio-classic.php:23
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:122
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:156
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:83
+msgid "Client"
+msgstr "Client"
+
+#: templates/pixproof_metadata.php:25
+msgid "Event date"
+msgstr ""
+
+#: templates/pixproof_metadata.php:45
+#, fuzzy
+msgid "Download"
+msgstr "Télécharger sauvegarde"
+
+#: theme-partials/password-request-form.php:6
+msgid "Password "
+msgstr "Mot de passe"
+
+#: theme-partials/password-request-form.php:17
+msgid "Please enter your password again:"
+msgstr "S'il vous plaît entrer de nouveau votre mot de passe:"
+
+#: theme-partials/password-request-form.php:19
+msgid "To view it please enter your password below:"
+msgstr "Pour le lire, veuillez saisir votre mot de passe ci-dessous:"
+
+#: theme-partials/password-request-form.php:28
+msgid "Access"
+msgstr "Accès"
+
+#: theme-partials/portfolio-templates/portfolio-classic.php:66
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:208
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:129
+msgid "Related projects"
+msgstr "Les projets connexes"
+
+#: theme-partials/portfolio-templates/portfolio-classic.php:71
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:213
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:134
+msgid "Previous"
+msgstr "Précédent"
+
+#: theme-partials/portfolio-templates/portfolio-classic.php:75
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:217
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:138
+msgid "All projects"
+msgstr "Tous les projets"
+
+#: theme-partials/portfolio-templates/portfolio-classic.php:79
+#: theme-partials/portfolio-templates/portfolio-fullwidth.php:221
+#: theme-partials/portfolio-templates/portfolio-sidebar.php:142
+#: wpgrade-config.php:274 wpgrade-config.php:280
+msgid "Next"
+msgstr "Next"
+
+#: theme-partials/post-templates/single-head-quote.php:16
+msgid "See more about :author"
+msgstr "Voir plus sur: auteur"
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-loop.php:33
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart-loop.php:69
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:52
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:52
+#, fuzzy
+msgid "Apply Coupon"
+msgstr "Apple Touch Icône"
+
+#: woocommerce/cart/cart.php:60
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:28
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:39
+#, fuzzy
+msgid "View Cart"
+msgstr "Voir le projet"
+
+#: woocommerce/cart/mini-cart.php:43
+#, fuzzy
+msgid "Checkout"
+msgstr "Option de case à cocher"
+
+#: woocommerce/global/quantity-input.php:22
+#: woocommerce/single-product/add-to-cart/quantity.php:14
+#: woocommerce/single-product/add-to-cart/quantity.php:15
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:19
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:25
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:33
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:28
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:31
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:43
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/grouped.php:45
+#: woocommerce/single-product/add-to-cart/grouped.php:77
+#: woocommerce/single-product/add-to-cart/simple.php:46
+#, fuzzy
+msgid "Add to cart"
+msgstr "Ajouter plus"
+
+#: woocommerce/single-product/add-to-cart/variable.php:26
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:37
+#, fuzzy
+msgid "Choose an option"
+msgstr "Option de dégradé de couleur"
+
+#: woocommerce/single-product/meta.php:20
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:24
+msgid "<span class=\"meta-box__box-title\">Category:</span>"
+msgid_plural "<span class=\"meta-box__box-title\">Categories:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:27
+msgid "<span class=\"meta-box__box-title\">Tag:</span>"
+msgid_plural "<span class=\"meta-box__box-title\">Tags:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:33
+msgid "Share"
+msgstr "Partager"
+
+#: woocommerce/single-product/related.php:36
+#, fuzzy
+msgid "Related Products"
+msgstr "Les projets connexes"
+
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: wpgrade-config.php:175
+msgid "Previous (Left arrow key)"
+msgstr "Précédente (Flèche gauche)"
+
+#: wpgrade-config.php:176
+msgid "Next (Right arrow key)"
+msgstr "Suivant (flèche droite)"
+
+#: wpgrade-config.php:177
+msgid "of"
+msgstr "de"
+
+#: wpgrade-config.php:226
+msgid "Newer posts"
+msgstr "Articles les plus récents"
+
+#: wpgrade-config.php:227
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: wpgrade-config.php:267
+msgid "Prev Images"
+msgstr "Images précédentes"
+
+#: wpgrade-config.php:268
+msgid "Next Images"
+msgstr "Images suivantes"
+
+#: wpgrade-config.php:273 wpgrade-config.php:279
+#, fuzzy
+msgid "Prev"
+msgstr "Précédent"
+
+#: wpgrade-core/classes/WPGradePaginationFormatter.php:123
+msgid "&laquo; Previous"
+msgstr "&laquo; Précédent"
+
+#: wpgrade-core/classes/WPGradePaginationFormatter.php:129
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: wpgrade-core/resources/views/read-more-content.php:11
+#: wpgrade-core/resources/views/read-more.php:9
+msgid "Read more about"
+msgstr "En savoir plus sur"
+
+#: wpgrade-core/resources/views/read-more-content.php:13
+#: wpgrade-core/resources/views/read-more.php:11
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: wpgrade-core/wpgrade.php:1255
+#, fuzzy
+msgid "Invalid sidebar ID"
+msgstr "Type de fichier non valide"
+
+#: yarpp-template-portfolio.php:71
+msgid "No related projects"
+msgstr "Pas de projets connexes"
+
+#~ msgid "Share on Twitter!"
+#~ msgstr "Partager sur Twitter!"
+
+#~ msgid "Share on Facebook!"
+#~ msgstr "Partager sur Facebook!"
+
+#~ msgid "Share on Google+!"
+#~ msgstr "Partager sur Google+!"
+
+#, fuzzy
+#~ msgid "Sidebar"
+#~ msgstr "Barre latérale du Blog"
+
+#~ msgid "Inverse Left Sidebar Contrast"
+#~ msgstr "Inverse contraste de la barre latérale gauche"
+
+#~ msgid "Change the left sidebar contrast: black text, white background."
+#~ msgstr ""
+#~ "Modifier le contraste de la barre latérale gauche: texte noir, fond blanc."
+
+#, fuzzy
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-moi sur Twitter"
+
+#, fuzzy
+#~ msgid "Find us on LinkedIn"
+#~ msgstr "Trouvez-moi sur LinkedIn"
+
+#, fuzzy
+#~ msgid "Find us on Facebook"
+#~ msgstr "Partager sur Facebook!"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#, fuzzy
+#~ msgid "Enable / Disable smooth scrolling."
+#~ msgstr "Activer / Désactiver le défilement régulier"
+
+#~ msgid "Enable / Disable ajax loading"
+#~ msgstr "Activer / Désactiver le chargement d'Ajax"
+
+#, fuzzy
+#~ msgid ""
+#~ "Display the image title and caption in gallery & portfolio pop-ups and "
+#~ "sliders. <br />Both title and caption are optional and will only be shown "
+#~ "if set."
+#~ msgstr ""
+#~ "Afficher le titre de l'image et la légende dans popups. La légende est "
+#~ "facultative et ne sera affichée que si elle est définie."
+
+#~ msgid "Main Logo"
+#~ msgstr "Logo principal"
+
+#, fuzzy
+#~ msgid ""
+#~ "If there is no image uploaded, plain text will be used instead (generated "
+#~ "from the site's name)."
+#~ msgstr ""
+#~ "Téléchargez ici l'image de votre logo (nous recommandons une hauteur de "
+#~ "80-100px). S'il n'y a aucune image téléchargée, texte sera utilisé à la "
+#~ "place (généré à partir du nom du site)."
+
+#, fuzzy
+#~ msgid "2x Retina Logo"
+#~ msgstr "Retina 2x Logo"
+
+#, fuzzy
+#~ msgid "To be Retina-ready you need to add a 2x size logo image."
+#~ msgstr ""
+#~ "Pour être Retina-prêt, vous devez ajouter une image du logo 2x (doubler "
+#~ "les dimensions du logo 1x ci-dessus)."
+
+#, fuzzy
+#~ msgid "Retina Logo"
+#~ msgstr "Retina 2x Logo"
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#, fuzzy
+#~ msgid "Upload a 16 x 16px image that will be used as a favicon."
+#~ msgstr ""
+#~ "Téléchargez une image 16px x 16px qui sera utilisé comme une favicon."
+
+#~ msgid "Apple Touch Icon"
+#~ msgstr "Apple Touch Icône"
+
+#~ msgid ""
+#~ "You can customize the icon for the Apple touch shortcut to your website. "
+#~ "The size of this icon must be 77x77px."
+#~ msgstr ""
+#~ "Vous pouvez personnaliser l'icône du raccourci tactile Apple pour votre "
+#~ "site web. La taille de cette icône doit être 77x77px."
+
+#~ msgid "Metro Icon"
+#~ msgstr "Metro Icône"
+
+#~ msgid ""
+#~ "Use the color picker to change the main color of the site to match your "
+#~ "brand color."
+#~ msgstr ""
+#~ "Utilisez le sélecteur de couleur pour changer la couleur principale du "
+#~ "site pour correspondre à la couleur de votre marque."
+
+#~ msgid "Do you need custom web fonts?"
+#~ msgstr "Avez-vous besoin des fontes web personnalisées?"
+
+#~ msgid ""
+#~ "Tap into the massive <a href=\"http://www.google.com/fonts/\">Google "
+#~ "Fonts</a> collection (with Live preview)."
+#~ msgstr ""
+#~ "Puiser dans le massif <a href=\"http://www.google.com/fonts/\"> Google "
+#~ "Fonts </ a> collection (avec prévisualisation en direct)."
+
+#~ msgid "Menu Font"
+#~ msgstr "Font du menu"
+
+#, fuzzy
+#~ msgid "Select a font for menu."
+#~ msgstr "Rechercher une catégorie de portefeuille"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Rétablir les paramètres par défaut"
+
+#, fuzzy
+#~ msgid "Change sidebar related options from here."
+#~ msgstr ""
+#~ "<p class=\"description\">Modifier les options liées au sidebar partir "
+#~ "d'ici. </p>"
+
+#~ msgid "Social Footer Menu"
+#~ msgstr "Social Footer Menu"
+
+#, fuzzy
+#~ msgid "Social Links"
+#~ msgstr " Liens sociaux"
+
+#, fuzzy
+#~ msgid ""
+#~ "Define and reorder your social pages links.<br /><b>Note:</b> These will "
+#~ "be displayed in the \"%s Social Links\" widget so you can put them "
+#~ "anywhere on your site. Only those filled will appear.<br /><br /><strong> "
+#~ "You need to input the <strong>complete</strong> URL (ie. http://twitter."
+#~ "com/username)</strong>"
+#~ msgstr ""
+#~ "Définir et réorganiser vos liens sociaux.<br /><b>Remarque:</b> Ceux-ci "
+#~ "seront affichés dans les \"%s Social Links\" widget de sorte que vous "
+#~ "pouvez les mettre n'importe où sur votre site. Seulement ceux qui sont "
+#~ "remplis apparaît."
+
+#~ msgid ""
+#~ "Icons provided by <strong>FontAwesome</strong> and <strong>Entypo</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Icônes fournies par <strong> FontAwesome </strong> et <strong> Entypo </"
+#~ "strong>."
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Tumblr"
+#~ msgstr "Tumblr"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Behance"
+#~ msgstr "Behance"
+
+#~ msgid "500px"
+#~ msgstr "500px"
+
+#~ msgid "DeviantART"
+#~ msgstr "DeviantART"
+
+#~ msgid "Dribbble"
+#~ msgstr "Dribbble"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Vimeo"
+#~ msgstr "Vimeo"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "SoundCloud"
+#~ msgstr "SoundCloud"
+
+#~ msgid "Digg"
+#~ msgstr "Digg"
+
+#~ msgid "Last.FM"
+#~ msgstr "Last.FM"
+
+#~ msgid "App.net"
+#~ msgstr "App.net"
+
+#, fuzzy
+#~ msgid "Open Social Links In a New Tab?"
+#~ msgstr "Liens s'ouvrent dans une nouvelle fenêtre"
+
+#, fuzzy
+#~ msgid "Do you want to open social links in a new tab?"
+#~ msgstr "Voulez-vous ouvrir les liens sociaux dans une nouvelle fenêtre?"
+
+#~ msgid ""
+#~ "Text that will appear in footer left area (eg. Copyright 2013 %s | All "
+#~ "Rights Reserved)."
+#~ msgstr ""
+#~ "Texte qui apparaîtra dans la zone pied gauche (par exemple, Copyright "
+#~ "2013 %s | All Rights Reserved)."
+
+#, fuzzy
+#~ msgid "Galleries Options"
+#~ msgstr "Galeries"
+
+#, fuzzy
+#~ msgid "General settings for gallery items."
+#~ msgstr ""
+#~ "<p class=\"description\"> Paramètres généraux pour les articles du "
+#~ "portefeuille. </p>"
+
+#, fuzzy
+#~ msgid "Galleries Archive Grid Thumbnail Orientation"
+#~ msgstr "Grille Miniatures Orientation"
+
+#~ msgid "Horizontal thumbnails or vertical thumbnails"
+#~ msgstr "Vignettes horizontales ou verticales vignettes"
+
+#, fuzzy
+#~ msgid "Enable Galleries Filtering"
+#~ msgstr "Permettre aux projets de filtrage"
+
+#, fuzzy
+#~ msgid "Display a Filter button on Galleries Archive Page"
+#~ msgstr ""
+#~ "Afficher un bouton de filtre sur le portefeuille et la page d'archive de "
+#~ "la galerie"
+
+#~ msgid "Portfolio Options"
+#~ msgstr "Options du portefolio"
+
+#, fuzzy
+#~ msgid "General settings for portfolio items."
+#~ msgstr ""
+#~ "<p class=\"description\"> Paramètres généraux pour les articles du "
+#~ "portefeuille. </p>"
+
+#~ msgid "Portfolio Grid Thumbnail Orientation"
+#~ msgstr "Portefeuille grille orientation des vignettes"
+
+#, fuzzy
+#~ msgid "Projects Per Page"
+#~ msgstr "Nombre de projets"
+
+#~ msgid "Enable Projects Filtering"
+#~ msgstr "Permettre aux projets de filtrage"
+
+#, fuzzy
+#~ msgid "Display a Filter button on the Portfolio Archive Page"
+#~ msgstr ""
+#~ "Afficher un bouton de filtre sur le portefeuille et la page d'archive de "
+#~ "la galerie"
+
+#, fuzzy
+#~ msgid "Show Portfolio Archive Title"
+#~ msgstr "L'archive du portefeuille"
+
+#, fuzzy
+#~ msgid "<h2>Single Project Options</h2>"
+#~ msgstr "<h2>Options de marquage</h2>"
+
+#~ msgid "Show Share Links"
+#~ msgstr "Afficher Share links"
+
+#~ msgid "Do you want to show the share links bellow the projects?"
+#~ msgstr "Voulez-vous montrer les liens d'actions dessous, les projets?"
+
+#~ msgid "Twitter Share Link"
+#~ msgstr "Twitter Share Link"
+
+#~ msgid "Facebook Share Link"
+#~ msgstr "Facebook Share Link"
+
+#~ msgid "Google+ Share Link"
+#~ msgstr "Google+ Share Link"
+
+#, fuzzy
+#~ msgid "Pinterest Share Link"
+#~ msgstr "Twitter Share Link"
+
+#~ msgid "Blog Options"
+#~ msgstr "Options du blog"
+
+#, fuzzy
+#~ msgid "Change blog archive and single post related options here."
+#~ msgstr ""
+#~ "<p class=\"description\">Changer archive de blog et articles individuels "
+#~ "liés options ici.</p>"
+
+#~ msgid "Set here the excerpt length for the blog archive (number of words)."
+#~ msgstr ""
+#~ "Réglez ici la longueur d'extrait de l'archive blogue (nombre de mots)."
+
+#~ msgid "Do you want to show the share links bellow the article?"
+#~ msgstr "Voulez-vous montrer les liens d'actions soufflet cet article?"
+
+#~ msgid ""
+#~ "<p class=\"description\">General settings for the contact page template!</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p class=\"description\">Paramètres généraux pour le modèle de page de "
+#~ "contact!</p>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Paste here the the URL that you've got from Google Maps, after navigating "
+#~ "to your location."
+#~ msgstr ""
+#~ "Coller ici le l'URL que vous avez à partir de Google Maps, après avoir "
+#~ "navigué à votre emplacement.<br />Ici, il est <a href = \"http://screenr."
+#~ "com/MjV7 \" target = \"_blank\"> un court-métrage </a> vous montre "
+#~ "comment obtenir l'URL"
+
+#~ msgid "Allow us to change the map colors to better match your website."
+#~ msgstr ""
+#~ "Nous permettent de changer les couleurs de la carte pour mieux "
+#~ "correspondre à votre site web."
+
+#, fuzzy
+#~ msgid "Social and SEO"
+#~ msgstr "Options sociales et SEO"
+
+#, fuzzy
+#~ msgid "Social sharing stuff."
+#~ msgstr "<p class=\"description\">Des trucs de partage social.</p>"
+
+#~ msgid "Add Social Meta Tags"
+#~ msgstr "Ajouter étiquettes de méta sociaux"
+
+#~ msgid ""
+#~ "Let us properly prepare your theme for the social sharing and discovery "
+#~ "by adding the needed metatags in the <head> section."
+#~ msgstr ""
+#~ "Préparons-nous correctement votre thème pour le partage social et de "
+#~ "découverte en ajoutant les metatags nécessaires dans la section <head>."
+
+#~ msgid "Facebook Application ID"
+#~ msgstr "Application Facebook ID"
+
+#~ msgid ""
+#~ "Enter the Facebook Application ID of the Fan Page which is associated "
+#~ "with this website. You can create one <a href=\"https://developers."
+#~ "facebook.com/apps\">here</a>."
+#~ msgstr ""
+#~ "Entrez le Facebook ID de l'application de la page fan qui est associé à "
+#~ "ce site. Vous pouvez créer un <a href=\"https://developers.facebook.com/"
+#~ "apps\"> ici </a>."
+
+#~ msgid "Facebook Admin ID"
+#~ msgstr "Facebook Administrateur ID"
+
+#~ msgid ""
+#~ "The id of the user that has administrative privileges to your Facebook "
+#~ "App so you can access the <a href=\"https://www.facebook.com/insights/"
+#~ "\">Facebook Insights</a>."
+#~ msgstr ""
+#~ "L'identifiant de l'utilisateur qui a des privilèges d'administrateur sur "
+#~ "votre appli Facebook pour que vous puissiez accéder à la <a href="
+#~ "\"https://www.facebook.com/insights/\"> Facebook Insights </a>."
+
+#~ msgid "Google+ Publisher"
+#~ msgstr "Editeur Google+"
+
+#~ msgid ""
+#~ "Enter your Google Plus page ID (example: https://plus.google.com/"
+#~ "<b>105345678532237339285</b>) here if you have set up a \"Google+ Page\"."
+#~ msgstr ""
+#~ "Entrez votre URL de la page Google Plus (exemple: https://plus.google."
+#~ "com/105345678532237339285) ici si vous avez mis en place un \"page Google"
+#~ "+ \"."
+
+#~ msgid "Twitter Site Username"
+#~ msgstr "Twitter du site Nom d'utilisateur"
+
+#~ msgid ""
+#~ "The Twitter username of the entire site. The username for the author will "
+#~ "be taken from the author's profile (skip the @)"
+#~ msgstr ""
+#~ "Le nom d'utilisateur Twitter de l'ensemble du site. Le nom de l'auteur "
+#~ "sera prélevé sur le profil de l'auteur (sauter le signe @)"
+
+#~ msgid "Default Social Share Image"
+#~ msgstr "Par défaut Partager Social image"
+
+#~ msgid ""
+#~ "If an image is uploaded, this will be used for content sharing if you "
+#~ "don't upload a custom image with your content (at least 200px wide "
+#~ "recommended)."
+#~ msgstr ""
+#~ "Si une image est téléchargé, il sera utilisé pour le partage de contenu "
+#~ "si vous ne téléchargez une image personnalisée avec votre contenu (au "
+#~ "moins 200px de large recommandée)."
+
+#~ msgid "Use Twitter Widget"
+#~ msgstr "Utilisez Twitter Widget"
+
+#~ msgid ""
+#~ "Just a widget to show your latest tweets (Twitter API v1.1 compatible). "
+#~ "You can add it in your blog or footer sidebars.<div class=\"description\">"
+#~ msgstr ""
+#~ "Juste un widget pour afficher vos derniers tweets (Twitter API v1.1 "
+#~ "compatible). Vous pouvez ajouter dans votre blog ou encadrés bas de page. "
+#~ "<div class=\"description\">"
+
+#~ msgid "Important Note : "
+#~ msgstr "Remarque importante: "
+
+#~ msgid ""
+#~ "In order to use the Twitter widget you will need to create a Twitter "
+#~ "application <a href=\"https://dev.twitter.com/apps/new\" >here</a> and "
+#~ "get your own key, secrets and access tokens. This is due to the changes "
+#~ "that Twitter made to it's API (v1.1). Please note that these defaults are "
+#~ "used on the "
+#~ msgstr ""
+#~ "Pour utiliser le widget Twitter vous aurez besoin pour créer une demande "
+#~ "<a Twitter href=\"https://dev.twitter.com/apps/new\"> ici </ a> et "
+#~ "d'obtenir votre propre clé, secrets et accéder jetons. Cela est dû aux "
+#~ "changements que Twitter a fait à son API (v1.1). S'il vous plaît noter "
+#~ "que ces valeurs par défaut sont utilisés sur le "
+
+#~ msgid "Consumer Key"
+#~ msgstr "Clé des consommateur"
+
+#~ msgid "Consumer Secret"
+#~ msgstr "Secret consommateur"
+
+#~ msgid "Oauth Access Token"
+#~ msgstr "Oauth accès token"
+
+#~ msgid "Oauth Access Token Secret"
+#~ msgstr "Oauth token d'accès secret"
+
+#, fuzzy
+#~ msgid "Custom Code"
+#~ msgstr "Personnalisée de style CSS"
+
+#, fuzzy
+#~ msgid "Custom CSS"
+#~ msgstr "Personnalisée de style CSS"
+
+#~ msgid ""
+#~ "Use this area to make slight CSS changes. It will be included in the head "
+#~ "section of the page."
+#~ msgstr ""
+#~ "Utilisez cette zone pour apporter de légères modifications de style CSS. "
+#~ "Il sera inclus dans la section head de la page."
+
+#, fuzzy
+#~ msgid "Apply Custom CSS"
+#~ msgstr "Apple Touch Icône"
+
+#, fuzzy
+#~ msgid "Select how to insert the custom CSS into your pages."
+#~ msgstr "Comment injecter le CSS personnalisé"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use this area to make custom JavaScript calls.This code will be loaded in "
+#~ "<strong>head</strong> section.jQuery is available here as $"
+#~ msgstr ""
+#~ "Utilisez cette zone pour faire la coutume du code JavaScript calls.This "
+#~ "sera chargé dans la section de tête"
+
+#, fuzzy
+#~ msgid ""
+#~ "This javascript code will be loaded in the <strong>footer</strong>. You "
+#~ "can paste here your <strong>Google Analytics tracking code</strong> (or "
+#~ "for what matters any tracking code) and we will put it on every page."
+#~ msgstr ""
+#~ "Collez ici votre code de suivi Analytics Google (ou tout ce qui importe "
+#~ "le code de suivi) et nous le mettrons sur chaque page."
+
+#, fuzzy
+#~ msgid ""
+#~ "Let us notify you when new versions of this theme are live on "
+#~ "ThemeForest! Update with just one button click. Forget about manual "
+#~ "updates!"
+#~ msgstr ""
+#~ "<p class=\"description\"> Laissez-nous vous informerons de nouvelles "
+#~ "versions de ce thème sont en direct sur ThemeForest! Mise à jour avec un "
+#~ "seul clic de bouton. Oubliez les mises à jour manuelles!</p>"
+
+#, fuzzy
+#~ msgid "One-Click Update"
+#~ msgstr "Articles plus anciens"
+
+#, fuzzy
+#~ msgid ""
+#~ "Activate this to enter the info needed for the theme's one-click update "
+#~ "to work."
+#~ msgstr ""
+#~ "Activez cette option pour entrer les informations nécessaires pour le "
+#~ "thème de mise à jour automatique de travailler."
+
+#~ msgid "ThemeForest Username"
+#~ msgstr "ThemeForest Nom d'utilisateur"
+
+#~ msgid ""
+#~ "Enter here your ThemeForest (or Envato) username account (i.e. "
+#~ "pixelgrade)."
+#~ msgstr ""
+#~ "Entrez ici votre ThemeForest utilisateur du compte (ou Envato) (c. "
+#~ "pixelgrade)."
+
+#~ msgid "ThemeForest Secret API Key"
+#~ msgstr "ThemeForest secret API Key"
+
+#~ msgid ""
+#~ "Enter here the secret api key you've created on ThemeForest. You can "
+#~ "create a new one in the Settings > API Keys section of your profile."
+#~ msgstr ""
+#~ "Saisissez ici la clé API secret que vous avez créé sur ThemeForest. Vous "
+#~ "pouvez créer un nouveau dans le Paramètres> API section Clés de votre "
+#~ "profil."
+
+#~ msgid "Backup Theme Before Upgrade?"
+#~ msgstr "Sauvegarde thème avant de mettre à niveau?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this if you want us to automatically save your theme as a ZIP "
+#~ "archive before an upgrade. The directory those backups get saved to is "
+#~ "<code>wp-content/envato-backups</code>. However, if you're experiencing "
+#~ "problems while attempting to upgrade, it's likely to be a permissions "
+#~ "issue and you may want to manually backup your theme before upgrading. "
+#~ "Alternatively, if you don't want to backup your theme you can disable "
+#~ "this."
+#~ msgstr ""
+#~ "Cochez cette case si vous souhaitez que nous économisons automatiquement "
+#~ "votre thème comme une archive ZIP avant une mise à niveau. Le répertoire "
+#~ "de ces sauvegardes sont sauvés à <code>wp-content/envato-backups</code>. "
+#~ "Toutefois, si vous rencontrez des problèmes en essayant de mettre à "
+#~ "niveau, il est susceptible d'être un problème d'autorisations et vous "
+#~ "voudrez peut-être sauvegarder manuellement votre thème avant la mise à "
+#~ "niveau. Alternativement, si vous ne voulez pas sauvegarder votre thème, "
+#~ "vous pouvez décocher cette."
+
+#, fuzzy
+#~ msgid ""
+#~ "Here you can import the demo data and get on your way of setting up the "
+#~ "site like the theme demo (images not included due to copyright)."
+#~ msgstr ""
+#~ "Ici vous pouvez importer les données de démonstration et d'obtenir sur "
+#~ "votre chemin de la création du site comme la démo de thème."
+
+#, fuzzy
+#~ msgid "Admin Panel Options"
+#~ msgstr "Radio option Image"
+
+#, fuzzy
+#~ msgid ""
+#~ "Here you can copy/download your current admin option settings. Keep this "
+#~ "safe as you can use it as a backup should anything go wrong, or you can "
+#~ "use it to restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "Ici, vous pouvez copier / télécharger vos paramètres d'options actuels. "
+#~ "Gardez cette sûrs que vous pouvez l'utiliser comme une sauvegarde en cas "
+#~ "de problème, ou vous pouvez l'utiliser pour restaurer vos paramètres sur "
+#~ "ce site (ou tout autre site)."
+
+#~ msgid "<strong>Theme URL:</strong> "
+#~ msgstr "<strong>Thème URL:</strong> "
+
+#~ msgid "<strong>Author:</strong> "
+#~ msgstr "<strong>Auteur:</strong> "
+
+#~ msgid "<strong>Version:</strong> "
+#~ msgstr "<strong>Version:</strong> "
+
+#~ msgid "<strong>Tags:</strong> "
+#~ msgstr "<strong>Balises:</strong> "
+
+#~ msgid "Theme Information"
+#~ msgstr "Theme Information"
+
+#~ msgid "Something went wrong."
+#~ msgstr "Une erreur est survenue."
+
+#~ msgid "Private Repository"
+#~ msgstr "Référentiel privé"
+
+#~ msgid "Install package not available."
+#~ msgstr "Le package a installer n'est pas disponible."
+
+#~ msgid ""
+#~ "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+#~ msgstr ""
+#~ "Télécharger le pack d'installation de <span class=\"code\">%s</ "
+#~ "span>&#8230;"
+
+#~ msgid "Unpacking the package&#8230;"
+#~ msgstr "Déballage du package"
+
+#~ msgid "Installing the plugin&#8230;"
+#~ msgstr "Installation du plug-in&#8230;"
+
+#~ msgid "Plugin install failed."
+#~ msgstr "L'installation du plug-in a échoué."
+
+#~ msgid "Plugin installed successfully."
+#~ msgstr "Plugin installé avec succès."
+
+#~ msgid " Twitter Widget"
+#~ msgstr " Twitter Widget"
+
+#~ msgid "Display Latest Tweets"
+#~ msgstr "Afficher derniers Tweets"
+
+#~ msgid "Tweets"
+#~ msgstr "Tweets"
+
+#~ msgid "Twitter username"
+#~ msgstr "Twitter username : "
+
+#~ msgid "Number of tweets"
+#~ msgstr "Number of tweets"
+
+#~ msgid "Number of tweets per slide"
+#~ msgstr "Nombre de tweets par diapositive"
+
+#~ msgid "%d year ago"
+#~ msgid_plural "%d years ago"
+#~ msgstr[0] "il ya %d an"
+#~ msgstr[1] "il ya %d ans"
+
+#~ msgid "%d month ago"
+#~ msgid_plural "%d months ago"
+#~ msgstr[0] "il ya %d mois"
+#~ msgstr[1] "il ya %d mois"
+
+#~ msgid "%d week ago"
+#~ msgid_plural "%d weeks ago"
+#~ msgstr[0] "il ya %d semaine"
+#~ msgstr[1] "il ya %d semaines"
+
+#~ msgid "%d day ago"
+#~ msgid_plural "%d days ago"
+#~ msgstr[0] "il ya %d jour"
+#~ msgstr[1] "il ya %d jours"
+
+#~ msgid "%d hour ago"
+#~ msgid_plural "%d hours ago"
+#~ msgstr[0] "il ya %d heure"
+#~ msgstr[1] "il ya %d heures"
+
+#~ msgid "%d minute ago"
+#~ msgid_plural "%d minutes ago"
+#~ msgstr[0] "il ya %d minute"
+#~ msgstr[1] "il ya %d minutes"
+
+#~ msgid "moments ago"
+#~ msgstr "il ya quelques instants"
+
+#, fuzzy
+#~ msgid "Select options"
+#~ msgstr "Sélect option"
+
+#, fuzzy
+#~ msgid "View options"
+#~ msgstr "Options de la barre latérale"
+
+#, fuzzy
+#~ msgid "Background Attachment"
+#~ msgstr "Importer les pièces-jointes"
+
+#~ msgid "Upload"
+#~ msgstr "Télécharger"
+
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~ msgid "Text Align"
+#~ msgstr "Option du texte"
+
+#, fuzzy
+#~ msgid "Text Decoration"
+#~ msgstr "Pages Choisissez l'option"
+
+#, fuzzy
+#~ msgid "Line Height"
+#~ msgstr "Auto Hauteur"
+
+#, fuzzy
+#~ msgid "Height"
+#~ msgstr "Auto Hauteur"
+
+#, fuzzy
+#~ msgid "Font Color"
+#~ msgstr "Couleur principale"
+
+#, fuzzy
+#~ msgid "Font color"
+#~ msgstr "Couleur principale"
+
+#, fuzzy
+#~ msgid "Standard Fonts"
+#~ msgstr "Font principale"
+
+#~ msgid "Google Webfonts"
+#~ msgstr "Google polices WebFonts"
+
+#, fuzzy
+#~ msgid "Reset Section"
+#~ msgstr "Pages Choisissez l'option"
+
+#~ msgid "If you want, you can download the automatic theme backup."
+#~ msgstr ""
+#~ "Si vous le souhaitez, vous pouvez télécharger la sauvegarde automatique "
+#~ "thème."
+
+#~ msgid "Download Backup"
+#~ msgstr "Télécharger sauvegarde"
+
+#~ msgid "The backup file was not created"
+#~ msgstr "Le fichier de sauvegarde n'a pas été créée"
+
+#~ msgid "The following files are unreadable and could not be backed up: "
+#~ msgstr ""
+#~ "Les fichiers suivants sont illisibles et ne peuvent pas être sauvegardés:"
+
+#~ msgid "Please enter your Envato Marketplace Username."
+#~ msgstr "S'il vous plaît entrer votre Nom d'utilisateur Envato du marché."
+
+#~ msgid "Please enter your Envato Marketplace API Key."
+#~ msgstr "S'il vous plaît entrer votre Envato marché clé API."
+
+#~ msgid "The API \"set\" is a required parameter."
+#~ msgstr "L'API \"set\" est un paramètre obligatoire."
+
+#~ msgid "The Envato Marketplace \"item ID\" is a required parameter."
+#~ msgstr "Le marché Envato \"item ID\" est un paramètre obligatoire."
+
+#, fuzzy
+#~ msgid "Are you sure? Resetting will lose all custom values."
+#~ msgstr "Etes-vous sûr? Vous allez perdre toutes les valeurs personnalisées."
+
+#, fuzzy
+#~ msgid "Are you sure? Resetting will lose all custom values in this section."
+#~ msgstr "Etes-vous sûr? Vous allez perdre toutes les valeurs personnalisées."
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Par défaut "
+
+#, fuzzy
+#~ msgid "Settings Imported!"
+#~ msgstr "<strong>Paramètres importés</strong>"
+
+#, fuzzy
+#~ msgid "Settings Saved!"
+#~ msgstr "Démarrer une partie"
+
+#, fuzzy
+#~ msgid "Settings have changed, you should save them!"
+#~ msgstr "<strong>Paramètres ont changé, vous devez les sauver!</strong>"
+
+#, fuzzy
+#~ msgid "Options Object"
+#~ msgstr "Options"
+
+#, fuzzy
+#~ msgid "Top"
+#~ msgstr "Vers:"
+
+#, fuzzy
+#~ msgid "Border style"
+#~ msgstr "Articles plus anciens"
+
+#, fuzzy
+#~ msgid "From "
+#~ msgstr "de:"
+
+#, fuzzy
+#~ msgid "To "
+#~ msgstr "Vers:"
+
+#, fuzzy
+#~ msgid "Add/Edit Gallery"
+#~ msgstr "Modifier la galerie"
+
+#, fuzzy
+#~ msgid "Clear Gallery"
+#~ msgstr "Nouvelle galerie"
+
+#~ msgid "Add More"
+#~ msgstr "Ajouter plus"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Select an item"
+#~ msgstr "Les projets connexes"
+
+#, fuzzy
+#~ msgid "Slide"
+#~ msgstr "Ajouter un nouveau"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Option de date"
+
+#, fuzzy
+#~ msgid "Delete %s"
+#~ msgstr "Style Template"
+
+#, fuzzy
+#~ msgid "Add %s"
+#~ msgstr "Ajouter un nouveau"
+
+#~ msgid "Import / Export Options"
+#~ msgstr "Import / Export options"
+
+#~ msgid "Import Options"
+#~ msgstr "Options d'importation"
+
+#~ msgid "Import from file"
+#~ msgstr "Importer un fichier"
+
+#~ msgid "Import from URL"
+#~ msgstr "Importer à partir d'URL"
+
+#~ msgid ""
+#~ "Input your backup file below and hit Import to restore your sites options "
+#~ "from a backup."
+#~ msgstr ""
+#~ "Saisissez votre fichier de sauvegarde ci-dessous et cliquez sur Importer "
+#~ "pour restaurer vos options de sites à partir d'une sauvegarde."
+
+#~ msgid ""
+#~ "Input the URL to another sites options set and hit Import to load the "
+#~ "options from that site."
+#~ msgstr ""
+#~ "Entrée de l'URL à un autre choix des sites mis et a frappé Importer pour "
+#~ "charger les options de ce site."
+
+#~ msgid "Import"
+#~ msgstr "Importation"
+
+#, fuzzy
+#~ msgid ""
+#~ "WARNING! This will overwrite all existing option values, please proceed "
+#~ "with caution!"
+#~ msgstr ""
+#~ "ATTENTION! Cela va écraser toutes les options existantes, veuillez "
+#~ "procéder avec prudence!"
+
+#~ msgid "Export Options"
+#~ msgstr "Options d'exportation"
+
+#~ msgid ""
+#~ "Here you can copy/download your current option settings. Keep this safe "
+#~ "as you can use it as a backup should anything go wrong, or you can use it "
+#~ "to restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "Ici, vous pouvez copier / télécharger vos paramètres d'options actuels. "
+#~ "Gardez cette sûrs que vous pouvez l'utiliser comme une sauvegarde en cas "
+#~ "de problème, ou vous pouvez l'utiliser pour restaurer vos paramètres sur "
+#~ "ce site (ou tout autre site)."
+
+#~ msgid "Copy"
+#~ msgstr "Copier"
+
+#~ msgid "Copy Link"
+#~ msgstr "Copier le lien"
+
+#~ msgid "Import / Export"
+#~ msgstr "Importer/Exporter"
+
+#~ msgid "Getting Started"
+#~ msgstr "Démarrer une partie"
+
+#, fuzzy
+#~ msgid "our documentation"
+#~ msgstr "Documentation"
+
+#, fuzzy
+#~ msgid "donation"
+#~ msgstr "Documentation"
+
+#~ msgid "This field must be a valid color value."
+#~ msgstr "Ce champ doit être une valeur de couleur valide."
+
+#, fuzzy
+#~ msgid ""
+#~ "You must provide a comma separated list of numerical values for this "
+#~ "option."
+#~ msgstr ""
+#~ "Vous devez fournir une liste séparé par des virgules de valeurs "
+#~ "numériques pour cette option."
+
+#~ msgid "This field must be a valid date."
+#~ msgstr "Ce champ doit être une date valide."
+
+#~ msgid "You must provide a valid email for this option."
+#~ msgstr "Vous devez fournir une adresse email valide pour cette option."
+
+#~ msgid ""
+#~ "You must not enter any HTML in this field, all HTML tags have been "
+#~ "removed."
+#~ msgstr ""
+#~ "Vous ne devez pas entrer n'importe quel code HTML dans ce domaine, toutes "
+#~ "les balises HTML ont été supprimés."
+
+#~ msgid ""
+#~ "You must not enter any special characters in this field, all special "
+#~ "characters have been removed."
+#~ msgstr ""
+#~ "Vous ne devez pas entrer des caractères spéciaux dans ce domaine, tous "
+#~ "les caractères spéciaux ont été supprimés."
+
+#, fuzzy
+#~ msgid "This field cannot be empty. Please provide a value."
+#~ msgstr "Ce champ doit être une valeur de couleur valide."
+
+#~ msgid "You must provide a numerical value for this option."
+#~ msgstr "Vous devez fournir une valeur numérique pour cette option."
+
+#~ msgid "You must provide a valid URL for this option."
+#~ msgstr "Vous devez fournir une adresse URL valide pour cette option."
+
+#~ msgid ""
+#~ "Show social icons in the footer. The links and order are taken from the "
+#~ "Social and SEO Options tabs."
+#~ msgstr ""
+#~ "Afficher les icônes sociales dans le pied de page. Les liens et les "
+#~ "commandes sont prises à partir de la SEO onglets d'options sociales et."
+
+#~ msgid "There is a new update for %1$s."
+#~ msgid_plural "There are several plugins updates available %1$s."
+#~ msgstr[0] "Il ya une nouvelle mise à jour pour %1$s ."
+#~ msgstr[1] "Il ya plusieurs mises à jour de plugins disponibles %1$s ."
+
+#~ msgid "This theme requires the following plugin to be updated: %1$s."
+#~ msgid_plural ""
+#~ "This theme requires the following plugins to be updated: %1$s."
+#~ msgstr[0] "Ce thème nécessite le plugin suivant: %1$s ."
+#~ msgstr[1] ""
+#~ "Ce thème nécessite les plugins suivants soient mis à jour: %1$s ."
+
+#~ msgid "The following plugin was activated successfully: %s."
+#~ msgstr "Le plug-in suivant a été activé avec succès: %s ."
+
+#~ msgid "External Link"
+#~ msgstr "Lien externe"
+
+#~ msgid "Not Updated"
+#~ msgstr "Non Mise à jour"
+
+#~ msgid ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+#~ msgstr ""
+#~ "Aucun plugin à installer ou activer. <a href=\"%1$s\" title=\"Retourner "
+#~ "au tableau de bord\">Retourner au tableau de bord</a>"
+
+#, fuzzy
+#~ msgid "Select a state&hellip;"
+#~ msgstr "Sélectionnez une galerie"
+
+#, fuzzy
+#~ msgid "Have a coupon?"
+#~ msgstr "Laisser un commentaire"
+
+#, fuzzy
+#~ msgid "Additional Information"
+#~ msgstr "Informations additionnelles"
+
+#, fuzzy
+#~ msgid "Order Total"
+#~ msgstr "Articles plus anciens"
+
+#, fuzzy
+#~ msgid "Please attempt your purchase again."
+#~ msgstr "S'il vous plaît entrer de nouveau votre mot de passe:"
+
+#, fuzzy
+#~ msgid "Search results for &ldquo;"
+#~ msgstr "Résultats pour : %s"
+
+#, fuzzy
+#~ msgid "Author:"
+#~ msgstr "Nom de l'auteur"
+
+#, fuzzy
+#~ msgid "New password"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "First name"
+#~ msgstr "ThemeForest Nom d'utilisateur"
+
+#, fuzzy
+#~ msgid "Password Change"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Confirm New Password"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Username or email address"
+#~ msgstr "Nom d'utilisateur ou URL du flux RSS"
+
+#, fuzzy
+#~ msgid "Lost your password?"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Order Details"
+#~ msgstr "Masquer les détails"
+
+#, fuzzy
+#~ msgid "Download file%s"
+#~ msgstr "Télécharger sauvegarde"
+
+#, fuzzy
+#~ msgid "Customer details"
+#~ msgstr "Champs personnalisés"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "Option de date"
+
+#, fuzzy
+#~ msgid "Additional Updates"
+#~ msgstr "Informations additionnelles"
+
+#, fuzzy
+#~ msgid "Download Files"
+#~ msgstr "Télécharger sauvegarde"
+
+#, fuzzy
+#~ msgid "Flexible Product Grids"
+#~ msgstr "Les projets connexes"
+
+#, fuzzy
+#~ msgid "Additional Display Options"
+#~ msgstr "Informations additionnelles"
+
+#, fuzzy
+#~ msgid "View %s"
+#~ msgstr "Voir toutes"
+
+#~ msgid "Sidebar Options"
+#~ msgstr "Options de la barre latérale"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Ajouter un nouveau"
+
+#, fuzzy
+#~ msgid "Add Font"
+#~ msgstr "Font du corps"
+
+#, fuzzy
+#~ msgid "Custom Fonts"
+#~ msgstr "Personnalisée de style CSS"
+
+#, fuzzy
+#~ msgid "Font Control"
+#~ msgstr "Couleur principale"
+
+#, fuzzy
+#~ msgid "<p class=\"description\"></p>"
+#~ msgstr "<p class=\"description\"> Bienvenue à l' "
+
+#~ msgid ""
+#~ "<p class=\"description\">Welcome to the %s options panel! You can switch "
+#~ "between option groups by using the left-hand tabs.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">Bienvenue sur le panneau d'options %s! Vous "
+#~ "pouvez basculer entre les groupes d'options en utilisant les onglets à "
+#~ "gauche.</p>"
+
+#~ msgid "<h2>Branding Options</h2>"
+#~ msgstr "<h2>Options de marquage</h2>"
+
+#~ msgid "Retina 2x Logo Image"
+#~ msgstr "Retina 2x Logo image"
+
+#~ msgid ""
+#~ "You can customize the icon for the shortcuts of your website in the Metro "
+#~ "interface. The size of this icon must be 144x144px."
+#~ msgstr ""
+#~ "Vous pouvez personnaliser l'icône pour les raccourcis de votre site web "
+#~ "dans l'interface Metro. La taille de cette icône doit être 144x144px."
+
+#~ msgid "Google Analytics"
+#~ msgstr "Google Analytics"
+
+#~ msgid "Style Options"
+#~ msgstr "Style options"
+
+#~ msgid "<p class=\"description\">Give some style to your website!</p>"
+#~ msgstr "<p class=\"description\">Donnez du style à votre site! </p>"
+
+#~ msgid "jQuery is available here as $"
+#~ msgstr "jQuery est disponible ici aussi $"
+
+#~ msgid ""
+#~ "By default %s saves the custom CSS in a file.<br />If for some reason you "
+#~ "don't have permisions to write a file on your host you should choose the "
+#~ "\"Inline\" option"
+#~ msgstr ""
+#~ "Par défaut %s enregistre le CSS personnalisé dans un fichier.<br />Si "
+#~ "pour quelque raison vous n'avez pas permisions d'écrire un fichier sur "
+#~ "votre hôte, vous devez choisir l'option \"Inline\""
+
+#~ msgid "Social Icons"
+#~ msgstr "Icônes sociaux"
+
+#~ msgid "Check this to open social links in a new window (target=\"_blank\")."
+#~ msgstr ""
+#~ "Cochez cette case pour ouvrir les liens sociaux dans une nouvelle fenêtre "
+#~ "(target=\"_blank\")."
+
+#~ msgid "Select Form"
+#~ msgstr "Sélectionner un formulaire"
+
+#~ msgid ""
+#~ "Select a contact form previously created with the Contact Form 7 plugin. "
+#~ "You can create one <a href=\"%s\" title=\"Contact Form 7\">here</a>"
+#~ msgstr ""
+#~ "Sélectionnez un formulaire de contact créé précédemment avec le Contact "
+#~ "Form 7 plugin. Vous pouvez créer un <a href=\"%s\" title=\"Contact Form "
+#~ "7\">ici</a>"
+
+#~ msgid "Notice"
+#~ msgstr "Notice"
+
+#~ msgid ""
+#~ "<p class=\"description\">The Contact Form 7 plugin is not active. You can "
+#~ "install/activate it from <a href=\"%s\" title=\"Contact Form 7\">here</"
+#~ "a></p>"
+#~ msgstr ""
+#~ "<p class=\"description\">Le Contact Form 7 plug-in n'est pas actif. Vous "
+#~ "pouvez installer/activer à partir de <a href=\"%s\" title=\"Contact Form "
+#~ "7\">ici</a></p>"
+
+#~ msgid "Open social icons links in new a window?"
+#~ msgstr "Ouvrez les liens icônes sociaux dans la nouvelle fenêtre?"
+
+#~ msgid "Theme Auto Update"
+#~ msgstr "Thème Upgrade automatique"
+
+#~ msgid "Use Auto Update"
+#~ msgstr "Utilisez upgrade automatique"
+
+#, fuzzy
+#~ msgid "Coupon:"
+#~ msgstr "Apple Touch Icône"
+
+#~ msgid ""
+#~ "<span id=\"footer-thankyou\">Options panel created using <a href=\"%s\" "
+#~ "target=\"_blank\">Redux Framework</a> v%s</span>"
+#~ msgstr ""
+#~ "<span id=\"footer-thankyou\">Panneau Options créé à l'aide <a href=\"%s\" "
+#~ "target=\"_blank\">Redux Framework</a> v%s</span>"
+
+#~ msgid "Dev Mode Info"
+#~ msgstr "Dev Info mode"
+
+#~ msgid "<strong>Settings Saved!</strong>"
+#~ msgstr "<strong>Paramètres ont été sauvés!</strong>"
+
+#~ msgid "<strong><span></span> error(s) were found!</strong>"
+#~ msgstr "<strong><span></ span> erreur (s) ont été trouvé!</strong>"
+
+#~ msgid "<strong><span></span> warning(s) were found!</strong>"
+#~ msgstr "<strong><span></ span> avertissement (s) ont été trouvé!</strong>"
+
+#~ msgid ""
+#~ "Here you can download your current option settings. Keep this safe as you "
+#~ "can use it as a backup should anything go wrong, or you can use it to "
+#~ "restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "Ici vous pouvez télécharger vos paramètres d'options actuels. Gardez "
+#~ "cette sûrs que vous pouvez l'utiliser comme une sauvegarde en cas de "
+#~ "problème, ou vous pouvez l'utiliser pour restaurer vos paramètres sur ce "
+#~ "site (ou tout autre site)."
+
+#~ msgid "Remove Upload"
+#~ msgstr "Retirer Téléchargez"
+
+#, fuzzy
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Messages anciens"
+
+#, fuzzy
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Nouveaux messages <span class=\"meta-nav\">&raquo;</span>"
+
+#, fuzzy
+#~ msgid "Add Your Review"
+#~ msgstr "Ajouter plus"
+
+#, fuzzy
+#~ msgid "Add a review"
+#~ msgstr "Ajouter un nouveau"
+
+#, fuzzy
+#~ msgid "Not that bad"
+#~ msgstr "Non Mise à jour"
+
+#, fuzzy
+#~ msgid "[Remove]"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~ msgid "Click here to reset your password"
+#~ msgstr "S'il vous plaît entrer de nouveau votre mot de passe:"
+
+#, fuzzy
+#~ msgid "Download %d:"
+#~ msgstr "Télécharger sauvegarde"
+
+#, fuzzy
+#~ msgid "Your details"
+#~ msgstr "Voir les détails"
+
+#, fuzzy
+#~ msgid "Re-enter password"
+#~ msgstr "S'il vous plaît entrer de nouveau votre mot de passe:"
+
+#, fuzzy
+#~ msgid "Reset Password"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Behance"
+
+#, fuzzy
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Votre commentaire est en attente de modération."
+
+#~ msgid ""
+#~ "Error: The theme was not updated, because the automatic backup is "
+#~ "activated, but for some reason (probably due to file permissions) it "
+#~ "failed. We recommend you disable the automatic backup and backup your "
+#~ "theme manually before upgrade."
+#~ msgstr ""
+#~ "Erreur: Le thème n'a pas été mis à jour, parce que la sauvegarde "
+#~ "automatique est activée, mais pour une raison quelconque (probablement dû "
+#~ "à déposer autorisations) il a échoué. Nous vous recommandons de "
+#~ "désactiver la sauvegarde automatique et de sauvegarder votre thème "
+#~ "manuellement avant mise à niveau."
+
+#~ msgid "Downloading upgrade package from the Envato API&#8230;"
+#~ msgstr "Télécharger le pack de mise à jour de l'API Envato ..."
+
+#~ msgid "Downloading install package from the Envato API&#8230;"
+#~ msgstr "Téléchargement package d'installation de l'API Envato ..."
+
+#~ msgid ""
+#~ "This .htaccess file ensures that other people cannot download your backup "
+#~ "files."
+#~ msgstr ""
+#~ "Ce fichier .htaccess assure que d'autres personnes ne peuvent pas "
+#~ "télécharger vos fichiers de sauvegarde."
+
+#~ msgid "A Section added by hook"
+#~ msgstr "Un article ajouté par crochet"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is a section created by adding a filter to "
+#~ "the sections array. Can be used by child themes to add/remove sections "
+#~ "from the options.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\"> Il s'agit d'une section créée en ajoutant un "
+#~ "filtre au tableau des sections. Peut être utilisé par les thèmes de "
+#~ "l'enfance pour ajouter / supprimer des sections dans les options.</p>"
+
+#~ msgid ""
+#~ "<p>This text is displayed above the options panel. It isn't required, but "
+#~ "more info is always better! The intro_text field accepts all HTML.</p>"
+#~ msgstr ""
+#~ "<p>Ce texte s'affiche au-dessus du panneau d'options. Il n'est pas "
+#~ "nécessaire, mais plus d'info est toujours mieux! Le champ intro_text "
+#~ "accepte tous les fichiers HTML.</p>"
+
+#~ msgid ""
+#~ "<p>This text is displayed below the options panel. It isn't required, but "
+#~ "more info is always better! The footer_text field accepts all HTML.</p>"
+#~ msgstr ""
+#~ "<p>Ce texte est affiché en dessous du panneau d'options. Il n'est pas "
+#~ "nécessaire, mais plus d'info est toujours mieux! Le champ footer_text "
+#~ "accepte tous les fichiers HTML. </p>"
+
+#~ msgid "Theme Information 1"
+#~ msgstr "Thème information 1"
+
+#~ msgid "<p>This is the tab content, HTML is allowed.</p>"
+#~ msgstr "<p>Ceci est le contenu de l'onglet HTML est autorisé. </p>"
+
+#~ msgid "Theme Information 2"
+#~ msgstr "Thème information 2"
+
+#~ msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+#~ msgstr "<p>Ceci est le contenu de la barre latérale, HTML est autorisé.</p>"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is the description field for this section. "
+#~ "HTML is allowed</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">C'est le champ de description pour cette "
+#~ "section. HTML est autorisé</p>"
+
+#~ msgid "Text Fields"
+#~ msgstr "Champs de texte"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is the description field for this section. "
+#~ "Again HTML is allowed2</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">C'est le champ de description pour cette "
+#~ "section. Encore HTML est allowed2 </p>"
+
+#~ msgid ""
+#~ "This is a little space under the field title which can be used for "
+#~ "additonal info."
+#~ msgstr ""
+#~ "C'est un peu d'espace sous le titre de terrain qui peut être utilisé pour "
+#~ "des informations supplementaires."
+
+#~ msgid "This is the description field, again good for additional info."
+#~ msgstr ""
+#~ "C'est le champ de description, encore une fois bon pour plus d'infos."
+
+#~ msgid "Text Option - Email Validated"
+#~ msgstr "Option du texte - Email validé"
+
+#~ msgid "Password Option"
+#~ msgstr "Option de mot de passe"
+
+#~ msgid "Multi Text Option"
+#~ msgstr "Option Multi texte"
+
+#~ msgid "Text Option - URL Validated"
+#~ msgstr "Option du texte - URL validé"
+
+#~ msgid "This must be a URL."
+#~ msgstr "Ce doit être une URL."
+
+#~ msgid "Text Option - Numeric Validated"
+#~ msgstr "Option du texte - Numérique validé"
+
+#~ msgid "This must be numeric."
+#~ msgstr "Ce doit être numérique."
+
+#~ msgid "Text Option - Comma Numeric Validated"
+#~ msgstr "Option du texte - Virgule numérique validé"
+
+#~ msgid "This must be a comma seperated string of numerical values."
+#~ msgstr "Ce doit être une virgule séparés chaîne de valeurs numériques."
+
+#~ msgid "Text Option - No Special Chars Validated"
+#~ msgstr "Option du texte - Pas de caractères spéciaux validés"
+
+#~ msgid "This must be a alpha numeric only."
+#~ msgstr "Ce doit être un alpha numérique seulement."
+
+#~ msgid "Text Option - Str Replace Validated"
+#~ msgstr "Option du texte - Str Remplacer validé"
+
+#~ msgid "You decide."
+#~ msgstr " C'est vous qui décidez."
+
+#~ msgid "Text Option - Preg Replace Validated"
+#~ msgstr "Option du texte - Remplacer Preg validé"
+
+#~ msgid "Text Option - Custom Callback Validated"
+#~ msgstr "Option du texte - rappel personnalisé validé"
+
+#~ msgid "Sortable Text Option"
+#~ msgstr "Option du texte Sortable"
+
+#~ msgid "Define and reorder these however you want."
+#~ msgstr "Définir et réorganiser ces comme vous voulez."
+
+#~ msgid "Textarea Option - No HTML Validated"
+#~ msgstr "Textarea Option - Le HTML est validé"
+
+#~ msgid "All HTML will be stripped"
+#~ msgstr "Le code HTML sera dépouillé"
+
+#~ msgid "Textarea Option - HTML Validated"
+#~ msgstr "Textarea Option - HTML validé"
+
+#~ msgid "HTML Allowed"
+#~ msgstr "HTML autorisé"
+
+#~ msgid "Textarea Option - HTML Validated Custom"
+#~ msgstr "Textarea Option - HTML personnalisé validé"
+
+#~ msgid "Custom HTML Allowed"
+#~ msgstr "HTML personnalisé admis"
+
+#~ msgid "Textarea Option - JS Validated"
+#~ msgstr "Textarea Option - JS validé"
+
+#~ msgid "JS will be escaped"
+#~ msgstr "JS sera échappé"
+
+#~ msgid "Editor Option"
+#~ msgstr "Option de l'éditeur"
+
+#~ msgid "Can also use the validation methods if required"
+#~ msgstr "On peut aussi utiliser les méthodes de validation si nécessaire"
+
+#~ msgid "Editor Option 2"
+#~ msgstr "Option Editor 2"
+
+#~ msgid "Radio/Checkbox Fields"
+#~ msgstr "Radio/cocher champs"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is the Description. Again HTML is allowed</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p class=\"description\">Il s'agit de la description. Encore HTML est "
+#~ "autorisé </p>"
+
+#~ msgid "Switch Option"
+#~ msgstr "Mettez Option"
+
+#~ msgid "No validation can be done on this field type"
+#~ msgstr "Aucune validation peut être effectuée sur ce type de terrain"
+
+#~ msgid "Multi Checkbox Option"
+#~ msgstr "Option multi de case à cocher"
+
+#~ msgid "Radio Option"
+#~ msgstr "Option Radio"
+
+#~ msgid "Radio Image Option For Layout"
+#~ msgstr "Radio option Image Pour Disposition"
+
+#~ msgid ""
+#~ "This uses some of the built in images, you can use them for layout "
+#~ "options."
+#~ msgstr ""
+#~ "Celui-ci utilise une partie de la construction dans les images, vous "
+#~ "pouvez les utiliser pour les options de mise en page."
+
+#~ msgid "Select Fields"
+#~ msgstr "Sélectionner les champs"
+
+#~ msgid "Multi Select Option"
+#~ msgstr "Choisissez l'option multi"
+
+#~ msgid "Color Option"
+#~ msgstr "Option de couleur"
+
+#~ msgid "Only color validation can be done on this field type"
+#~ msgstr "Validation de la couleur ne peut être fait sur ce type de terrain"
+
+#~ msgid "Button Set Option"
+#~ msgstr "Set bouton Option"
+
+#~ msgid "Upload Option"
+#~ msgstr "Téléchargez Option"
+
+#~ msgid "This field creates a drop down menu of all the sites pages."
+#~ msgstr "Ce champ crée un menu de toutes les pages des sites vers le bas."
+
+#~ msgid "Pages Multiple Select Option"
+#~ msgstr "Plusieurs pages Choisissez l'option"
+
+#~ msgid "This field creates a multi select menu of all the sites pages."
+#~ msgstr ""
+#~ "Ce champ crée un menu de sélection Multi de toutes les pages des sites."
+
+#~ msgid "Posts Select Option"
+#~ msgstr "Choisissez l'option Messages"
+
+#~ msgid "This field creates a drop down menu of all the sites posts."
+#~ msgstr ""
+#~ "Ce champ crée un menu déroulant de tous les postes des sites vers le bas."
+
+#~ msgid "Posts Multiple Select Option"
+#~ msgstr "Messages Choisissez l'option Multiple"
+
+#~ msgid "This field creates a multi select menu of all the sites posts."
+#~ msgstr ""
+#~ "Ce champ crée un menu de sélection Multi de tous les postes des sites."
+
+#~ msgid "Tags Select Option"
+#~ msgstr "Balises Choisissez l'option"
+
+#~ msgid "This field creates a drop down menu of all the sites tags."
+#~ msgstr ""
+#~ "Ce champ crée un menu déroulant de toutes les balises des sites vers le "
+#~ "bas."
+
+#~ msgid "Tags Multiple Select Option"
+#~ msgstr "Balises Choisissez l'option Multiple"
+
+#~ msgid "This field creates a multi select menu of all the sites tags."
+#~ msgstr ""
+#~ "Ce champ crée un menu de sélection Multi de toutes les balises des sites."
+
+#~ msgid "Cats Select Option"
+#~ msgstr "Cats Choisissez l'option"
+
+#~ msgid "This field creates a drop down menu of all the sites cats."
+#~ msgstr ""
+#~ "Ce champ crée un menu déroulant de tous les sites chats vers le bas."
+
+#~ msgid "Cats Multiple Select Option"
+#~ msgstr "Chats Select Option multiple"
+
+#~ msgid "This field creates a multi select menu of all the sites cats."
+#~ msgstr ""
+#~ "Ce champ crée un menu de sélection Multi de tous les sites les chats."
+
+#~ msgid "Taxonomies Multi select"
+#~ msgstr "Taxonomies multiples select"
+
+#~ msgid "Sometimes you need to select some taxonomies."
+#~ msgstr "Parfois vous avez besoin de sélectionner certains taxonomies."
+
+#~ msgid "Menu Select Option"
+#~ msgstr "Menu Choisissez l'option"
+
+#~ msgid "This field creates a drop down menu of all the sites menus."
+#~ msgstr "Ce champ crée un menu de tous les menus sites vers le bas."
+
+#~ msgid "Menu Location Select Option"
+#~ msgstr "Menu Lieu Choisissez l'option"
+
+#~ msgid ""
+#~ "This field creates a drop down menu of all the themes menu locations."
+#~ msgstr ""
+#~ "Ce champ crée un menu déroulant de tous les lieux de menu thèmes bas."
+
+#~ msgid "Post Type Select Option"
+#~ msgstr "Post Type Choisissez l'option"
+
+#~ msgid "This field creates a drop down menu of all registered post types."
+#~ msgstr ""
+#~ "Ce champ crée un menu déroulant de tous les types de postes inscrits en "
+#~ "baisse."
+
+#~ msgid "Post Type Multi Select Option"
+#~ msgstr "Post Type multi Choisissez l'option"
+
+#~ msgid "This field creates a multi select menu of all registered post types."
+#~ msgstr ""
+#~ "Ce champ crée un menu de sélection Multi de tous les types de poste "
+#~ "enregistrés."
+
+#~ msgid "Select Hide Below Option"
+#~ msgstr "Sélectionnez Masquer option ci-dessous"
+
+#~ msgid ""
+#~ "This field requires certain options to be checked before the below field "
+#~ "will be shown."
+#~ msgstr ""
+#~ "Ce champ nécessite certaines options doivent être vérifiés avant le champ "
+#~ "ci-dessous seront affichés."
+
+#~ msgid "Checkbox to hide below"
+#~ msgstr "Case pour cacher dessous"
+
+#~ msgid ""
+#~ "This field creates a checkbox which will allow the user to use the next "
+#~ "setting."
+#~ msgstr ""
+#~ "Ce champ crée une case à cocher qui permettra à l'utilisateur d'utiliser "
+#~ "le réglage suivant."
+
+#~ msgid "Custom Field Callback"
+#~ msgstr "Rappel de champ personnalisé"
+
+#~ msgid "This is a completely unique field type"
+#~ msgstr "Il s'agit d'un type de champ tout à fait unique"
+
+#~ msgid ""
+#~ "This is created with a callback function, so anything goes in this field. "
+#~ "Make sure to define the function though."
+#~ msgstr ""
+#~ "Ceci est créée avec une fonction de rappel, si quelque chose se passe "
+#~ "dans ce domaine. Assurez-vous de définir la fonction cependant."
+
+#~ msgid ""
+#~ "This is a simple implementation of the developer API for Google Webfonts. "
+#~ "Don't forget to set your API key!"
+#~ msgstr ""
+#~ "Il s'agit d'une implémentation simple de l'API développeur de Google "
+#~ "polices WebFonts. N'oubliez pas de mettre votre clé API!"
+
+#~ msgid "Non Value Fields"
+#~ msgstr "Valeur des domaines non"
+
+#~ msgid "Text Field"
+#~ msgstr "Text Field"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is the info field, if you want to break "
+#~ "sections up.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">C'est le champ d'information, si vous voulez "
+#~ "briser sections place.</p>"
+
+#~ msgid ""
+#~ "The fonts provided below are free to use custom fonts from the <a href="
+#~ "\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts "
+#~ "directory</a>"
+#~ msgstr ""
+#~ "Les polices fournies ci-dessous sont libres d'utiliser des polices "
+#~ "personnalisées à partir du <a href=\"http://www.google.com/webfonts\" "
+#~ "target=\"_blank\"> Google répertoire Fonts Web </ a>"
+
+#~ msgid "Previous post"
+#~ msgstr "Post précédent"
+
+#~ msgid "Next post"
+#~ msgstr "Post suivant"
+
+#~ msgid "Share on:"
+#~ msgstr "Partager sur:"
+
+#~ msgid "Jump to the top of the page"
+#~ msgstr "Aller au haut de la page"
+
+#~ msgid "Back to top"
+#~ msgstr "Retour en haut"
+
+#~ msgid "Display Custom Css Inline"
+#~ msgstr "Affichage personnalisé CCC inline"
+
+#~ msgid "Details"
+#~ msgstr "Détails"
+
+#~ msgid "Full width template slider: image scale mode"
+#~ msgstr "Largeur curseur de modèle: mode d'échelle de l'image"
+
+#~ msgid ""
+#~ "Fit is recommended for portrait images, fill is recommended for landscape "
+#~ "images."
+#~ msgstr ""
+#~ "Fit est recommandée pour les images de portrait, de remplissage est "
+#~ "recommandée pour les images de paysage."
+
+#~ msgid ""
+#~ "Fit is recommended for portrait images, fill is recommended for landscape "
+#~ "images. (for full-screen and full-width galleries)"
+#~ msgstr ""
+#~ "Fit est recommandée pour les images de portrait, de remplissage est "
+#~ "recommandée pour les images de paysage. (pour les galeries en plein écran "
+#~ "et pleine largeur)"
+
+#~ msgid "Display the gallery title"
+#~ msgstr "Afficher le titre de la galerie"
+
+#~ msgid "Horizontal thumbnails or vertical thumbnails (for grid galleries)"
+#~ msgstr ""
+#~ "Vignettes horizontales ou verticales (vignettes pour les galeries de type "
+#~ "grille)"
+
+#~ msgid "Next »"
+#~ msgstr "Suivant &#187;"
+
+#~ msgid " To:"
+#~ msgstr " à:"
+
+#~ msgid "Failed to import %s &#8220;%s&#8221;"
+#~ msgstr "Échec de l'import %s “%s”"
+
+#~ msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+#~ msgstr "Échec de l'importation “%s” : Type d'article invalide %s"
