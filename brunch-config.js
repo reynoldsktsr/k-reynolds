@@ -1,7 +1,11 @@
 
 module.exports = {
+	modules: {
+		definition: false,
+		wrapper: false
+	},
 	paths: {
-		public: 'dist',
+		public: 'www',
 		watched: ['app', 'lib']
 	},
 	files: {
@@ -33,5 +37,8 @@ module.exports = {
 		postcss: {
 			processors: [require('autoprefixer')(['last 8 versions'])]
 		}
+	},
+	npm: {
+		enabled: false
 	}
 }
