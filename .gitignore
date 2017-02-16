@@ -24,4 +24,4 @@ Thumbs.db
 node_modules/
 
 # Brunch output folder.
-dist/
+www/
