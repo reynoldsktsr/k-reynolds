@@ -1,0 +1,14 @@
+{
+	"name":"app",
+	"author":"Odument, LLC",
+	"dependencies": {
+		"autoprefixer": "6.x",
+	    "clean-css-brunch": "~1.7.2",
+	    "css-brunch": "~1.7.0",
+	    "javascript-brunch": "~1.8.0",
+	    "jshint-brunch": "~2.0.0",
+	    "less-brunch": "~1.8.1",
+	    "postcss-brunch": "^0.5.0",
+	    "uglify-js-brunch": "~1.7.8"
+	}
+}
