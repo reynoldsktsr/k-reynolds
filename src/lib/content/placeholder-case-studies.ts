@@ -1,0 +1,141 @@
+/**
+ * Case study list data, used for cards, listings, and page metadata.
+ *
+ * Ghost Lifestyle and Fracture render through their own custom
+ * components (src/components/case-study/) with recreated UI mockups.
+ * HEYDUDE, 47 Brand, Legends, and Orthofeet render through
+ * PlaceholderCaseStudy and are explicitly flagged as unverified: pulled
+ * from public material, not yet checked against what Kieran actually did.
+ *
+ * This file exists so the site renders fully before Sanity is connected.
+ * Once NEXT_PUBLIC_SANITY_PROJECT_ID is set, real content written in
+ * Studio (/studio) takes over automatically, see case-studies.ts.
+ */
+import type { CaseStudy } from "./types";
+
+function block(text: string, style: "normal" | "h2" | "blockquote" = "normal") {
+  return {
+    _type: "block" as const,
+    _key: crypto.randomUUID(),
+    style,
+    children: [{ _type: "span" as const, _key: crypto.randomUUID(), text, marks: [] }],
+    markDefs: [],
+  };
+}
+
+export const placeholderCaseStudies: CaseStudy[] = [
+  {
+    _id: "ghost-lifestyle",
+    title: "Ghost Lifestyle: fixing a loyalty program that couldn't keep up with launch day",
+    slug: "ghost-lifestyle",
+    summary:
+      "Ghost's loyalty program kept falling over during raffles. Rebuilt the data layer, closed a fraud gap, and gave the team tools to run drops themselves.",
+    role: "Senior full-stack engineer",
+    year: "2024",
+    client: "Ghost Lifestyle, via Sparky",
+    tech: ["PostgreSQL", "Cloud Functions", "Pub/Sub", "Shopify Plus"],
+    featured: true,
+    order: 1,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Ghost Lifestyle loyalty dashboard" },
+    metrics: [],
+    isPlaceholder: false,
+    body: [block("See the full write-up on this page.")],
+  },
+  {
+    _id: "fracture",
+    title: "Fracture: a QR code that has to work forever",
+    slug: "fracture",
+    summary:
+      "Fracture prints photos onto glass, permanently. Built the customizer and the landing page system behind a QR code that can never break.",
+    role: "Senior full-stack engineer",
+    year: "2024",
+    client: "Fracture, via Sparky",
+    tech: ["Shopify (Headless)", "Cloudinary", "Custom Landing Pages"],
+    featured: true,
+    order: 2,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Fracture StoryGlass customizer" },
+    metrics: [],
+    isPlaceholder: false,
+    body: [block("See the full write-up on this page.")],
+  },
+  {
+    _id: "heydude",
+    title: "HEYDUDE: getting a newly-acquired brand up to speed",
+    slug: "heydude",
+    summary:
+      "Right after Crocs bought HEYDUDE, the brand needed a storefront that could handle its new scale.",
+    role: "TBD",
+    year: "2023",
+    client: "HEYDUDE, via Sparky",
+    tech: ["Shopify Plus", "Custom Theme"],
+    featured: true,
+    order: 3,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "HEYDUDE storefront" },
+    metrics: [],
+    isPlaceholder: true,
+    body: [block("Still being written up. See the note on this page.")],
+  },
+  {
+    _id: "47-brand",
+    title: "'47 Brand: a storefront built to move as fast as a drop",
+    slug: "47-brand",
+    summary:
+      "Licensed sports apparel at real volume, on a storefront built for speed first.",
+    role: "TBD",
+    year: "2023",
+    client: "'47 Brand, via Sparky",
+    tech: ["Shopify Plus", "Custom Theme"],
+    featured: false,
+    order: 4,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "'47 Brand storefront" },
+    metrics: [],
+    isPlaceholder: true,
+    body: [block("Still being written up. See the note on this page.")],
+  },
+  {
+    _id: "legends",
+    title: "Legends: shipping a custom storefront before the holidays hit",
+    slug: "legends",
+    summary:
+      "Built and launched just ahead of a holiday deadline, on a tight timeline for a fully custom build.",
+    role: "TBD",
+    year: "2022",
+    client: "Legends, via Sparky",
+    tech: ["Shopify Plus", "Custom Theme"],
+    featured: false,
+    order: 5,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Legends storefront" },
+    metrics: [],
+    isPlaceholder: true,
+    body: [block("Still being written up. See the note on this page.")],
+  },
+  {
+    _id: "orthofeet",
+    title: "Orthofeet: modernizing a storefront that outgrew its old setup",
+    slug: "orthofeet",
+    summary:
+      "A global orthopedic footwear brand moving onto a modern Shopify Plus setup built to grow with the catalog.",
+    role: "TBD",
+    year: "2022",
+    client: "Orthofeet, via Sparky",
+    tech: ["Shopify Plus", "Custom Theme"],
+    featured: false,
+    order: 6,
+    liveUrl: undefined,
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Orthofeet storefront" },
+    metrics: [],
+    isPlaceholder: true,
+    body: [block("Still being written up. See the note on this page.")],
+  },
+];
