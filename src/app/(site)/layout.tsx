@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Literata, Unbounded, Martian_Mono } from "next/font/google";
+import { Literata, Sour_Gummy, Martian_Mono } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import { SmoothScrollProvider } from "@/components/smooth-scroll-provider";
@@ -20,7 +20,7 @@ const martianMono = Martian_Mono({
   display: "swap",
 });
 
-const unbounded = Unbounded({
+const sourGummy = Sour_Gummy({
   variable: "--font-display",
   subsets: ["latin"],
   weight: ["400", "600", "700", "900"],
@@ -88,7 +88,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${literata.variable} ${martianMono.variable} ${unbounded.variable} h-full antialiased`}
+      className={`${literata.variable} ${martianMono.variable} ${sourGummy.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
