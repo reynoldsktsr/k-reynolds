@@ -8,6 +8,44 @@ import { CaseStudyBody } from "@/components/case-study-body";
 import { StatCounter } from "@/components/stat-counter";
 import { Reveal } from "@/components/reveal";
 import { SITE_URL } from "@/lib/site-config";
+import { GhostLifestyleCaseStudy } from "@/components/case-study/ghost-lifestyle";
+import { FractureCaseStudy } from "@/components/case-study/fracture";
+import { PlaceholderCaseStudy } from "@/components/case-study/placeholder-case-study";
+
+const customCaseStudies: Record<string, () => React.JSX.Element> = {
+  "ghost-lifestyle": GhostLifestyleCaseStudy,
+  fracture: FractureCaseStudy,
+};
+
+const roughCaseStudies: Record<
+  string,
+  { title: string; lede: string; client: string; stat: string }
+> = {
+  heydude: {
+    title: "HEYDUDE: getting a newly-acquired brand up to speed",
+    lede: "Right after Crocs bought HEYDUDE, the brand needed a storefront that could handle its new scale. The team built a fully custom Shopify theme to replace the templated setup it was running on.",
+    client: "HEYDUDE",
+    stat: "Roughly 3x faster page loads, reported",
+  },
+  "47-brand": {
+    title: "'47 Brand: a storefront built to move as fast as a drop",
+    lede: "Licensed sports apparel sells in bursts. This storefront needed to keep up with product drops without falling over, so the team built a fully custom Shopify theme with speed as the whole point.",
+    client: "'47 Brand",
+    stat: "Roughly 3x faster page loads, reported",
+  },
+  legends: {
+    title: "Legends: shipping a custom storefront before the holidays hit",
+    lede: "Built and launched just ahead of a holiday deadline, which is usually when 'custom' and 'on time' don't end up in the same sentence.",
+    client: "Legends",
+    stat: "About a 2.75x lift in site speed, reported",
+  },
+  orthofeet: {
+    title: "Orthofeet: modernizing a storefront that outgrew its old setup",
+    lede: "A global orthopedic footwear brand moving off a dated storefront onto a modern Shopify Plus setup built to grow with the catalog.",
+    client: "Orthofeet",
+    stat: "Results not yet confirmed",
+  },
+};
 
 export async function generateStaticParams() {
   const studies = await getCaseStudies();
@@ -50,6 +88,27 @@ export default async function CaseStudyPage({
     author: { "@type": "Person", name: "Kieran Reynolds" },
     url: `${SITE_URL}/work/${study.slug}`,
   };
+
+  const CustomCaseStudy = customCaseStudies[slug];
+  const rough = roughCaseStudies[slug];
+
+  if (CustomCaseStudy || rough) {
+    return (
+      <article className="mx-auto max-w-4xl px-6 pb-32 pt-20 sm:pt-28">
+        <Script
+          id={`ld-case-study-${study.slug}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+        />
+        <Reveal className="mb-10">
+          <Link href="/work" className="text-sm text-muted hover:text-foreground">
+            ← Work
+          </Link>
+        </Reveal>
+        {CustomCaseStudy ? <CustomCaseStudy /> : <PlaceholderCaseStudy {...rough} />}
+      </article>
+    );
+  }
 
   return (
     <article>

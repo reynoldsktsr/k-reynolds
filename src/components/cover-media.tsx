@@ -4,10 +4,10 @@ import type { SanityImageRef } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 
 const GRADIENTS = [
-  "from-orange-300 via-rose-300 to-indigo-400",
-  "from-sky-300 via-teal-300 to-emerald-400",
-  "from-fuchsia-300 via-violet-300 to-blue-400",
-  "from-amber-300 via-orange-300 to-rose-400",
+  "from-violet-400 via-purple-500 to-indigo-700",
+  "from-fuchsia-400 via-violet-500 to-purple-800",
+  "from-rose-400 via-fuchsia-500 to-violet-800",
+  "from-indigo-400 via-violet-600 to-purple-900",
 ];
 
 function gradientFor(seed: string) {
@@ -44,7 +44,7 @@ export function CoverMedia({
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.35),transparent_60%)]" />
         <span className="relative font-display text-sm uppercase tracking-[0.2em] text-white/80">
-          Sample cover
+          Cover pending
         </span>
       </div>
     );

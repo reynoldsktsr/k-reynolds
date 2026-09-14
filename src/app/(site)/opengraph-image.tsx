@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getSiteSettings } from "@/lib/content/site-settings";
 
-export const alt = "Kieran Reynolds — Front-End Engineer";
+export const alt = "Kieran Reynolds, Full-Stack Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -18,12 +18,12 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          background: "linear-gradient(135deg, #16161a 0%, #2a2a30 100%)",
-          color: "#fafaf9",
+          background: "linear-gradient(155deg, #2f2148 0%, #180f24 60%, #100a19 100%)",
+          color: "#f1ecf8",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", fontSize: 32, color: "#ff6a4c" }}>
+        <div style={{ display: "flex", fontSize: 32, color: "#d98bab" }}>
           {settings.name}
         </div>
         <div
@@ -36,7 +36,7 @@ export default async function Image() {
         >
           {settings.tagline}
         </div>
-        <div style={{ display: "flex", fontSize: 28, color: "#96969c" }}>
+        <div style={{ display: "flex", fontSize: 28, color: "#bcaed4" }}>
           {settings.role}
         </div>
       </div>

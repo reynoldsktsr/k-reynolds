@@ -1,39 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafaf9;
-  --foreground: #16161a;
-  --muted: #6b6b70;
-  --border: rgba(22, 22, 26, 0.1);
-  --accent: #ff5a3c;
-  --surface: #ffffff;
+  --ground: #180f24;
+  --ground-deep: #100a19;
+  --surface: #251a37;
+  --surface-2: #2f2148;
+  --border: rgba(155, 111, 209, 0.16);
+  --edge: #4a3768;
+  --edge-soft: rgba(155, 111, 209, 0.35);
+  --violet: #a97ee0;
+  --violet-strong: #8452c9;
+  --violet-deep: #5a3a8f;
+  --rose: #d98bab;
+  --green: #8fd6a6;
+  --foreground: #f1ecf8;
+  --muted: #bcaed4;
+  --faint: #8b7ba8;
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--ground);
+  --color-ground-deep: var(--ground-deep);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
+  --color-faint: var(--faint);
   --color-border: var(--border);
-  --color-accent: var(--accent);
+  --color-edge: var(--edge);
+  --color-edge-soft: var(--edge-soft);
+  --color-accent: var(--violet);
+  --color-violet: var(--violet);
+  --color-violet-strong: var(--violet-strong);
+  --color-violet-deep: var(--violet-deep);
+  --color-rose: var(--rose);
+  --color-green: var(--green);
   --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
 
   --font-sans: var(--font-sans);
   --font-display: var(--font-display);
   --font-mono: var(--font-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0b0b0c;
-    --foreground: #f2f2f0;
-    --muted: #96969c;
-    --border: rgba(242, 242, 240, 0.12);
-    --accent: #ff6a4c;
-    --surface: #141416;
-  }
 }
 
 * {
@@ -49,18 +57,48 @@ html.lenis {
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(900px 500px at 50% -12%, rgba(169, 126, 224, 0.10), transparent 60%),
+    var(--ground);
   color: var(--foreground);
   font-family: var(--font-sans);
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.045;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
 ::selection {
-  background: var(--accent);
-  color: #fff;
+  background: var(--violet);
+  color: var(--ground-deep);
 }
 
 .balance {
   text-wrap: balance;
+}
+
+.caret {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.95em;
+  background: currentColor;
+  margin-left: 2px;
+  animation: blink 1.1s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

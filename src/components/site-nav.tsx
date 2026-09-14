@@ -4,24 +4,25 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import type { SiteSettings } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
+import { LogoMark } from "@/components/logo-mark";
 
 const links = [
   { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
+  { href: "/resume", label: "Resume" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
-export function SiteNav({ settings }: { settings: SiteSettings }) {
+export function SiteNav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="font-display text-lg" onClick={() => setOpen(false)}>
-          {settings.name}
+        <Link href="/" onClick={() => setOpen(false)}>
+          <LogoMark className="text-base" />
         </Link>
 
         <nav className="hidden items-center gap-8 sm:flex">

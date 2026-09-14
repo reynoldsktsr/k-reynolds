@@ -28,12 +28,12 @@ export default async function Image({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          background: "linear-gradient(135deg, #16161a 0%, #2a2a30 100%)",
-          color: "#fafaf9",
+          background: "linear-gradient(155deg, #2f2148 0%, #180f24 60%, #100a19 100%)",
+          color: "#f1ecf8",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", fontSize: 28, color: "#ff6a4c" }}>
+        <div style={{ display: "flex", fontSize: 28, color: "#d98bab" }}>
           Case study
         </div>
         <div
@@ -46,7 +46,7 @@ export default async function Image({
         >
           {study?.title ?? "Untitled project"}
         </div>
-        <div style={{ display: "flex", fontSize: 26, color: "#96969c" }}>
+        <div style={{ display: "flex", fontSize: 26, color: "#bcaed4" }}>
           {[study?.role, study?.year].filter(Boolean).join(" · ")}
         </div>
       </div>

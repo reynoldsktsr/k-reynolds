@@ -16,7 +16,7 @@ export default async function HomePage() {
 
   return (
     <>
-      <Hero tagline={settings.tagline} availability={settings.availability} />
+      <Hero tagline={settings.tagline} />
 
       {tech.length > 0 && (
         <section className="border-y border-border py-10">

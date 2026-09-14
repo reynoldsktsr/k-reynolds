@@ -1,14 +1,14 @@
 /**
- * SAMPLE CONTENT — replace via Sanity Studio (/studio → Site Settings)
- * once NEXT_PUBLIC_SANITY_PROJECT_ID is configured.
+ * Site-wide settings. Lives here until Sanity is connected
+ * (NEXT_PUBLIC_SANITY_PROJECT_ID), then Studio takes over.
  */
 import type { SiteSettings } from "./types";
 
 export const placeholderSiteSettings: SiteSettings = {
   name: "Kieran Reynolds",
-  role: "Front-End Engineer",
+  role: "Full-Stack Engineer",
   tagline:
-    "Front-end engineer specializing in motion, interaction design, and the details most teams skip.",
+    "I help small and local businesses get an online presence without the big agency price tag.",
   email: "kieran@k-reynolds.com",
   location: "Remote",
   availability: "Open to new projects",
@@ -27,7 +27,21 @@ export const placeholderSiteSettings: SiteSettings = {
           _type: "span",
           _key: "bio-1-span",
           marks: [],
-          text: "This is placeholder bio copy. Replace it in Sanity Studio with a real introduction — what you work on, how you think about front-end engineering, and what kind of projects you're looking for.",
+          text: "I've spent the last several years building Shopify stores and custom apps for brands you've probably bought something from. These days I want to bring that same care to smaller businesses: the local shop, the new brand, the person who just needs a site that actually works.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      _key: "bio-2",
+      style: "normal",
+      markDefs: [],
+      children: [
+        {
+          _type: "span",
+          _key: "bio-2-span",
+          marks: [],
+          text: "No computer science degree here. I studied media arts, taught myself the rest, and learned most of what matters by fixing things that were already on fire. I'm comfortable across the whole stack, the parts people see and the unglamorous parts holding everything up underneath.",
         },
       ],
     },

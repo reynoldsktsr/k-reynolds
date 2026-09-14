@@ -10,7 +10,7 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
       <div className="mx-auto max-w-5xl px-6 py-24">
         <Reveal>
           <h2 className="font-display text-4xl sm:text-6xl balance">
-            Have a project worth animating?
+            Got a project? Let&apos;s talk about it.
           </h2>
         </Reveal>
 

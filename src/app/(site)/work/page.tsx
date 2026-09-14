@@ -6,7 +6,7 @@ import { getCaseStudies } from "@/lib/content/case-studies";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Case studies on interaction design, motion systems, and front-end performance.",
+    "Case studies from Shopify Plus projects, mostly loyalty systems, headless storefronts, and the infrastructure holding it all together.",
   alternates: { canonical: "/work" },
 };
 
@@ -18,8 +18,9 @@ export default async function WorkPage() {
       <Reveal>
         <h1 className="font-display text-5xl sm:text-6xl">Work</h1>
         <p className="mt-4 max-w-xl text-lg text-muted balance">
-          A handful of projects where the interaction was as important as the
-          feature — how things move, respond, and feel under your cursor.
+          A handful of projects, mostly Shopify. Some are written up in
+          full, some are still on my to-do list. I&apos;m keeping them
+          honest either way.
         </p>
       </Reveal>
 

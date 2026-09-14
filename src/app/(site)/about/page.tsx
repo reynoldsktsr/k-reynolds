@@ -5,7 +5,7 @@ import { getSiteSettings } from "@/lib/content/site-settings";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Front-end engineer focused on motion, interaction, and performance.",
+  description: "Full-stack engineer helping small and local businesses get an online presence that actually works.",
   alternates: { canonical: "/about" },
 };
 
