@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { CaseStudyBody } from "@/components/case-study-body";
 import { getSiteSettings } from "@/lib/content/site-settings";
@@ -115,13 +116,23 @@ export default async function AboutPage() {
 
   return (
     <section className="mx-auto max-w-3xl px-6 py-24 sm:py-32">
-      <Reveal>
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
-          About
-        </p>
-        <h1 className="mt-4 font-display text-5xl sm:text-6xl balance">
-          {settings.role}
-        </h1>
+      <Reveal className="flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
+            About
+          </p>
+          <h1 className="mt-4 font-display text-5xl sm:text-6xl balance">
+            {settings.role}
+          </h1>
+        </div>
+        <Image
+          src="/photos/kieran.jpg"
+          alt="Kieran Reynolds"
+          width={180}
+          height={210}
+          priority
+          className="w-28 shrink-0 rounded-2xl border border-border object-cover sm:w-36"
+        />
       </Reveal>
 
       <div className="mt-12">
@@ -214,8 +225,8 @@ export default async function AboutPage() {
       <Reveal delay={0.1} className="mt-16 border-t border-border pt-10">
         <h2 className="font-display text-xl">Brands I&apos;ve built for</h2>
         <p className="mt-3 mb-5 text-[0.95rem] leading-relaxed text-muted">
-          Across agency work, mostly Shopify. Not all of these have case
-          studies written up yet.
+          Across agency work, mostly Shopify. Not all of these have
+          write-ups yet.
         </p>
         <div className="flex flex-wrap gap-2">
           {clients.map((client) => (
