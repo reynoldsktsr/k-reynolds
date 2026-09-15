@@ -1,9 +1,9 @@
 /**
  * Case study list data, used for cards, listings, and page metadata.
  *
- * Ghost Lifestyle and Fracture render through their own custom
- * components (src/components/case-study/) with recreated UI mockups.
- * HEYDUDE, 47 Brand, Legends, and Orthofeet render through
+ * TailorFit, Ghost Lifestyle, and Fracture render through their own
+ * custom components (src/components/case-study/) with recreated UI
+ * mockups. HEYDUDE, 47 Brand, Legends, and Orthofeet render through
  * PlaceholderCaseStudy and are explicitly flagged as unverified: pulled
  * from public material, not yet checked against what Kieran actually did.
  *
@@ -24,6 +24,25 @@ function block(text: string, style: "normal" | "h2" | "blockquote" = "normal") {
 }
 
 export const placeholderCaseStudies: CaseStudy[] = [
+  {
+    _id: "tailorfit",
+    title: "TailorFit: what I built while trying to get hired myself",
+    slug: "tailorfit",
+    summary:
+      "An AI resume tailoring and job application tracker I built solo, starting as a personal workflow to stop reusing the same generic resume for every application.",
+    role: "Founder, product, and sole engineer",
+    year: "2026",
+    client: "Personal project",
+    tech: ["React", "Supabase", "Netlify Functions", "Claude API", "Stripe"],
+    featured: true,
+    order: 0,
+    liveUrl: "https://tailorfit.io",
+    repoUrl: undefined,
+    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "TailorFit application tracker" },
+    metrics: [],
+    isPlaceholder: false,
+    body: [block("See the full write-up on this page.")],
+  },
   {
     _id: "ghost-lifestyle",
     title: "Ghost Lifestyle: fixing a loyalty program that couldn't keep up with launch day",
