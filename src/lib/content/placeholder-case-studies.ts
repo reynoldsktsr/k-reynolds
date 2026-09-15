@@ -1,11 +1,9 @@
 /**
  * Case study list data, used for cards, listings, and page metadata.
  *
- * TailorFit, Ghost Lifestyle, and Fracture render through their own
- * custom components (src/components/case-study/) with recreated UI
- * mockups. '47 Brand renders through PlaceholderCaseStudy and is
- * explicitly flagged as unverified: pulled from public material, not
- * yet checked against what Kieran actually did.
+ * TailorFit, Ghost Lifestyle, Fracture, and '47 Brand render through
+ * their own custom components (src/components/case-study/) with
+ * recreated UI mockups.
  *
  * This file exists so the site renders fully before Sanity is connected.
  * Once NEXT_PUBLIC_SANITY_PROJECT_ID is set, real content written in
@@ -86,22 +84,22 @@ export const placeholderCaseStudies: CaseStudy[] = [
   },
   {
     _id: "47-brand",
-    title: "'47 Brand: a storefront built to move as fast as a drop",
+    title: "'47 Brand: catching bad product data before it hit the storefront",
     slug: "47-brand",
     summary:
-      "Licensed sports apparel at real volume, on a storefront built for speed first.",
-    role: "TBD",
+      "Built an auto-tagging system that audits inbound product data against Shopify webhooks and reconstructs whatever's missing or wrong, automatically.",
+    role: "Senior full-stack engineer",
     year: "2023",
     client: "'47 Brand, via Sparky",
-    tech: ["Shopify Plus", "Custom Theme"],
-    featured: false,
+    tech: ["Shopify Webhooks", "Shopify Admin API", "Node.js"],
+    featured: true,
     order: 3,
     liveUrl: "https://www.47brand.com",
     repoUrl: undefined,
     coverImage: { asset: { _ref: "", _type: "reference" }, alt: "'47 Brand storefront" },
     logo: "/logos/47-brand.png",
     metrics: [],
-    isPlaceholder: true,
-    body: [block("Still being written up. See the note on this page.")],
+    isPlaceholder: false,
+    body: [block("See the full write-up on this page.")],
   },
 ];

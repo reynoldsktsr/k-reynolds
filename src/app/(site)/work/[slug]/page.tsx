@@ -11,27 +11,20 @@ import { SITE_URL } from "@/lib/site-config";
 import { GhostLifestyleCaseStudy } from "@/components/case-study/ghost-lifestyle";
 import { FractureCaseStudy } from "@/components/case-study/fracture";
 import { TailorFitCaseStudy } from "@/components/case-study/tailorfit";
+import { FortySevenBrandCaseStudy } from "@/components/case-study/47-brand";
 import { PlaceholderCaseStudy } from "@/components/case-study/placeholder-case-study";
 
 const customCaseStudies: Record<string, () => React.JSX.Element> = {
   "ghost-lifestyle": GhostLifestyleCaseStudy,
   fracture: FractureCaseStudy,
   tailorfit: TailorFitCaseStudy,
+  "47-brand": FortySevenBrandCaseStudy,
 };
 
 const roughCaseStudies: Record<
   string,
   { title: string; lede: string; client: string; stat: string; liveUrl: string; agencyUrl: string }
-> = {
-  "47-brand": {
-    title: "'47 Brand: a storefront built to move as fast as a drop",
-    lede: "Licensed sports apparel sells in bursts. This storefront needed to keep up with product drops without falling over, so the team built a fully custom Shopify theme with speed as the whole point.",
-    client: "'47 Brand",
-    stat: "Roughly 3x faster page loads, reported",
-    liveUrl: "https://www.47brand.com",
-    agencyUrl: "https://sparky.us/work/47",
-  },
-};
+> = {};
 
 export async function generateStaticParams() {
   const studies = await getCaseStudies();
