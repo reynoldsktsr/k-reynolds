@@ -3,22 +3,9 @@ import { urlForImage } from "@/sanity/lib/image";
 import type { SanityImageRef } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 
-const GRADIENTS = [
-  "from-violet-400 via-purple-500 to-indigo-700",
-  "from-fuchsia-400 via-violet-500 to-purple-800",
-  "from-rose-400 via-fuchsia-500 to-violet-800",
-  "from-indigo-400 via-violet-600 to-purple-900",
-];
-
-function gradientFor(seed: string) {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
-  return GRADIENTS[hash % GRADIENTS.length];
-}
-
 /**
  * Renders a real Sanity image when one exists, a client logo on a neutral
- * card when one is supplied, otherwise a generated gradient placeholder —
+ * card when one is supplied, otherwise a flat dot-grid placeholder —
  * clearly a stand-in, never a broken image icon.
  */
 export function CoverMedia({
@@ -38,8 +25,7 @@ export function CoverMedia({
 
   if (!hasRealImage && logo) {
     return (
-      <div className={cn("relative overflow-hidden bg-[#f4efe2]", className)}>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(0,0,0,0.06),transparent_60%)]" />
+      <div className={cn("relative overflow-hidden bg-surface", className)}>
         <div className="absolute inset-[14%]">
           <Image
             src={logo}
@@ -58,13 +44,16 @@ export function CoverMedia({
     return (
       <div
         className={cn(
-          "relative flex items-center justify-center overflow-hidden bg-gradient-to-br",
-          gradientFor(seed),
+          "relative flex items-center justify-center overflow-hidden bg-surface-2",
           className,
         )}
+        style={{
+          backgroundImage:
+            "radial-gradient(var(--edge) 1.6px, transparent 1.6px)",
+          backgroundSize: "18px 18px",
+        }}
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.35),transparent_60%)]" />
-        <span className="relative font-display text-sm uppercase tracking-[0.2em] text-white/80">
+        <span className="relative rounded-full border border-edge bg-surface px-4 py-1.5 font-mono text-xs uppercase tracking-[0.2em] text-faint">
           Cover pending
         </span>
       </div>

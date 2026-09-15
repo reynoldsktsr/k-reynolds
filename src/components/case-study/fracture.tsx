@@ -74,7 +74,7 @@ export function FractureCaseStudy() {
                 </span>
               ))}
             </div>
-            <div className="relative flex aspect-[4/5] max-w-[170px] items-center justify-center rounded-lg border border-edge bg-gradient-to-br from-surface-2 to-ground-deep">
+            <div className="relative flex aspect-[4/5] max-w-[170px] items-center justify-center rounded-lg border border-edge bg-surface-2">
               <span className="absolute left-3.5 top-3.5 h-6 w-6 rounded bg-[repeating-conic-gradient(var(--foreground)_0%_25%,transparent_0%_50%)] bg-[length:8px_8px]" />
               <span className="font-mono text-xs text-faint">
                 live print preview
