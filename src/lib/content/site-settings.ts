@@ -9,11 +9,16 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     return placeholderSiteSettings;
   }
 
-  const result = await client.fetch<SiteSettings | null>(
-    siteSettingsQuery,
-    {},
-    { next: { revalidate: 60, tags: ["siteSettings"] } },
-  );
+  try {
+    const result = await client.fetch<SiteSettings | null>(
+      siteSettingsQuery,
+      {},
+      { next: { revalidate: 60, tags: ["siteSettings"] } },
+    );
 
-  return result ?? placeholderSiteSettings;
+    return result ?? placeholderSiteSettings;
+  } catch (error) {
+    console.warn("Sanity fetch for site settings failed, using placeholder content:", error);
+    return placeholderSiteSettings;
+  }
 }

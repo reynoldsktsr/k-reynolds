@@ -11,13 +11,18 @@ export async function getCaseStudies(): Promise<CaseStudy[]> {
     return placeholderCaseStudies;
   }
 
-  const results = await client.fetch<CaseStudy[]>(
-    caseStudiesQuery,
-    {},
-    { next: { revalidate: REVALIDATE_SECONDS, tags: ["caseStudy"] } },
-  );
+  try {
+    const results = await client.fetch<CaseStudy[]>(
+      caseStudiesQuery,
+      {},
+      { next: { revalidate: REVALIDATE_SECONDS, tags: ["caseStudy"] } },
+    );
 
-  return results.length > 0 ? results : placeholderCaseStudies;
+    return results.length > 0 ? results : placeholderCaseStudies;
+  } catch (error) {
+    console.warn("Sanity fetch for case studies failed, using placeholder content:", error);
+    return placeholderCaseStudies;
+  }
 }
 
 export async function getFeaturedCaseStudies(): Promise<CaseStudy[]> {
@@ -30,12 +35,17 @@ export async function getCaseStudy(slug: string): Promise<CaseStudy | null> {
     return placeholderCaseStudies.find((study) => study.slug === slug) ?? null;
   }
 
-  const result = await client.fetch<CaseStudy | null>(
-    caseStudyBySlugQuery,
-    { slug },
-    { next: { revalidate: REVALIDATE_SECONDS, tags: [`caseStudy:${slug}`] } },
-  );
+  try {
+    const result = await client.fetch<CaseStudy | null>(
+      caseStudyBySlugQuery,
+      { slug },
+      { next: { revalidate: REVALIDATE_SECONDS, tags: [`caseStudy:${slug}`] } },
+    );
 
-  if (result) return result;
+    if (result) return result;
+  } catch (error) {
+    console.warn(`Sanity fetch for case study "${slug}" failed, using placeholder content:`, error);
+  }
+
   return placeholderCaseStudies.find((study) => study.slug === slug) ?? null;
 }
