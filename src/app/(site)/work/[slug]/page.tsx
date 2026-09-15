@@ -21,7 +21,7 @@ const customCaseStudies: Record<string, () => React.JSX.Element> = {
 
 const roughCaseStudies: Record<
   string,
-  { title: string; lede: string; client: string; stat: string; liveUrl: string }
+  { title: string; lede: string; client: string; stat: string; liveUrl: string; agencyUrl: string }
 > = {
   heydude: {
     title: "HEYDUDE: getting a newly-acquired brand up to speed",
@@ -29,6 +29,7 @@ const roughCaseStudies: Record<
     client: "HEYDUDE",
     stat: "Roughly 3x faster page loads, reported",
     liveUrl: "https://www.heydude.com",
+    agencyUrl: "https://sparky.us/work/heydude",
   },
   "47-brand": {
     title: "'47 Brand: a storefront built to move as fast as a drop",
@@ -36,6 +37,7 @@ const roughCaseStudies: Record<
     client: "'47 Brand",
     stat: "Roughly 3x faster page loads, reported",
     liveUrl: "https://www.47brand.com",
+    agencyUrl: "https://sparky.us/work/47",
   },
   legends: {
     title: "Legends: shipping a custom storefront before the holidays hit",
@@ -43,6 +45,7 @@ const roughCaseStudies: Record<
     client: "Legends",
     stat: "About a 2.75x lift in site speed, reported",
     liveUrl: "https://www.legends.com",
+    agencyUrl: "https://sparky.us/work/legends",
   },
   orthofeet: {
     title: "Orthofeet: modernizing a storefront that outgrew its old setup",
@@ -50,6 +53,7 @@ const roughCaseStudies: Record<
     client: "Orthofeet",
     stat: "Results not yet confirmed",
     liveUrl: "https://www.orthofeet.com",
+    agencyUrl: "https://sparky.us/work/orthofeet",
   },
 };
 

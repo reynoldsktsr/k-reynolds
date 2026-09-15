@@ -10,12 +10,14 @@ export function PlaceholderCaseStudy({
   client,
   stat,
   liveUrl,
+  agencyUrl,
 }: {
   title: string;
   lede: string;
   client: string;
   stat: string;
   liveUrl?: string;
+  agencyUrl?: string;
 }) {
   return (
     <>
@@ -30,6 +32,7 @@ export function PlaceholderCaseStudy({
             role="TBD, haven't confirmed my exact part yet"
             stack={["Shopify Plus", "Custom Theme"]}
             liveUrl={liveUrl}
+            agencyUrl={agencyUrl}
             notClient
           />
         }
