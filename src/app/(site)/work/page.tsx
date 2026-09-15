@@ -6,7 +6,7 @@ import { getCaseStudies } from "@/lib/content/case-studies";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Case studies from Shopify Plus projects, mostly loyalty systems, headless storefronts, and the infrastructure holding it all together.",
+    "Work from Shopify Plus projects, mostly loyalty systems, headless storefronts, and the infrastructure holding it all together.",
   alternates: { canonical: "/work" },
 };
 

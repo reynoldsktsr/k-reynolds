@@ -34,7 +34,7 @@ export function FortySevenBrandCaseStudy() {
   return (
     <>
       <CaseStudyHeader
-        eyebrow="Case study"
+        eyebrow="Work"
         title="'47 Brand: catching bad product data before it hit the storefront"
         lede="Product data came in from an external source and out the other side into Shopify, and along the way it regularly lost or scrambled information: missing fields, wrong tags, inconsistent attributes. I built an auto-tagging system that audits every product as it comes through and rebuilds what's wrong, automatically."
         meta={
