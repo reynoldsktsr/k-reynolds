@@ -38,6 +38,8 @@ export function FractureCaseStudy() {
             via="Sparky (a Shopify agency)"
             role="Senior full-stack engineer"
             stack={["Shopify (Headless)", "Cloudinary", "Custom Landing Pages"]}
+            liveUrl="https://fractureme.com"
+            notClient
           />
         }
       />

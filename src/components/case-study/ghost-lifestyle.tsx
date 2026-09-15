@@ -43,6 +43,8 @@ export function GhostLifestyleCaseStudy() {
             via="Sparky (a Shopify agency)"
             role="Senior full-stack engineer"
             stack={["PostgreSQL", "Cloud Functions", "Pub/Sub", "Shopify Plus"]}
+            liveUrl="https://ghostlifestyle.com"
+            notClient
           />
         }
       />
