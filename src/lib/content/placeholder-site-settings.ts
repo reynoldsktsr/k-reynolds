@@ -7,8 +7,7 @@ import type { SiteSettings } from "./types";
 export const placeholderSiteSettings: SiteSettings = {
   name: "Kieran Reynolds",
   role: "Full-Stack Engineer",
-  tagline:
-    "I help small and local businesses get an online presence without the big agency price tag.",
+  tagline: "Let's build something worth talking about.",
   email: "kieran@k-reynolds.com",
   location: "Remote",
   availability: "Open to new projects",
