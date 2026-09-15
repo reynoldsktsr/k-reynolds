@@ -94,4 +94,14 @@ export const showcaseItems: ShowcaseItem[] = [
     repoUrl: "https://github.com/reynoldsktsr/hover-button-lab",
     status: "live",
   },
+  {
+    slug: "admin-ui-kit",
+    title: "Admin Dashboard Kit",
+    description:
+      "A clonable admin dashboard starter: sidebar layout, data tables, charts, a mock auth flow, and a settings page. A template to fork, not a drop-in component like the rest of these.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "react-router-dom", "recharts"],
+    demoUrl: "https://reynoldsktsr.github.io/admin-ui-kit/",
+    repoUrl: "https://github.com/reynoldsktsr/admin-ui-kit",
+    status: "live",
+  },
 ];
