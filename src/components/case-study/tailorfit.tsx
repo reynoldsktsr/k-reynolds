@@ -57,7 +57,7 @@ export function TailorFitCaseStudy() {
   return (
     <>
       <CaseStudyHeader
-        eyebrow="Case study"
+        eyebrow="Work"
         title="TailorFit: what I built while trying to get hired myself"
         lede="I was deep in my own job search, staring down hundreds of applications, doing what most people do: reusing one generic resume because tailoring each one by hand is too much work. So I built a workflow with Claude to speed it up. It grew into a full platform for tracking both the applications and the career story behind them."
         meta={

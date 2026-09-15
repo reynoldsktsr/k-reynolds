@@ -34,7 +34,7 @@ export function GhostLifestyleCaseStudy() {
   return (
     <>
       <CaseStudyHeader
-        eyebrow="Case study"
+        eyebrow="Work"
         title="Ghost Lifestyle: fixing a loyalty program that couldn't keep up with launch day"
         lede="Ghost sells supplements and apparel to a genuinely loyal community. Drops, raffles, streaks, badges, the whole thing. The loyalty program behind it kept buckling whenever a raffle got popular, so I rebuilt it to actually hold up."
         meta={

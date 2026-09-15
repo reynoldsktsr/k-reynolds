@@ -22,7 +22,7 @@ export function PlaceholderCaseStudy({
   return (
     <>
       <CaseStudyHeader
-        eyebrow="Case study, still being written"
+        eyebrow="Work, still being written"
         title={title}
         lede={lede}
         meta={

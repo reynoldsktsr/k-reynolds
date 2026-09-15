@@ -29,7 +29,7 @@ export function FractureCaseStudy() {
   return (
     <>
       <CaseStudyHeader
-        eyebrow="Case study"
+        eyebrow="Work"
         title="Fracture: a QR code that has to work forever"
         lede="Fracture prints your photos onto glass. Their StoryGlass feature adds a small QR code to the print that opens up a video or audio memory. Once that glass is printed, it's permanent, so the link behind that code has to keep working forever, not just until somebody migrates a server."
         meta={

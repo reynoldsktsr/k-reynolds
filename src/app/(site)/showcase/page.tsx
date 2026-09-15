@@ -6,7 +6,7 @@ import { showcaseItems } from "@/lib/content/showcase-items";
 export const metadata: Metadata = {
   title: "Showcase",
   description:
-    "Smaller builds and experiments, tech demos and one-off tools, lighter than a full case study.",
+    "Smaller builds and experiments, tech demos and one-off tools, lighter than a full write-up.",
   alternates: { canonical: "/showcase" },
 };
 
@@ -21,7 +21,7 @@ export default function ShowcasePage() {
           Tech demos
         </h1>
         <p className="mt-6 max-w-xl text-lg text-muted balance">
-          Smaller builds that don&apos;t need a full case study: experiments,
+          Smaller builds that don&apos;t need a full write-up: experiments,
           one-off tools, things I built because I was curious.
         </p>
       </Reveal>

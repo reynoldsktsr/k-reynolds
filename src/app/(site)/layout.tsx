@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s · Kieran Reynolds",
   },
   description:
-    "Full-stack engineer building custom Shopify apps and headless stores for small and local businesses. Real case studies, a resume, and no corporate jargon.",
+    "Full-stack engineer building custom Shopify apps and headless stores for small and local businesses. Real work, a resume, and no corporate jargon.",
   keywords: [
     "Kieran Reynolds",
     "full-stack engineer",

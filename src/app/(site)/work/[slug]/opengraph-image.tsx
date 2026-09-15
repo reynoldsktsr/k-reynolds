@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getCaseStudies, getCaseStudy } from "@/lib/content/case-studies";
 
-export const alt = "Case study cover";
+export const alt = "Work cover";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -34,7 +34,7 @@ export default async function Image({
         }}
       >
         <div style={{ display: "flex", fontSize: 28, color: "#4f2c80" }}>
-          Case study
+          Work
         </div>
         <div
           style={{
