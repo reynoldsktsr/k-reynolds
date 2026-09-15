@@ -3,9 +3,9 @@
  *
  * TailorFit, Ghost Lifestyle, and Fracture render through their own
  * custom components (src/components/case-study/) with recreated UI
- * mockups. HEYDUDE, 47 Brand, Legends, and Orthofeet render through
- * PlaceholderCaseStudy and are explicitly flagged as unverified: pulled
- * from public material, not yet checked against what Kieran actually did.
+ * mockups. '47 Brand renders through PlaceholderCaseStudy and is
+ * explicitly flagged as unverified: pulled from public material, not
+ * yet checked against what Kieran actually did.
  *
  * This file exists so the site renders fully before Sanity is connected.
  * Once NEXT_PUBLIC_SANITY_PROJECT_ID is set, real content written in
@@ -85,26 +85,6 @@ export const placeholderCaseStudies: CaseStudy[] = [
     body: [block("See the full write-up on this page.")],
   },
   {
-    _id: "heydude",
-    title: "HEYDUDE: getting a newly-acquired brand up to speed",
-    slug: "heydude",
-    summary:
-      "Right after Crocs bought HEYDUDE, the brand needed a storefront that could handle its new scale.",
-    role: "TBD",
-    year: "2023",
-    client: "HEYDUDE, via Sparky",
-    tech: ["Shopify Plus", "Custom Theme"],
-    featured: true,
-    order: 3,
-    liveUrl: "https://www.heydude.com",
-    repoUrl: undefined,
-    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "HEYDUDE storefront" },
-    logo: "/logos/heydude.png",
-    metrics: [],
-    isPlaceholder: true,
-    body: [block("Still being written up. See the note on this page.")],
-  },
-  {
     _id: "47-brand",
     title: "'47 Brand: a storefront built to move as fast as a drop",
     slug: "47-brand",
@@ -115,51 +95,11 @@ export const placeholderCaseStudies: CaseStudy[] = [
     client: "'47 Brand, via Sparky",
     tech: ["Shopify Plus", "Custom Theme"],
     featured: false,
-    order: 4,
+    order: 3,
     liveUrl: "https://www.47brand.com",
     repoUrl: undefined,
     coverImage: { asset: { _ref: "", _type: "reference" }, alt: "'47 Brand storefront" },
     logo: "/logos/47-brand.png",
-    metrics: [],
-    isPlaceholder: true,
-    body: [block("Still being written up. See the note on this page.")],
-  },
-  {
-    _id: "legends",
-    title: "Legends: shipping a custom storefront before the holidays hit",
-    slug: "legends",
-    summary:
-      "Built and launched just ahead of a holiday deadline, on a tight timeline for a fully custom build.",
-    role: "TBD",
-    year: "2022",
-    client: "Legends, via Sparky",
-    tech: ["Shopify Plus", "Custom Theme"],
-    featured: false,
-    order: 5,
-    liveUrl: "https://www.legends.com",
-    repoUrl: undefined,
-    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Legends storefront" },
-    logo: "/logos/legends.png",
-    metrics: [],
-    isPlaceholder: true,
-    body: [block("Still being written up. See the note on this page.")],
-  },
-  {
-    _id: "orthofeet",
-    title: "Orthofeet: modernizing a storefront that outgrew its old setup",
-    slug: "orthofeet",
-    summary:
-      "A global orthopedic footwear brand moving onto a modern Shopify Plus setup built to grow with the catalog.",
-    role: "TBD",
-    year: "2022",
-    client: "Orthofeet, via Sparky",
-    tech: ["Shopify Plus", "Custom Theme"],
-    featured: false,
-    order: 6,
-    liveUrl: "https://www.orthofeet.com",
-    repoUrl: undefined,
-    coverImage: { asset: { _ref: "", _type: "reference" }, alt: "Orthofeet storefront" },
-    logo: "/logos/orthofeet.png",
     metrics: [],
     isPlaceholder: true,
     body: [block("Still being written up. See the note on this page.")],
