@@ -14,7 +14,7 @@ export const placeholderSiteSettings: SiteSettings = {
   availability: "Open to new projects",
   social: [
     { platform: "GitHub", url: "https://github.com/reynoldsktsr" },
-    { platform: "LinkedIn", url: "https://www.linkedin.com" },
+    { platform: "LinkedIn", url: "https://www.linkedin.com/in/reynoldskieran" },
   ],
   bio: [
     {
