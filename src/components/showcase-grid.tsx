@@ -29,12 +29,7 @@ export function ShowcaseGrid({ items }: { items: ShowcaseItem[] }) {
     <RevealGroup className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2" stagger={0.06}>
       {items.map((item) => (
         <RevealItem key={item.slug}>
-          <a
-            href={item.href}
-            target={item.href.startsWith("http") ? "_blank" : undefined}
-            rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-            className="group block rounded-2xl border border-border bg-surface p-6 transition-colors hover:border-edge"
-          >
+          <div className="flex h-full flex-col rounded-2xl border border-border bg-surface p-6">
             <div className="flex items-start justify-between gap-4">
               <h3 className="font-display text-lg">{item.title}</h3>
               {item.status === "in-progress" && (
@@ -58,7 +53,27 @@ export function ShowcaseGrid({ items }: { items: ShowcaseItem[] }) {
                 ))}
               </ul>
             )}
-          </a>
+            <div className="mt-auto flex gap-5 pt-5">
+              {item.status === "live" && (
+                <a
+                  href={item.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-accent hover:text-violet-strong"
+                >
+                  View demo ↗
+                </a>
+              )}
+              <a
+                href={item.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-muted hover:text-foreground"
+              >
+                Source ↗
+              </a>
+            </div>
+          </div>
         </RevealItem>
       ))}
     </RevealGroup>
