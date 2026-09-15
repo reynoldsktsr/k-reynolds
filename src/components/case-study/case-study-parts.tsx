@@ -33,14 +33,23 @@ export function CaseStudyMeta({
   via,
   role,
   stack,
+  liveUrl,
+  notClient = false,
 }: {
   client: string;
   via: string;
   role: string;
   stack: string[];
+  liveUrl?: string;
+  notClient?: boolean;
 }) {
   return (
     <aside className="rounded-xl border border-border bg-surface p-5">
+      {notClient && (
+        <p className="mb-4 rounded-lg border border-dashed border-edge bg-surface-2 px-3 py-2.5 font-mono text-[0.7rem] leading-relaxed text-muted">
+          Not a direct client. I worked on this via {via}.
+        </p>
+      )}
       <dl className="flex flex-col gap-3.5">
         <div>
           <dt className="mb-0.5 font-mono text-[0.66rem] uppercase tracking-wider text-faint">
@@ -48,12 +57,14 @@ export function CaseStudyMeta({
           </dt>
           <dd className="text-[0.92rem]">{client}</dd>
         </div>
-        <div>
-          <dt className="mb-0.5 font-mono text-[0.66rem] uppercase tracking-wider text-faint">
-            Via
-          </dt>
-          <dd className="text-[0.92rem]">{via}</dd>
-        </div>
+        {!notClient && (
+          <div>
+            <dt className="mb-0.5 font-mono text-[0.66rem] uppercase tracking-wider text-faint">
+              Via
+            </dt>
+            <dd className="text-[0.92rem]">{via}</dd>
+          </div>
+        )}
         <div>
           <dt className="mb-0.5 font-mono text-[0.66rem] uppercase tracking-wider text-faint">
             Role
@@ -61,16 +72,32 @@ export function CaseStudyMeta({
           <dd className="text-[0.92rem]">{role}</dd>
         </div>
       </dl>
-      <div className="mt-4 flex flex-wrap gap-2 border-t border-dashed border-edge pt-4">
-        {stack.map((s) => (
-          <span
-            key={s}
-            className="rounded-md border border-border bg-surface-2 px-2.5 py-1 font-mono text-xs text-muted"
-          >
-            {s}
-          </span>
-        ))}
-      </div>
+      {(stack.length > 0 || liveUrl) && (
+        <div className="mt-4 flex flex-col gap-3 border-t border-dashed border-edge pt-4">
+          {stack.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {stack.map((s) => (
+                <span
+                  key={s}
+                  className="rounded-md border border-border bg-surface-2 px-2.5 py-1 font-mono text-xs text-muted"
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          )}
+          {liveUrl && (
+            <a
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-fit items-center gap-1 text-[0.85rem] font-medium text-accent hover:text-violet-strong"
+            >
+              Visit site ↗
+            </a>
+          )}
+        </div>
+      )}
     </aside>
   );
 }

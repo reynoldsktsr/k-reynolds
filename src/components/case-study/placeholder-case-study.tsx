@@ -9,11 +9,13 @@ export function PlaceholderCaseStudy({
   lede,
   client,
   stat,
+  liveUrl,
 }: {
   title: string;
   lede: string;
   client: string;
   stat: string;
+  liveUrl?: string;
 }) {
   return (
     <>
@@ -27,6 +29,8 @@ export function PlaceholderCaseStudy({
             via="Sparky (a Shopify agency)"
             role="TBD, haven't confirmed my exact part yet"
             stack={["Shopify Plus", "Custom Theme"]}
+            liveUrl={liveUrl}
+            notClient
           />
         }
       />

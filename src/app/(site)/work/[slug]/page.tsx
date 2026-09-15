@@ -21,31 +21,35 @@ const customCaseStudies: Record<string, () => React.JSX.Element> = {
 
 const roughCaseStudies: Record<
   string,
-  { title: string; lede: string; client: string; stat: string }
+  { title: string; lede: string; client: string; stat: string; liveUrl: string }
 > = {
   heydude: {
     title: "HEYDUDE: getting a newly-acquired brand up to speed",
     lede: "Right after Crocs bought HEYDUDE, the brand needed a storefront that could handle its new scale. The team built a fully custom Shopify theme to replace the templated setup it was running on.",
     client: "HEYDUDE",
     stat: "Roughly 3x faster page loads, reported",
+    liveUrl: "https://www.heydude.com",
   },
   "47-brand": {
     title: "'47 Brand: a storefront built to move as fast as a drop",
     lede: "Licensed sports apparel sells in bursts. This storefront needed to keep up with product drops without falling over, so the team built a fully custom Shopify theme with speed as the whole point.",
     client: "'47 Brand",
     stat: "Roughly 3x faster page loads, reported",
+    liveUrl: "https://www.47brand.com",
   },
   legends: {
     title: "Legends: shipping a custom storefront before the holidays hit",
     lede: "Built and launched just ahead of a holiday deadline, which is usually when 'custom' and 'on time' don't end up in the same sentence.",
     client: "Legends",
     stat: "About a 2.75x lift in site speed, reported",
+    liveUrl: "https://www.legends.com",
   },
   orthofeet: {
     title: "Orthofeet: modernizing a storefront that outgrew its old setup",
     lede: "A global orthopedic footwear brand moving off a dated storefront onto a modern Shopify Plus setup built to grow with the catalog.",
     client: "Orthofeet",
     stat: "Results not yet confirmed",
+    liveUrl: "https://www.orthofeet.com",
   },
 };
 

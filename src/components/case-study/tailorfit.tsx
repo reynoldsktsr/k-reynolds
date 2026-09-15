@@ -66,6 +66,7 @@ export function TailorFitCaseStudy() {
             via="Solo, nights and weekends"
             role="Founder, product, and sole engineer"
             stack={["React", "Supabase", "Netlify Functions", "Claude API", "Stripe"]}
+            liveUrl="https://tailorfit.io"
           />
         }
       />
