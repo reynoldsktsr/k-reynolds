@@ -84,11 +84,24 @@ export default async function CaseStudyPage({
 
   const articleLd = {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "Article",
     headline: study.title,
     description: study.summary,
-    author: { "@type": "Person", name: "Kieran Reynolds" },
+    image: [`${SITE_URL}/work/${study.slug}/opengraph-image`],
+    datePublished: `${study.year}-01-01`,
+    author: { "@type": "Person", name: "Kieran Reynolds", url: SITE_URL },
+    publisher: { "@type": "Person", name: "Kieran Reynolds" },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/work/${study.slug}` },
     url: `${SITE_URL}/work/${study.slug}`,
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Work", item: `${SITE_URL}/work` },
+      { "@type": "ListItem", position: 2, name: study.title, item: `${SITE_URL}/work/${study.slug}` },
+    ],
   };
 
   const CustomCaseStudy = customCaseStudies[slug];
@@ -101,6 +114,11 @@ export default async function CaseStudyPage({
           id={`ld-case-study-${study.slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+        />
+        <Script
+          id={`ld-breadcrumb-${study.slug}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
         />
         <Reveal className="mb-10">
           <Link href="/work" className="text-sm text-muted hover:text-foreground">
@@ -118,6 +136,11 @@ export default async function CaseStudyPage({
         id={`ld-case-study-${study.slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
+      <Script
+        id={`ld-breadcrumb-${study.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <header className="mx-auto max-w-5xl px-6 pt-20 pb-10 sm:pt-28">
