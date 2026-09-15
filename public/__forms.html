@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Forms</title></head>
+<body>
+  <!--
+    Not a real page. Netlify's Next.js Runtime (v5) can't reliably scan
+    Next's dynamically-rendered HTML for forms, so it needs a static
+    fragment like this in /public to detect the form and its fields.
+    See https://ntl.fyi/next-runtime-forms-migration
+  -->
+  <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+    <input type="text" name="bot-field" />
+  </form>
+</body>
+</html>
