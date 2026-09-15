@@ -17,21 +17,42 @@ function gradientFor(seed: string) {
 }
 
 /**
- * Renders a real Sanity image when one exists, otherwise a generated
- * gradient placeholder — clearly a stand-in, never a broken image icon.
+ * Renders a real Sanity image when one exists, a client logo on a neutral
+ * card when one is supplied, otherwise a generated gradient placeholder —
+ * clearly a stand-in, never a broken image icon.
  */
 export function CoverMedia({
   image,
+  logo,
   seed,
   className,
   priority = false,
 }: {
   image: SanityImageRef;
+  logo?: string;
   seed: string;
   className?: string;
   priority?: boolean;
 }) {
   const hasRealImage = Boolean(image?.asset?._ref);
+
+  if (!hasRealImage && logo) {
+    return (
+      <div className={cn("relative overflow-hidden bg-[#f4efe2]", className)}>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(0,0,0,0.06),transparent_60%)]" />
+        <div className="absolute inset-[14%]">
+          <Image
+            src={logo}
+            alt={`${seed} logo`}
+            fill
+            priority={priority}
+            className="object-contain"
+            sizes="(min-width: 1024px) 50vw, 100vw"
+          />
+        </div>
+      </div>
+    );
+  }
 
   if (!hasRealImage) {
     return (

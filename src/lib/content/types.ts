@@ -25,6 +25,7 @@ export type CaseStudy = {
   liveUrl?: string;
   repoUrl?: string;
   coverImage: SanityImageRef;
+  logo?: string;
   metrics: CaseStudyMetric[];
   body: PortableTextBlock[];
   isPlaceholder?: boolean;

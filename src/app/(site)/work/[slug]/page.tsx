@@ -175,6 +175,7 @@ export default async function CaseStudyPage({
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl">
           <CoverMedia
             image={study.coverImage}
+            logo={study.logo}
             seed={study.slug}
             priority
             className="h-full w-full"

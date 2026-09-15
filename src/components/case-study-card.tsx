@@ -28,6 +28,7 @@ export function CaseStudyCard({
           >
             <CoverMedia
               image={study.coverImage}
+              logo={study.logo}
               seed={study.slug}
               priority={priority}
               className="h-full w-full"
