@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { MagneticLink } from "@/components/magnetic-button";
 import { Typewriter } from "@/components/typewriter";
 
-const headline = ["Hi, I'm Kieran.", "I build sites", "that actually work."];
+const headline = ["Self-taught,", "mildly caffeinated,", "full-stack."];
 
 const eyebrowPhrases = [
   "full-stack engineer",
