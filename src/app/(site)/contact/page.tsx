@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
 import { MagneticAnchor } from "@/components/magnetic-button";
+import { ContactForm } from "@/components/contact-form";
 import { getSiteSettings } from "@/lib/content/site-settings";
 
 export const metadata: Metadata = {
@@ -38,8 +39,17 @@ export default async function ContactPage() {
         </Reveal>
       )}
 
+      <Reveal delay={0.15} className="mt-14 max-w-xl">
+        <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
+          Or send a message
+        </p>
+        <div className="mt-6">
+          <ContactForm />
+        </div>
+      </Reveal>
+
       {settings.social.length > 0 && (
-        <Reveal delay={0.15} className="mt-16 flex flex-wrap gap-6 border-t border-border pt-8 text-sm">
+        <Reveal delay={0.2} className="mt-16 flex flex-wrap gap-6 border-t border-border pt-8 text-sm">
           {settings.social.map((link) => (
             <a
               key={link.platform}
