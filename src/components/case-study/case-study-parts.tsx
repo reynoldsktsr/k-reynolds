@@ -34,6 +34,8 @@ export function CaseStudyMeta({
   role,
   stack,
   liveUrl,
+  agencyUrl,
+  agencyLabel = "See it on Sparky's site ↗",
   notClient = false,
 }: {
   client: string;
@@ -41,6 +43,8 @@ export function CaseStudyMeta({
   role: string;
   stack: string[];
   liveUrl?: string;
+  agencyUrl?: string;
+  agencyLabel?: string;
   notClient?: boolean;
 }) {
   return (
@@ -72,7 +76,7 @@ export function CaseStudyMeta({
           <dd className="text-[0.92rem]">{role}</dd>
         </div>
       </dl>
-      {(stack.length > 0 || liveUrl) && (
+      {(stack.length > 0 || liveUrl || agencyUrl) && (
         <div className="mt-4 flex flex-col gap-3 border-t border-dashed border-edge pt-4">
           {stack.length > 0 && (
             <div className="flex flex-wrap gap-2">
@@ -94,6 +98,16 @@ export function CaseStudyMeta({
               className="inline-flex w-fit items-center gap-1 text-[0.85rem] font-medium text-accent hover:text-violet-strong"
             >
               Visit site ↗
+            </a>
+          )}
+          {agencyUrl && (
+            <a
+              href={agencyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-fit items-center gap-1 text-[0.85rem] font-medium text-muted hover:text-foreground"
+            >
+              {agencyLabel}
             </a>
           )}
         </div>
