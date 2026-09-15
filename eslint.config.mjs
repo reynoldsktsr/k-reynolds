@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Pre-built third-party bundles, not our source.
+    "src/vendor/**",
   ]),
 ]);
 
