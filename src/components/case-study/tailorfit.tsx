@@ -24,9 +24,9 @@ const builtItems = [
       "The first version streamed the response live, which worked fine until a slow generation ran past the function timeout and left people staring at a stuck spinner with no error and no way to retry. Rebuilt it as a background job with polling so long generations finish cleanly.",
   },
   {
-    title: "Everything a real product needs, built solo",
+    title: "A lot more than a resume generator",
     description:
-      "Stripe billing with a credit system, an admin dashboard with its own separate login, GDPR data export and account deletion, error tracking, analytics, a full end to end test suite. Not just the exciting parts.",
+      "A Chrome extension that tracks jobs while you browse, a public MCP server so your own AI client can query your data directly, a status page with real per-feature AI latency pulled from production instead of synthetic pings, credit-based billing instead of flat per-generation pricing. Built and shipped solo.",
   },
 ];
 
@@ -49,76 +49,104 @@ export function TailorFitCaseStudy() {
 
       <BuiltList items={builtItems} />
 
-      <CaseStudySubhead>Logging a highlight</CaseStudySubhead>
-      <DeviceFrame caption="Tai, the in-app assistant (concept)">
-        <div className="flex flex-col gap-3">
-          <div className="ml-auto max-w-[80%] rounded-2xl rounded-tr-sm bg-surface-2 px-4 py-2.5 text-[0.85rem] text-foreground">
-            ugh long week, but I finally got the checkout migration shipped
-            and it actually went smoother than I expected
-          </div>
-          <div className="max-w-[85%] rounded-2xl rounded-tl-sm border border-edge-soft bg-ground-deep px-4 py-2.5 text-[0.85rem] text-muted">
-            Logged that as a highlight on your Background. Want me to add any
-            metrics before it's saved?
-          </div>
-          <div className="mt-1 rounded-lg border border-dashed border-edge bg-surface-2 p-3.5">
-            <p className="mb-2 font-mono text-[0.63rem] uppercase tracking-wide text-faint">
-              Work event logged
-            </p>
-            <p className="text-[0.85rem] font-medium text-foreground">
-              Led a checkout migration that shipped ahead of schedule
-            </p>
-            <p className="mt-1 text-[0.78rem] text-muted">
-              Tagged: leadership, systems migration
-            </p>
-          </div>
-        </div>
-      </DeviceFrame>
-      <RecreatedNote>
-        Conceptual mockup based on the actual product spec, not a real
-        screenshot yet. The parsing and tagging shown here reflect how Tai
-        actually works.
-      </RecreatedNote>
-
       <CaseStudySubhead>Tracking the search</CaseStudySubhead>
-      <DeviceFrame caption="Application tracker (concept)">
-        <table className="w-full border-collapse font-mono text-[0.74rem]">
+      <DeviceFrame caption="Applications">
+        <table className="w-full border-collapse text-[0.74rem]">
           <thead>
             <tr className="text-left">
-              <th className="whitespace-nowrap pb-2.5 pr-3 text-[0.63rem] font-medium uppercase tracking-wide text-faint">
-                Company
+              <th className="whitespace-nowrap pb-2.5 pr-3 font-mono text-[0.63rem] font-medium uppercase tracking-wide text-faint">
+                Company / Role
               </th>
-              <th className="whitespace-nowrap pb-2.5 pr-3 text-[0.63rem] font-medium uppercase tracking-wide text-faint">
+              <th className="whitespace-nowrap pb-2.5 pr-3 font-mono text-[0.63rem] font-medium uppercase tracking-wide text-faint">
                 Stage
               </th>
-              <th className="whitespace-nowrap pb-2.5 text-[0.63rem] font-medium uppercase tracking-wide text-faint">
-                Last activity
+              <th className="whitespace-nowrap pb-2.5 pr-3 font-mono text-[0.63rem] font-medium uppercase tracking-wide text-faint">
+                Tags
+              </th>
+              <th className="whitespace-nowrap pb-2.5 text-[0.63rem] font-mono font-medium uppercase tracking-wide text-faint">
+                Fill
               </th>
             </tr>
           </thead>
           <tbody>
             {[
-              { company: "Series B fintech startup", stage: "Interviewing", stageClass: "bg-green/15 text-green", activity: "2 days ago" },
-              { company: "Mid-size SaaS company", stage: "Applied", stageClass: "bg-violet/15 text-faint", activity: "1 week ago" },
-              { company: "Enterprise retail brand", stage: "Offer", stageClass: "bg-accent/15 text-accent", activity: "Today" },
-              { company: "Early-stage AI startup", stage: "Follow up due", stageClass: "bg-rose/15 text-rose", activity: "5 days ago" },
+              { company: "Vertex Robotics", role: "Design Systems Lead", stage: "Screening", stageClass: "bg-violet/15 text-accent", fill: "25", fillClass: "text-rose" },
+              { company: "Lumen Health", role: "Senior Product Designer", stage: "Offer", stageClass: "bg-green/15 text-green", fill: "25", fillClass: "text-rose" },
+              { company: "Cascade Robotics", role: "Principal Designer", stage: "Rejected", stageClass: "bg-rose/15 text-rose", fill: "25", fillClass: "text-rose" },
+              { company: "Beacon Analytics", role: "Senior Product Designer", stage: "Interview", stageClass: "bg-foreground/15 text-foreground", fill: "75", fillClass: "text-accent" },
             ].map((row) => (
               <tr key={row.company} className="border-t border-dashed border-edge">
-                <td className="whitespace-nowrap py-2.5 pr-3 text-muted">{row.company}</td>
                 <td className="whitespace-nowrap py-2.5 pr-3">
-                  <span className={`rounded-full px-2 py-0.5 text-[0.66rem] ${row.stageClass}`}>
+                  <span className="font-medium text-foreground">{row.company}</span>
+                  <span className="block font-mono text-[0.68rem] text-faint">{row.role}</span>
+                </td>
+                <td className="whitespace-nowrap py-2.5 pr-3">
+                  <span className={`rounded-full px-2 py-0.5 font-mono text-[0.66rem] uppercase ${row.stageClass}`}>
                     {row.stage}
                   </span>
                 </td>
-                <td className="whitespace-nowrap py-2.5 text-faint">{row.activity}</td>
+                <td className="whitespace-nowrap py-2.5 pr-3">
+                  <span className="rounded-full border border-edge-soft px-2 py-0.5 font-mono text-[0.63rem] text-faint">
+                    No JD
+                  </span>
+                </td>
+                <td className={`whitespace-nowrap py-2.5 font-mono text-[0.7rem] ${row.fillClass}`}>{row.fill}%</td>
               </tr>
             ))}
           </tbody>
         </table>
       </DeviceFrame>
       <RecreatedNote>
-        Also a concept mockup, companies made up for illustration. The real
-        tracker adds enrichment (auto-fetched logos), touchpoints, and stage
-        history per application.
+        Recreated from the real product (generic demo data). Every application
+        carries a completeness score, plus the stage pills, tags, and filters
+        shown in the real tracker.
+      </RecreatedNote>
+
+      <CaseStudySubhead>What the AI actually reads</CaseStudySubhead>
+      <DeviceFrame caption="Job analysis, on a real application">
+        <div className="mb-4">
+          <p className="mb-1.5 font-mono text-[0.63rem] uppercase tracking-wide text-faint">
+            Must-haves
+          </p>
+          <ul className="list-disc pl-4 text-[0.82rem] text-muted marker:text-faint">
+            <li>6+ years product design experience</li>
+            <li>Expertise with complex B2B data products</li>
+          </ul>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div>
+            <p className="mb-1.5 font-mono text-[0.63rem] uppercase tracking-wide text-green">
+              Highlights
+            </p>
+            <p className="text-[0.82rem] leading-relaxed text-muted">
+              Remote-friendly arrangement, B2B data product expertise is a
+              specialized, high-demand skill set.
+            </p>
+          </div>
+          <div>
+            <p className="mb-1.5 font-mono text-[0.63rem] uppercase tracking-wide text-rose">
+              Watch out
+            </p>
+            <p className="text-[0.82rem] leading-relaxed text-muted">
+              No explicit compensation range, vague on team structure and
+              reporting.
+            </p>
+          </div>
+        </div>
+        <div className="mt-4 rounded-lg border border-dashed border-edge bg-surface-2 p-3.5">
+          <p className="mb-1 font-mono text-[0.63rem] uppercase tracking-wide text-faint">
+            Question to ask
+          </p>
+          <p className="text-[0.82rem] text-muted">
+            What&apos;s the current design team structure, and who would I
+            report to?
+          </p>
+        </div>
+      </DeviceFrame>
+      <RecreatedNote>
+        Recreated from the real product (generic demo data). Tai reads the
+        job listing itself and pulls out must-haves, red flags, and market
+        context, not just keyword matches.
       </RecreatedNote>
 
       <PullQuote>
