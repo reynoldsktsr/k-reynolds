@@ -13,12 +13,12 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#100a19",
+          background: "#f2eff7",
           fontFamily: "monospace",
           fontWeight: 600,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", fontSize: 40, color: "#f1ecf8" }}>
+        <div style={{ display: "flex", alignItems: "center", fontSize: 40, color: "#1c1626" }}>
           k
           <div
             style={{
@@ -28,8 +28,8 @@ export default function Icon() {
               width: 30,
               height: 40,
               marginLeft: 2,
-              background: "#a97ee0",
-              color: "#100a19",
+              background: "#6d3ea6",
+              color: "#f2eff7",
               borderRadius: 4,
             }}
           >

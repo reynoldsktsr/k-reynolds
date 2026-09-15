@@ -92,7 +92,7 @@ export function GhostLifestyleCaseStudy() {
           {Array.from({ length: 12 }).map((_, i) => (
             <span
               key={i}
-              className="aspect-square rounded-full border border-edge-soft bg-gradient-to-br from-violet-deep to-surface-2"
+              className="aspect-square rounded-full border border-edge-soft bg-violet-deep/40"
             />
           ))}
         </div>

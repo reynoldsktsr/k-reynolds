@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --ground: #180f24;
-  --ground-deep: #100a19;
-  --surface: #251a37;
-  --surface-2: #2f2148;
-  --border: rgba(155, 111, 209, 0.16);
-  --edge: #4a3768;
-  --edge-soft: rgba(155, 111, 209, 0.35);
-  --violet: #a97ee0;
-  --violet-strong: #8452c9;
-  --violet-deep: #5a3a8f;
-  --rose: #d98bab;
-  --green: #8fd6a6;
-  --foreground: #f1ecf8;
-  --muted: #bcaed4;
-  --faint: #8b7ba8;
+  --ground: #f2eff7;
+  --ground-deep: #e8e2f0;
+  --surface: #ffffff;
+  --surface-2: #eae4f2;
+  --border: rgba(109, 62, 166, 0.14);
+  --edge: rgba(109, 62, 166, 0.22);
+  --edge-soft: rgba(109, 62, 166, 0.12);
+  --violet: #6d3ea6;
+  --violet-strong: #4f2c80;
+  --violet-deep: #a97ee0;
+  --rose: #a8496e;
+  --green: #2f7a5c;
+  --foreground: #1c1626;
+  --muted: #675e78;
+  --faint: #9089a3;
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
@@ -57,9 +57,7 @@ html.lenis {
 }
 
 body {
-  background:
-    radial-gradient(900px 500px at 50% -12%, rgba(169, 126, 224, 0.10), transparent 60%),
-    var(--ground);
+  background: var(--ground);
   color: var(--foreground);
   font-family: var(--font-sans);
   position: relative;
@@ -71,8 +69,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: 50;
-  opacity: 0.045;
-  mix-blend-mode: overlay;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
