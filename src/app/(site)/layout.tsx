@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Literata, Unbounded, Martian_Mono } from "next/font/google";
+import { Bitter, Archivo_Black, Martian_Mono } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import { SmoothScrollProvider } from "@/components/smooth-scroll-provider";
@@ -8,7 +8,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { getSiteSettings } from "@/lib/content/site-settings";
 import { SITE_URL } from "@/lib/site-config";
 
-const literata = Literata({
+const bitter = Bitter({
   variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
@@ -20,10 +20,10 @@ const martianMono = Martian_Mono({
   display: "swap",
 });
 
-const unbounded = Unbounded({
+const archivoBlack = Archivo_Black({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "600", "700", "900"],
+  weight: ["400"],
   display: "swap",
 });
 
@@ -88,7 +88,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${literata.variable} ${martianMono.variable} ${unbounded.variable} h-full antialiased`}
+      className={`${bitter.variable} ${martianMono.variable} ${archivoBlack.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
