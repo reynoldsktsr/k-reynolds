@@ -10,11 +10,13 @@ import { Reveal } from "@/components/reveal";
 import { SITE_URL } from "@/lib/site-config";
 import { GhostLifestyleCaseStudy } from "@/components/case-study/ghost-lifestyle";
 import { FractureCaseStudy } from "@/components/case-study/fracture";
+import { TailorFitCaseStudy } from "@/components/case-study/tailorfit";
 import { PlaceholderCaseStudy } from "@/components/case-study/placeholder-case-study";
 
 const customCaseStudies: Record<string, () => React.JSX.Element> = {
   "ghost-lifestyle": GhostLifestyleCaseStudy,
   fracture: FractureCaseStudy,
+  tailorfit: TailorFitCaseStudy,
 };
 
 const roughCaseStudies: Record<
