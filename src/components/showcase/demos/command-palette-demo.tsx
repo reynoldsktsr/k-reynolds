@@ -1,6 +1,6 @@
 "use client";
 
-import type { ComponentType } from "react";
+import { useEffect, useRef, useState, type ComponentType } from "react";
 import {
   CommandPalette as CommandPaletteRaw,
   useCommandPalette,
@@ -15,13 +15,23 @@ const CommandPalette = CommandPaletteRaw as ComponentType<CommandPaletteProps>;
 
 export function CommandPaletteDemo() {
   const palette = useCommandPalette();
+  const [lastAction, setLastAction] = useState<string | null>(null);
+  const clearTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  useEffect(() => () => clearTimeout(clearTimer.current), []);
+
+  function runAction(message: string) {
+    setLastAction(message);
+    clearTimeout(clearTimer.current);
+    clearTimer.current = setTimeout(() => setLastAction(null), 2200);
+  }
 
   const commands = [
-    { id: "work", label: "Go to Work", group: "Navigate", action: () => alert("Would navigate to /work") },
-    { id: "about", label: "Go to About", group: "Navigate", action: () => alert("Would navigate to /about") },
-    { id: "contact", label: "Go to Contact", group: "Navigate", action: () => alert("Would navigate to /contact") },
-    { id: "theme", label: "Toggle theme", group: "Actions", action: () => alert("Would toggle theme") },
-    { id: "copy", label: "Copy page link", group: "Actions", action: () => alert("Would copy the link") },
+    { id: "work", label: "Go to Work", group: "Navigate", action: () => runAction("Would navigate to /work") },
+    { id: "about", label: "Go to About", group: "Navigate", action: () => runAction("Would navigate to /about") },
+    { id: "contact", label: "Go to Contact", group: "Navigate", action: () => runAction("Would navigate to /contact") },
+    { id: "theme", label: "Toggle theme", group: "Actions", action: () => runAction("Would toggle theme") },
+    { id: "copy", label: "Copy page link", group: "Actions", action: () => runAction("Would copy the link") },
   ];
 
   return (
@@ -35,6 +45,12 @@ export function CommandPaletteDemo() {
         >
           Open command palette
         </button>
+        <p
+          className={`font-mono text-xs text-accent transition-opacity ${lastAction ? "opacity-100" : "opacity-0"}`}
+          aria-live="polite"
+        >
+          {lastAction ?? " "}
+        </p>
       </div>
       <CommandPalette
         open={palette.open}
