@@ -62,12 +62,7 @@ const goodFit = [
   "A small business or new brand that needs a site that actually works, not a template",
   "A manual process or messy data pipeline that's quietly eating someone's week",
   "A founder who wants one engineer to own frontend to backend",
-];
-
-const notAFit = [
-  "Pure visual design work with no build attached",
-  "A large team that needs full-time, in-house headcount",
-  "Anything that needs 24/7 on-call coverage",
+  "A team that needs extra hands for a defined stretch of work",
 ];
 
 export default async function ServicesPage() {
@@ -134,29 +129,16 @@ export default async function ServicesPage() {
         ))}
       </RevealGroup>
 
-      <Reveal className="mt-16 grid gap-10 border-t border-border pt-10 sm:grid-cols-2">
-        <div>
-          <h2 className="font-display text-xl">Good fit</h2>
-          <ul className="mt-4 flex flex-col gap-2.5">
-            {goodFit.map((point) => (
-              <li key={point} className="flex gap-3 text-[0.9rem] leading-relaxed text-muted">
-                <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-green" />
-                {point}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="font-display text-xl">Probably not a fit</h2>
-          <ul className="mt-4 flex flex-col gap-2.5">
-            {notAFit.map((point) => (
-              <li key={point} className="flex gap-3 text-[0.9rem] leading-relaxed text-muted">
-                <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-faint" />
-                {point}
-              </li>
-            ))}
-          </ul>
-        </div>
+      <Reveal className="mt-16 border-t border-border pt-10">
+        <h2 className="font-display text-xl">Who I work with</h2>
+        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+          {goodFit.map((point) => (
+            <li key={point} className="flex gap-3 text-[0.9rem] leading-relaxed text-muted">
+              <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-green" />
+              {point}
+            </li>
+          ))}
+        </ul>
       </Reveal>
 
       <Reveal className="mt-16 border-t border-border pt-10">
