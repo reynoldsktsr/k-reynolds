@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { CaseStudyBody } from "@/components/case-study-body";
 import { getSiteSettings } from "@/lib/content/site-settings";
+import { clients } from "@/lib/content/clients";
 
 export const metadata: Metadata = {
   title: "About",
@@ -103,12 +104,6 @@ const skillGroups = [
     label: "AI tools I actually use",
     items: ["Claude Code", "Anthropic API", "Cursor"],
   },
-];
-
-const clients = [
-  "47Brand", "Curateur", "Ghost Lifestyle", "Enjoy Life Foods", "Fracture",
-  "Great Garden Plants", "Green Digs", "HEYDUDE", "Hydrow", "Legends",
-  "Magnolia Bakery", "UTZ Snacks", "Windsor", "Wink Scrubs", "Venus", "Volcom",
 ];
 
 export default async function AboutPage() {
