@@ -104,4 +104,74 @@ export const showcaseItems: ShowcaseItem[] = [
     repoUrl: "https://github.com/reynoldsktsr/admin-ui-kit",
     status: "live",
   },
+  {
+    slug: "algorithm-visualizer",
+    title: "Algorithm Visualizer",
+    description:
+      "Step-by-step animated sorting and pathfinding visualizations as drop-in React components: real comparisons and swaps played back one step at a time, plus BFS, Dijkstra, and A* exploring a grid you can draw walls on.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://reynoldsktsr.github.io/algorithm-visualizer/",
+    repoUrl: "https://github.com/reynoldsktsr/algorithm-visualizer",
+    status: "live",
+  },
+  {
+    slug: "d3-gallery",
+    title: "D3 Gallery",
+    description:
+      "A gallery of interactive D3.js visualizations packaged as typed React components: a force-directed graph, a zoomable sunburst, a chord diagram, and an animated bar chart race.",
+    tech: ["React", "TypeScript", "D3.js"],
+    demoUrl: "https://reynoldsktsr.github.io/d3-gallery/",
+    repoUrl: "https://github.com/reynoldsktsr/d3-gallery",
+    status: "live",
+  },
+  {
+    slug: "schema-visualizer",
+    title: "Schema Visualizer",
+    description:
+      "An interactive, draggable entity-relationship diagram as a drop-in React component. Hand it a schema and get a canvas of draggable table cards connected by live-updating relationship lines, with pan and zoom built in.",
+    tech: ["React", "TypeScript"],
+    demoUrl: "https://reynoldsktsr.github.io/schema-visualizer/",
+    repoUrl: "https://github.com/reynoldsktsr/schema-visualizer",
+    status: "live",
+  },
+  {
+    slug: "threejs-gallery",
+    title: "Three.js Gallery",
+    description:
+      "A small gallery of interactive Three.js/WebGL scenes as drop-in React components: a reactive particle field, an orbit-controlled object viewer, and a custom shader background.",
+    tech: ["React", "TypeScript", "Three.js", "react-three-fiber"],
+    demoUrl: "https://reynoldsktsr.github.io/threejs-gallery/",
+    repoUrl: "https://github.com/reynoldsktsr/threejs-gallery",
+    status: "live",
+  },
+  {
+    slug: "kanban-board",
+    title: "Kanban Board",
+    description:
+      "A drag-and-drop Kanban board as a drop-in React component, built entirely on the native HTML5 Drag and Drop API. Reorder cards, move them between columns, and add or rename columns, with no drag-and-drop library dependency.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://reynoldsktsr.github.io/kanban-board/",
+    repoUrl: "https://github.com/reynoldsktsr/kanban-board",
+    status: "live",
+  },
+  {
+    slug: "motion-kit",
+    title: "Motion Kit",
+    description:
+      "Zero-dependency scroll and spring animation primitives for React: reveal-on-scroll, stagger, parallax, spring values, count-up, and an infinite marquee. Built entirely on native browser APIs, no framer-motion or gsap.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://reynoldsktsr.github.io/motion-kit/",
+    repoUrl: "https://github.com/reynoldsktsr/motion-kit",
+    status: "live",
+  },
+  {
+    slug: "physics-playground",
+    title: "Physics Playground",
+    description:
+      "An interactive 2D physics sandbox as a drop-in React component: drag, throw, and stack bodies with real gravity and collisions, powered by matter-js.",
+    tech: ["React", "TypeScript", "matter-js"],
+    demoUrl: "https://reynoldsktsr.github.io/physics-playground/",
+    repoUrl: "https://github.com/reynoldsktsr/physics-playground",
+    status: "live",
+  },
 ];

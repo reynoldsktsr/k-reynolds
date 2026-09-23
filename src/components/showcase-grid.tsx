@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import type { ComponentType } from "react";
 import { RevealGroup, RevealItem, Reveal } from "@/components/reveal";
+import { LazyMount } from "@/components/showcase/lazy-mount";
 import type { ShowcaseItem } from "@/lib/content/showcase-items";
 
 const DEMOS: Record<string, ComponentType> = {
@@ -14,6 +15,13 @@ const DEMOS: Record<string, ComponentType> = {
   "markdown-widget": dynamic(() => import("@/components/showcase/demos/markdown-widget-demo").then((m) => m.MarkdownWidgetDemo), { ssr: false }),
   "form-ui-kit": dynamic(() => import("@/components/showcase/demos/form-ui-kit-demo").then((m) => m.FormUiKitDemo), { ssr: false }),
   "hover-button-lab": dynamic(() => import("@/components/showcase/demos/hover-button-lab-demo").then((m) => m.HoverButtonLabDemo), { ssr: false }),
+  "algorithm-visualizer": dynamic(() => import("@/components/showcase/demos/algorithm-visualizer-demo").then((m) => m.AlgorithmVisualizerDemo), { ssr: false }),
+  "d3-gallery": dynamic(() => import("@/components/showcase/demos/d3-gallery-demo").then((m) => m.D3GalleryDemo), { ssr: false }),
+  "schema-visualizer": dynamic(() => import("@/components/showcase/demos/schema-visualizer-demo").then((m) => m.SchemaVisualizerDemo), { ssr: false }),
+  "threejs-gallery": dynamic(() => import("@/components/showcase/demos/threejs-gallery-demo").then((m) => m.ThreejsGalleryDemo), { ssr: false }),
+  "kanban-board": dynamic(() => import("@/components/showcase/demos/kanban-board-demo").then((m) => m.KanbanBoardDemo), { ssr: false }),
+  "motion-kit": dynamic(() => import("@/components/showcase/demos/motion-kit-demo").then((m) => m.MotionKitDemo), { ssr: false }),
+  "physics-playground": dynamic(() => import("@/components/showcase/demos/physics-playground-demo").then((m) => m.PhysicsPlaygroundDemo), { ssr: false }),
 };
 
 export function ShowcaseGrid({ items }: { items: ShowcaseItem[] }) {
@@ -74,7 +82,11 @@ export function ShowcaseGrid({ items }: { items: ShowcaseItem[] }) {
                 </ul>
               )}
 
-              {Demo && <Demo />}
+              {Demo && (
+                <LazyMount>
+                  <Demo />
+                </LazyMount>
+              )}
 
               <div className="flex gap-5">
                 {item.status === "live" && (
